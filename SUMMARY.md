@@ -3,6 +3,7 @@
 ## Testinium Cloud
 
 * [General Information](README.md)
+* [Go to TESTINIUM](https://testinium.io)
 
 ***
 
