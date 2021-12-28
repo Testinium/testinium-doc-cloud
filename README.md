@@ -1,10 +1,8 @@
 # General Information
 
-**Testinium Product**
+**Testinium Cloud Product**
 
 It ensures that test scenarios are executed in line with a plan. It reports the test results in detail. The following functions are performed:
-
-
 
 1\. System Settings
 
@@ -17,4 +15,3 @@ It ensures that test scenarios are executed in line with a plan. It reports the 
 5\. Linking Plan and Scenario to a Plan
 
 6\. Reporting of Test Results
-
