@@ -74,16 +74,16 @@ After the project is created, an access token must be created for the account to
 
 Access token is created from page [https://git.testinium.io/-/profile/personal\_access\_tokens](https://git.testinium.io/-/profile/personal\_access\_tokens)
 
-Then:
+For example:
 
-username: demouser
+username: demouser\
+repo: https://git.testinium.io/\_demouser/demo-project.git \
+access token: AAAAAAAAAAA
 
-repo: https://git.testinium.io/\_user/demo.git&#x20;
+It can be pulled to the local with the \
+**git clone https://demouser@git.testinium.io/\_demouser/demo-project.git** \
+command.
 
-access token: xxxxxxyyyyyyyyzzzzzzz
-
-It can be pulled to the local with the **git clone https://demouser@git.testinium.io/\_user/demo.git** command.
-
-Access token value (xxxxxxyyyyyyyyzzzzzzz) is written in the password field.
+Access token value (AAAAAAAAAAA) is written in the password field.
 
 After the project is updated, it can be pushed with basic git commands.
