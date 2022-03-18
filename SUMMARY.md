@@ -54,6 +54,7 @@
   * [Test Code Generator(IOS App)](automated-test/test-code-generator-ios-app.md)
   * [Operation Report](automated-test/operation-report.md)
 * [Plugins](plugins/README.md)
+  * [Xray](plugins/xray.md)
   * [Jenkins](plugins/jenkins.md)
   * [Automated Test](plugins/automated-test.md)
   * [Jira](plugins/jira.md)
