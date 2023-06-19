@@ -22,7 +22,7 @@ It allows you to choose the Operating system, browser and version you want to ru
 
 **Screen Resolution** ,sets the screen size of the window in which the automation will run.
 
-![](../.gitbook/assets/sistme.PNG)
+![](<../.gitbook/assets/sistme (2).PNG>)
 
 It is the part of the code created so that you can run it in your local environment.
 
@@ -34,7 +34,4 @@ Executable code options;
 * Ruby
 * Node
 
-
-
 ![](../.gitbook/assets/automatedtest\_Code.PNG)
-
