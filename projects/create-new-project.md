@@ -2,7 +2,7 @@
 
 When the Create New Project button is clicked, you will be directed to the creation screen of the project to be uploaded to the system.
 
-<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 00.39.16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 00.39.16.png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -1,42 +1,27 @@
-# All Scenarios
+# Scenarios
 
 It is the part that enables the creation of scenarios for the created project.
 
-### **All Scenarios Dashboard**
+### **Scenarios Dashboard**
 
-****
+***
 
-**Create New Scenarios:** It is the screen where a new scenario definition is made in the system.&#x20;
+Users can make the following changes in this tab;
 
-**Edit:**The edit button is used to make changes to the plan.
+**Create New Scenarios,** It is the screen where a new scenario definition is made in the system.
 
-**Delete:** Allows the created plan to be deleted.
+**Edit,**The edit button is used to make changes to the scenarios.
 
-**Project,** this is the part where the project selection is made to create the plan.
+**Delete,** Allows the created scenarios to be deleted.
+
+**Project,** this is the part where the project selection is made to create the scenario.
 
 **Plans(Containing),** lists the plans, if any, that have been created for the project you have selected.
 
 **Export Table,** it allows you to download the scenario and plan information you have selected as an excel file.
 
-**List** ,displays data in list form.
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 21.46.47.png" alt=""><figcaption></figcaption></figure>
 
-**Group**, allows data to be displayed in groups.
+***
 
-![](../.gitbook/assets/plan\_1.PNG)
-
-****
-
-****
-
-****
-
-
-
-
-
-
-
-
-
-
-
+***
