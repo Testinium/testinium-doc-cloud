@@ -27,7 +27,7 @@
   * [Delete Scenarios](all-scenarios/delete-scenarios.md)
   * [Create New Group](all-scenarios/create-new-group.md)
   * [Sync Sicenarios](all-scenarios/sync-sicenarios.md)
-* [All Plans](all-plans/README.md)
+* [Plans](all-plans/README.md)
   * [Create Plan](all-plans/create-plan.md)
   * [Edit Plans](all-plans/edit-plans.md)
   * [Delete Plans](all-plans/delete-plans.md)

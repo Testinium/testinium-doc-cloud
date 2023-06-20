@@ -2,23 +2,29 @@
 
 It is the screen where a new plan definition is made in the system. Before creating a new plan, it is mandatory to select Project Name from the homepage. If the Create a new plan button is clicked without selecting the Project Name, the system displays the error message regarding the selection of the project name.
 
-**On the screen that opens;**
+**On the tab that opens;**
 
-![](../.gitbook/assets/plans-properties.PNG)
+**1.Properties,** this is the field where the properties of the plan to be created are entered.
+
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 23.51.21.png" alt="" width="266"><figcaption></figcaption></figure>
 
 **Select a project** for which you want to create a plan.
 
 Enter the name you want to give your **plan name**.
 
-![](../.gitbook/assets/plans-scenarios.PNG)
+
+
+**2. Select Scenarios & Define Scenario Order**
+
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 23.51.59.png" alt=""><figcaption></figcaption></figure>
 
 **Search** for the project you want to plan, then check the **checkbox** and select the project. The selected project is displayed on the **scenario order.** All projects are selected by ticking the **select all checkbox.**
 
-****
+***
 
-![](../.gitbook/assets/plans-platform.PNG)
+***
 
-
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 23.52.22.png" alt=""><figcaption></figcaption></figure>
 
 _The Operation System, Browser and Version_ to run the plan are selected.
 
@@ -26,6 +32,3 @@ Select Screen Resolution from the bottom bar and click the Add button.
 
 To delete the added plan, click the delete button on the right.
 
-![](../.gitbook/assets/add\_button.PNG)
-
-These values are entered and the Next button is clicked. The system displays the Mobile Platform Selection screen. If Cancel is clicked, the system cancels the process of adding a new plan.

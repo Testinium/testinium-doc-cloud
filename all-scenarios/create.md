@@ -4,7 +4,7 @@
 
 <figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 22.21.06.png" alt=""><figcaption></figcaption></figure>
 
-**1.Properties,** this is the field where the properties of the project to be created are entered.
+**1.Properties,** this is the field where the properties of the scenario to be created are entered.
 
 * **Select A Project**, allows you to select the project or one of the projects you have created.
 * **Scenario Name,** this is the field where you will give the name of the scenario you will create.
