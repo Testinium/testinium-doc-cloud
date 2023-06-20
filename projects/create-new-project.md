@@ -1,12 +1,18 @@
 # Create New Project
 
-When the Create and Create New Project button is clicked, you will be directed to the creation screen of the project to be uploaded to the system.
+When the Create New Project button is clicked, you will be directed to the creation screen of the project to be uploaded to the system.
 
-![](../.gitbook/assets/ikikerecreate.png)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 00.39.16 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Project type selection is required.
+
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 00.40.51.png" alt=""><figcaption></figcaption></figure>
 
 **If the choice is Selenium;**
 
-![](../.gitbook/assets/create\_seleniumjava2.jpg)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 08.05.07.png" alt=""><figcaption></figcaption></figure>
 
 On the pop-up screen;
 
@@ -30,9 +36,7 @@ On the pop-up screen;
 
 **If the choice is Appium;**
 
-![](../.gitbook/assets/create\_appium.PNG)
-
-\_\_
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 08.05.30.png" alt=""><figcaption></figcaption></figure>
 
 _1.Test Framework_
 
@@ -52,7 +56,7 @@ These values are entered and the Save button is clicked. The system saves the ne
 
 **If the choice is Service;**
 
-![](../.gitbook/assets/create\_service.PNG)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 08.15.19.png" alt=""><figcaption></figcaption></figure>
 
 On the pop-up screen;
 
@@ -70,18 +74,18 @@ _5. GIT Project Folder Name (This is where the test codes are located)_
 
 These values are entered and the Save button is clicked. The system saves the new project definition. If the Cancel button is clicked, the system cancels the new Project definition process.
 
-After the project is created, an access token must be created for the account to pull the git code of the Testinium.io project.&#x20;
+After the project is created, an access token must be created for the account to pull the git code of the Testinium.io project.
 
 Access token is created from page [https://git.testinium.io/-/profile/personal\_access\_tokens](https://git.testinium.io/-/profile/personal\_access\_tokens)
 
 For example:
 
 username: demouser\
-repo: https://git.testinium.io/\_demouser/demo-project.git \
+repo: https://git.testinium.io/\_demouser/demo-project.git\
 access token: AAAAAAAAAAA
 
-It can be pulled to the local with the \
-**git clone https://demouser@git.testinium.io/\_demouser/demo-project.git** \
+It can be pulled to the local with the\
+**git clone https://demouser@git.testinium.io/\_demouser/demo-project.git**\
 command.
 
 Access token value (AAAAAAAAAAA) is written in the password field.
