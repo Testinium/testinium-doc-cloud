@@ -4,7 +4,4 @@ It ensures that a graphical report is prepared in a certain number of repetition
 
 Testinium > Reports > Periodically Scheduled Reports
 
-
-
-![](<../../.gitbook/assets/scheduled reports.PNG>)
-
+<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 09.25.08.png" alt=""><figcaption></figcaption></figure>

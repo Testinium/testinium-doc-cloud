@@ -1,18 +1,12 @@
 # Test Code Generator(Android App)
 
-
-
 **1.Select A Platform**
 
 Lets you choose the platform on which you want to run your test.Platforms to choose from;
 
 * Android App
 
-
-
-
-
-![](../.gitbook/assets/image.png)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.08.59.png" alt=""><figcaption></figcaption></figure>
 
 **2.Select A Operating System**
 
@@ -26,9 +20,7 @@ It allows you to select the operating system, mobile device and version informat
 
 **Record Video,** allows you to take a record video of the test run.
 
-
-
-![](<../.gitbook/assets/image (16).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.11.20.png" alt=""><figcaption></figcaption></figure>
 
 **3.Select A Mobile App**
 
@@ -38,13 +30,7 @@ If you do not have an apk file, the default application file will be selected fo
 
 **Upload Android** click the button to install the apk file.
 
-
-
-
-
-![](<../.gitbook/assets/image (21).png>)
-
-
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.11.58.png" alt=""><figcaption></figcaption></figure>
 
 It is the part of the code created so that you can run it in your local environment.Executable code options;
 
@@ -54,4 +40,4 @@ It is the part of the code created so that you can run it in your local environm
 * Ruby
 * Node
 
-![](<../.gitbook/assets/image (14).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.12.18.png" alt=""><figcaption></figcaption></figure>

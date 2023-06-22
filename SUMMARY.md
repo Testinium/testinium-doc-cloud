@@ -41,7 +41,7 @@
     * [Edit Periodically Report](reports/scheduled-reports-periodically-scheduled/edit-periodically-report.md)
     * [Delete Periodically Report](reports/scheduled-reports-periodically-scheduled/delete-periodically-report.md)
     * [Periodically Report History](reports/scheduled-reports-periodically-scheduled/periodically-report-history.md)
-  * [Graph Report](reports/graph-report.md)
+  * [Smart Prioritization Report](reports/graph-report.md)
 * [Automated Test](automated-test/README.md)
   * [Test Code Generator(Web)](automated-test/test-code-generator-web.md)
   * [Test Code Generator(Android Web)](automated-test/test-code-generator-android-web.md)

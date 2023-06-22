@@ -6,7 +6,7 @@ Lets you choose the platform on which you want to run your test.Platforms to cho
 
 * Web
 
-![](<../.gitbook/assets/webb (1).PNG>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 16.31.30.png" alt=""><figcaption></figcaption></figure>
 
 **2.Select A Operating System**
 
@@ -22,7 +22,9 @@ It allows you to choose the Operating system, browser and version you want to ru
 
 **Screen Resolution** ,sets the screen size of the window in which the automation will run.
 
-![](<../.gitbook/assets/sistme (2).PNG>)
+
+
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 16.32.46.png" alt=""><figcaption></figcaption></figure>
 
 It is the part of the code created so that you can run it in your local environment.
 
@@ -34,4 +36,4 @@ Executable code options;
 * Ruby
 * Node
 
-![](../.gitbook/assets/automatedtest\_Code.PNG)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 16.33.37.png" alt=""><figcaption></figcaption></figure>

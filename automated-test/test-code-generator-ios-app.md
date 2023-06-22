@@ -1,16 +1,12 @@
 # Test Code Generator(IOS App)
 
-
-
 **1.Select A Platform**
 
 Lets you choose the platform on which you want to run your test.Platforms to choose from;
 
 * IOS App
 
-
-
-![](<../.gitbook/assets/image (2).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.16.12.png" alt=""><figcaption></figcaption></figure>
 
 **2.Select A Operating System**
 
@@ -24,7 +20,7 @@ It allows you to select the operating system, mobile device and version informat
 
 **Record Video,** allows you to take a record video of the test run.
 
-![](<../.gitbook/assets/image (4).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.16.27.png" alt=""><figcaption></figcaption></figure>
 
 **3.Select A Mobile App**
 
@@ -34,11 +30,7 @@ If you do not have an ipa file, the default application file will be selected fo
 
 **Upload IOS** click the button to install the ipa file.
 
-![](<../.gitbook/assets/image (9).png>)
-
-
-
-
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.16.41.png" alt=""><figcaption></figcaption></figure>
 
 It is the part of the code created so that you can run it in your local environment.Executable code options;
 
@@ -48,4 +40,4 @@ It is the part of the code created so that you can run it in your local environm
 * Ruby
 * Node
 
-![](<../.gitbook/assets/image (11).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.17.01.png" alt=""><figcaption></figcaption></figure>

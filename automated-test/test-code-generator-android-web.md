@@ -7,7 +7,7 @@ Lets you choose the platform on which you want to run your test.Platforms to cho
 * Android App
 * Android Web
 
-![](<../.gitbook/assets/image (10).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.02.33.png" alt=""><figcaption></figcaption></figure>
 
 **2.Select A Operating System**
 
@@ -21,7 +21,7 @@ It allows you to select the operating system, mobile device and version informat
 
 **Record Video,** allows you to take a record video of the test run.
 
-![](<../.gitbook/assets/image (16).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.02.47.png" alt=""><figcaption></figcaption></figure>
 
 It is the part of the code created so that you can run it in your local environment.Executable code options;
 
@@ -31,4 +31,4 @@ It is the part of the code created so that you can run it in your local environm
 * Ruby
 * Node
 
-![](<../.gitbook/assets/image (12).png>)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-22 09.03.41.png" alt=""><figcaption></figcaption></figure>

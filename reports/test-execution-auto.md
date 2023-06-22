@@ -6,7 +6,7 @@ Testinium -> Reports -> Test Executions(Auto)
 
 The detail of the test result run in the system is displayed. User should select a record from the list and click the Details button.
 
-**Project,**Selection of the project whose report will b e accessed is provided.
+**Project**, Selection of the project whose report will b e accessed is provided.
 
 **Plans(Containing)**, allows you to select the plan for the selected project.
 
@@ -14,61 +14,40 @@ The detail of the test result run in the system is displayed. User should select
 
 **Export Table,** it enables the information of the selected plan to be transferred to the excel document.
 
-**Create**, provides direction for creating projects, scenarios and plans.
-
-![](<../.gitbook/assets/reports details.PNG>)
-
 **Details** by clicking the Detail button, the details of the plan execution are accessed.
 
-![](../.gitbook/assets/edat.png)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 08.11.01.png" alt=""><figcaption></figcaption></figure>
 
-
-
-It is directed to the Execution of Reports screen with the Detail button.
-
-![](../.gitbook/assets/debug.jpg)
+It is directed to the Execution of Reports screen with the Detail button.&#x20;
 
 Exports the scenario information run by clicking the **Export Table** button to excel.
 
-![](../.gitbook/assets/exporttable.jpg)
-
 It allows us to export the run scenario information as a pdf document by clicking the **Export Pdf** button.
 
-![](../.gitbook/assets/exporttpdff.jpg)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 08.13.13.png" alt=""><figcaption></figcaption></figure>
+
+
 
 By clicking the **Detail** button, you can be directed to the report screen showing the results of the scenario you have run.
 
-![](../.gitbook/assets/silll.jpg)
-
-
-
-It allows you to view the **Htlm Report** of the scenario you have executed.
-
-![](../.gitbook/assets/html.png)
-
-
-
 It allows you to view the **Executor logs** of the scenario you are running.
 
-![](../.gitbook/assets/executorr.png)
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 08.16.43 (1).png" alt=""><figcaption></figcaption></figure>
 
-The **Previous Results** button displays all the executed scenarios of the respective project.
+**Commands**, In a screen test, each step is summarized individually. It is observed from these steps which step has progressed successfully and which has failed.&#x20;
 
-![](../.gitbook/assets/logilogi.png)
+**Videos**, If Yes is selected for Video Recording while defining the plan, the video taken during the test can be accessed here.&#x20;
 
-Allows to create a public report url, **create public url** button.The url created with the **copy-close** button is copied and the opened window is closed.The **cancel** button cancels the url copy and closes the window.
+**Executor Log** , It is the log written and created by the method selected in the scenario while doing this operation.&#x20;
 
-![](../.gitbook/assets/bıktım.png)
+**Selenium Log**, It is the log created by Selenium itself. It is a detailed log. &#x20;
 
-**Download Report** It allows you to download your report outputs in zip file format.
+**Appium Log**, It is the log created by Appium itself. It is a detailed log.&#x20;
 
-![](../.gitbook/assets/indrizip.png)
+**Previous Results**, It is a test result that has been run before in the same environment.&#x20;
 
-**Screenshots** is taken to observe where the run tests pass or fail.
+**Download Report**, It allows user to download their test report outputs in zip file format.&#x20;
 
-![](<../.gitbook/assets/report---screenshot (1).PNG>)
+**Create Public URL**, Allows to create a public report url, **create public url** button.The url created with the **copy-close** button is copied and the opened window is closed.The **cancel** button cancels the url copy and closes the window.
 
-**Video** recording is taken to observe where the tests run were passed or failed.
-
-![](<../.gitbook/assets/report---video (1).PNG>)
-
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-21 08.36.53.png" alt=""><figcaption></figcaption></figure>

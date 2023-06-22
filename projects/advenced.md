@@ -4,7 +4,7 @@ It is the area where the integration of the project with **Testrail, Jira and Xr
 
 **Enable** button must be selected for plugin connection.
 
-<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 16.21.36 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 16.21.36.png" alt=""><figcaption></figcaption></figure>
 
 **TestRail Project Name,** Write the name to be given to the project.
 

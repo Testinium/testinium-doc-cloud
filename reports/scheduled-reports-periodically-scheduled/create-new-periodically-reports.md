@@ -2,15 +2,9 @@
 
 A new periodic report definition is made in the system. The first General Informations tab appears on the screen.
 
-
-
-
-
-![](../../.gitbook/assets/create\_schedule.PNG)
+<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 09.27.48.png" alt=""><figcaption></figcaption></figure>
 
 On the screen that opens;
-
-
 
 1\. Report Name
 
@@ -26,7 +20,7 @@ On the screen that opens;
 
 These values are entered and the Timing Issues tab is clicked.
 
-![](../../.gitbook/assets/create\_schedule\_timing.PNG)
+<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 09.31.11.png" alt=""><figcaption></figcaption></figure>
 
 On the screen that opens;
 
@@ -40,12 +34,8 @@ On the screen that opens;
 
 These values are entered and the Alert Issues tab is clicked.
 
-
-
-![ed.](../../.gitbook/assets/create\_schedule\_timing.PNG)
+<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 09.37.48.png" alt=""><figcaption></figcaption></figure>
 
 On the screen that opens;
 
 Enter the e-mail value and click the Add button. The e-mail is added to the list and can be removed with the Delete button if desired.The user clicks the Save button and completes the new periodic report definition process. If the Cancel button is clicked, the system cancels the new periodic report definition process.
-
-![](../../.gitbook/assets/testinium.PNG)

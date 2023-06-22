@@ -18,4 +18,4 @@ You can view information about the test plans and final employee plans for this 
 
 **Details**, provides the report of the plan that has been run
 
-<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 14.31.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 14.31.34 (1).png" alt=""><figcaption></figcaption></figure>
