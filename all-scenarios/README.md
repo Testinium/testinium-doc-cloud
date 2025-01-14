@@ -4,13 +4,13 @@ It is the part that enables the creation of scenarios for the created project.
 
 ### **Scenarios Dashboard**
 
-***
+On this tab, all scenerios are listed. Testinium allows to filter scenarios by project and plan.
 
 Users can make the following changes in this tab;
 
 **Create New Scenarios,** It is the screen where a new scenario definition is made in the system.
 
-**Edit,**The edit button is used to make changes to the scenarios.
+**Edit,**&#x54;he edit button is used to make changes to the scenarios.
 
 **Delete,** Allows the created scenarios to be deleted.
 

@@ -14,7 +14,7 @@ On the tab that opens, users can make changes in these fields;
 
 **2. Select Scenarios & Define Scenario Order**
 
-***
+**3.Platform Selection**
 
 ***
 

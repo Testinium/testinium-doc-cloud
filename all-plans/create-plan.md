@@ -22,7 +22,7 @@ Enter the name you want to give your **plan name**.
 
 ***
 
-***
+**3.Platform Selection**
 
 <figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 23.52.22.png" alt=""><figcaption></figcaption></figure>
 

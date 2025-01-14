@@ -14,7 +14,7 @@ On the tab that opens, users can make changes in these fields;
 
 **3. Select Test Method**
 
-**4.File Content,**it allows you to make changes to the test steps in the file and save them with the save button.
+**4.File Content,**&#x69;t allows you to make changes to the test steps in the file and save them with the save button.
 
 <figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-20 22.43.51 (1).png" alt=""><figcaption></figcaption></figure>
 

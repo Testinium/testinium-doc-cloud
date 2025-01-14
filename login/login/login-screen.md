@@ -2,7 +2,7 @@
 
 Testinium -> Login
 
-<figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-15 15.42.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-15 15.42.17.png" alt=""><figcaption></figcaption></figure>
 
 On the pop-up screen;
 
