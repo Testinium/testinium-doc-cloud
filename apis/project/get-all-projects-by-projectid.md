@@ -1,9 +1,5 @@
 # Get All Projects By ProjectID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Project By ProjectID
-
 This endpoint retrieves the project associated with the user's current company. Users must have the `PROJECT_VIEW` authority to access this endpoint.
 
 ***
@@ -36,15 +32,98 @@ The response contains a list of projects, including details such as the project 
 
 #### Mobile Project Response
 
-{\`\[ { "id": 390, "project\_name": "project1", "enabled": true, "types": \[ "IOS" ], "repository\_path": "project1", "test\_framework": "APPIUM", "test\_file\_type": "APPIUM\_GAUGE", "test\_runner\_tool": "MAVEN", "created\_at": "2023-02-15T08:28:00Z", "updated\_at": "2023-02-16T10:16:56Z", "created\_by": "user", "updated\_by": "user", "branch\_name": "refs/heads/master", "testrail\_enabled": false, "jira\_enabled": false, "xray\_enabled": false, "ios\_mobile\_app": "iosapp.ipa", "ios\_app\_hash": "02059ea989ebbb0a3c85aef4053c1b3b", "ios\_meta": { "bundle\_name": "Bundle", "bundle\_display\_name": "bundle\_display\_name", "bundle\_version": "123", "bundle\_min\_os\_version": "11.0", "bundle\_development\_region": "de", "bundle\_executable": "Bundle", "bundle\_icon\_files": "", "bundle\_info\_dict\_version": "6.0", "bundle\_package\_type": "APPL", "bundle\_main\_story\_board\_file": "" } } ]\`}
+```json
+[
+    {
+    "id": 390,
+    "project_name": "project1",
+    "enabled": true,
+    "types": [
+        "IOS"
+    ],
+    "repository_path": "project1",
+    "test_framework": "APPIUM",
+    "test_file_type": "APPIUM_GAUGE",
+    "test_runner_tool": "MAVEN",
+    "created_at": "2023-02-15T08:28:00Z",
+    "updated_at": "2023-02-16T10:16:56Z",
+    "created_by": "user",
+    "updated_by": "user",
+    "branch_name": "refs/heads/master",
+    "testrail_enabled": false,
+    "jira_enabled": false,
+    "xray_enabled": false,
+    "ios_mobile_app": "iosapp.ipa",
+    "ios_app_hash": "02059ea989ebbb0a3c85aef4053c1b3b",
+    "ios_meta": {
+        "bundle_name": "Bundle",
+        "bundle_display_name": "bundle_display_name",
+        "bundle_version": "123",
+        "bundle_min_os_version": "11.0",
+        "bundle_development_region": "de",
+        "bundle_executable": "Bundle",
+        "bundle_icon_files": "",
+        "bundle_info_dict_version": "6.0",
+        "bundle_package_type": "APPL",
+        "bundle_main_story_board_file": ""
+    }
+    }
+]
+```
 
 #### WEB Project Response
 
-{\`\[ { "id": 1025, "project\_name": "web project", "enabled": true, "types": \[ "WEB" ], "repository\_path": "web-project", "test\_framework": "SELENIUM", "test\_file\_type": "SELENIUM\_GAUGE", "test\_runner\_tool": "MAVEN", "created\_at": "2023-02-09T16:51:04Z", "updated\_at": "2023-03-07T11:07:22Z", "created\_by": "mehmetaksahin", "updated\_by": "mehmetaksahin", "branch\_name": "master", "testrail\_enabled": false, "jira\_enabled": false, "xray\_enabled": false } ]\`}
+```json
+[
+        {
+        "id": 1025,
+        "project_name": "web project",
+        "enabled": true,
+        "types": [
+            "WEB"
+        ],
+        "repository_path": "web-project",
+        "test_framework": "SELENIUM",
+        "test_file_type": "SELENIUM_GAUGE",
+        "test_runner_tool": "MAVEN",
+        "created_at": "2023-02-09T16:51:04Z",
+        "updated_at": "2023-03-07T11:07:22Z",
+        "created_by": "mehmetaksahin",
+        "updated_by": "mehmetaksahin",
+        "branch_name": "master",
+        "testrail_enabled": false,
+        "jira_enabled": false,
+        "xray_enabled": false
+    }
+]
+```
 
 #### Service Project Response
 
-{\`\[ { "id": 1405, "project\_name": "karateprojesi", "enabled": true, "types": \[ "SERVICE" ], "repository\_path": "karateprojesi", "test\_framework": "SERVICE", "test\_file\_type": "KARATE", "test\_runner\_tool": "MAVEN", "created\_at": "2024-11-30T13:22:57Z", "updated\_at": "2024-12-01T04:55:28Z", "created\_by": "ali\_veli", "updated\_by": "ali\_veli", "branch\_name": "main", "testrail\_enabled": false, "jira\_enabled": true, "xray\_enabled": false } ]\`}
+```json
+[
+    {
+        "id": 1405,
+        "project_name": "karateprojesi",
+        "enabled": true,
+        "types": [
+            "SERVICE"
+        ],
+        "repository_path": "karateprojesi",
+        "test_framework": "SERVICE",
+        "test_file_type": "KARATE",
+        "test_runner_tool": "MAVEN",
+        "created_at": "2024-11-30T13:22:57Z",
+        "updated_at": "2024-12-01T04:55:28Z",
+        "created_by": "ali_veli",
+        "updated_by": "ali_veli",
+        "branch_name": "main",
+        "testrail_enabled": false,
+        "jira_enabled": true,
+        "xray_enabled": false
+    }
+]
+```
 
 #### Response Fields
 

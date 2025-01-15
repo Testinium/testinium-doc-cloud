@@ -1,9 +1,5 @@
 # Get Jira Settings By ProjectID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Jira Settings By ProjectID
-
 This endpoint retrieves the Jira issue settings associated with a specified project. The user must have access to the project and be part of the associated company. The endpoint returns the Jira settings for the project, including information about issue types, fields, and project-related details.
 
 ***
@@ -30,7 +26,32 @@ The response includes the Jira issue settings for the specified project.
 
 #### Example Response:
 
-{\`{ "project": \[ { "label": "Jira1", "value": "BER", "selected": false }, { "label": "Jira2", "value": "KAR", "selected": false }, { "label": "Jira3", "value": "SEN", "selected": false } ], "issue\_type": \[], "issue\_tracker\_fields": { "fields": \[], "selected\_fields": \[] } }\`}
+```json
+{
+  "project": [
+    {
+      "label": "Jira1",
+      "value": "BER",
+      "selected": false
+    },
+    {
+      "label": "Jira2",
+      "value": "KAR",
+      "selected": false
+    },
+    {
+      "label": "Jira3",
+      "value": "SEN",
+      "selected": false
+    }
+  ],
+  "issue_type": [],
+  "issue_tracker_fields": {
+    "fields": [],
+    "selected_fields": []
+  }
+}
+```
 
 ***
 

@@ -1,9 +1,5 @@
 # Get Xray Settings By ProjectID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Xray Settings By ProjectID
-
 This endpoint retrieves Xray settings associated with a specified project. The user must have access to the project and be part of the associated company. The endpoint returns the Xray project details, including project ID, name, and associated Xray issues.
 
 ***
@@ -40,7 +36,17 @@ The response includes Xray project details for the specified project.
 
 #### Example Response:
 
-{\`{ "project": \[ { "label": "AeroDryFilter", "value": "CRD24009S1", "selected": false } ] }\`}
+```json
+{
+  "project": [
+    {
+      "label": "AeroDryFilter",
+      "value": "CRD24009S1",
+      "selected": false
+    }
+  ]
+}
+```
 
 ***
 

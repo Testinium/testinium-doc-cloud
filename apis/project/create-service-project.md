@@ -1,9 +1,5 @@
 # Create Service Project
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Create Service Project
-
 Allows a user with the `PROJECT_CREATE` authority to create a new service project. It requires a user to provide a request payload containing project details.
 
 ***
@@ -18,7 +14,17 @@ Allows a user with the `PROJECT_CREATE` authority to create a new service projec
 
 ### Request Body
 
-{\`{ "company\_id": 5267, "is\_signed": false, "project\_name": "deneme14", "repository\_path": "deneme14", "test\_file\_type": "SERVICE\_KARATE", "test\_framework": "SERVICE", "test\_runner\_tool": "MAVEN" }\`}
+```json
+{
+  "company_id": 5267,
+  "is_signed": false,
+  "project_name": "deneme14",
+  "repository_path": "deneme14",
+  "test_file_type": "SERVICE_KARATE",
+  "test_framework": "SERVICE",
+  "test_runner_tool": "MAVEN"
+}
+```
 
 | Field            | Type      | Required | Description                                               |
 | ---------------- | --------- | -------- | --------------------------------------------------------- |
@@ -32,11 +38,32 @@ Allows a user with the `PROJECT_CREATE` authority to create a new service projec
 
 ***
 
-### Response
+### Response Body
 
 The response will contain the details of the created project.
 
-{\`{ "id": 1426, "project\_name": "deneme14", "enabled": true, "types": \[ "SERVICE" ], "repository\_path": "deneme14", "test\_framework": "SERVICE", "test\_file\_type": "SERVICE\_KARATE", "test\_runner\_tool": "MAVEN", "created\_at": "2024-12-06T02:45:43Z", "updated\_at": "2024-12-06T02:45:43Z", "created\_by": "mehmetaksahin", "updated\_by": "mehmetaksahin", "branch\_name": "master", "testrail\_enabled": false, "jira\_enabled": false, "xray\_enabled": false }\`}
+```json
+{
+    "id": 1426,
+    "project_name": "deneme14",
+    "enabled": true,
+    "types": [
+        "SERVICE"
+    ],
+    "repository_path": "deneme14",
+    "test_framework": "SERVICE",
+    "test_file_type": "SERVICE_KARATE",
+    "test_runner_tool": "MAVEN",
+    "created_at": "2024-12-06T02:45:43Z",
+    "updated_at": "2024-12-06T02:45:43Z",
+    "created_by": "mehmetaksahin",
+    "updated_by": "mehmetaksahin",
+    "branch_name": "master",
+    "testrail_enabled": false,
+    "jira_enabled": false,
+    "xray_enabled": false
+}
+```
 
 #### Response Fields
 

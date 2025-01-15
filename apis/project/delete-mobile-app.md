@@ -1,9 +1,5 @@
 # Delete Mobile App
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Delete Mobile App
-
 The endpoint allows deleting a mobile application (APK for Android or IPA for iOS) from an existing Appium project. The user must have the necessary permissions to update the project.
 
 ***

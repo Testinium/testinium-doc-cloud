@@ -1,9 +1,5 @@
 # Update Project TestRail Settings
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Update Project TestRail Settings
-
 This endpoint allows users to update TestRail settings for a specific project. It requires the `PROJECT_UPDATE` authority and a valid `projectId`. The request body should contain the `TestRailProjectModel` with the necessary details.
 
 ***
@@ -39,7 +35,11 @@ The request body should contain the `TestRailProjectModel` which consists of the
 
 Upon successful execution, the server responds with a status of `200 OK` and updates the project's TestRail settings.
 
-{\`\[ "1" ]\`}
+```json
+[
+  "1"
+]
+```
 
 #### Response Fields
 

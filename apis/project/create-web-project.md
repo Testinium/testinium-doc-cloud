@@ -1,9 +1,5 @@
 # Create WEB Project
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Create WEB Project
-
 Allows a user with the `PROJECT_CREATE` authority to create a new WEB project. It requires a user to provide a request payload containing project details.
 
 ***
@@ -18,7 +14,17 @@ Allows a user with the `PROJECT_CREATE` authority to create a new WEB project. I
 
 ### Request Body
 
-{\`{ "company\_id": 5267, "is\_signed": false, "project\_name": "seleniumdeneme", "repository\_path": "seleniumdeneme", "test\_file\_type": "SELENIUM\_JAVA", "test\_framework": "SELENIUM", "test\_runner\_tool": "MAVEN" }\`}
+```json
+{
+  "company_id": 5267,
+  "is_signed": false,
+  "project_name": "seleniumdeneme",
+  "repository_path": "seleniumdeneme",
+  "test_file_type": "SELENIUM_JAVA",
+  "test_framework": "SELENIUM",
+  "test_runner_tool": "MAVEN"
+}
+```
 
 | Field            | Type      | Required | Description                                               |
 | ---------------- | --------- | -------- | --------------------------------------------------------- |
@@ -36,7 +42,28 @@ Allows a user with the `PROJECT_CREATE` authority to create a new WEB project. I
 
 The response will contain the details of the created project.
 
-{\`{ "id": 1430, "project\_name": "seleniumdeneme", "enabled": true, "types": \[ "WEB" ], "repository\_path": "seleniumdeneme", "test\_framework": "SELENIUM", "test\_file\_type": "SELENIUM\_JAVA", "test\_runner\_tool": "MAVEN", "created\_at": "2024-12-06T05:12:23Z", "updated\_at": "2024-12-06T05:12:23Z", "created\_by": "mehmetaksahin", "updated\_by": "mehmetaksahin", "branch\_name": "master", "testrail\_enabled": false, "jira\_enabled": false, "xray\_enabled": false }\`}
+```json
+{
+    "id": 1430,
+    "project_name": "seleniumdeneme",
+    "enabled": true,
+    "types": [
+        "WEB"
+    ],
+    "repository_path": "seleniumdeneme",
+    "test_framework": "SELENIUM",
+    "test_file_type": "SELENIUM_JAVA",
+    "test_runner_tool": "MAVEN",
+    "created_at": "2024-12-06T05:12:23Z",
+    "updated_at": "2024-12-06T05:12:23Z",
+    "created_by": "mehmetaksahin",
+    "updated_by": "mehmetaksahin",
+    "branch_name": "master",
+    "testrail_enabled": false,
+    "jira_enabled": false,
+    "xray_enabled": false
+}
+```
 
 #### Response Fields
 

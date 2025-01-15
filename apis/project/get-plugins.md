@@ -1,9 +1,5 @@
 # Get Plugins
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Company Plugins
-
 The **Get Company Plugins** API retrieves the list of plugins associated with a company. Depending on the user's resource access, detailed or basic plugin information is returned. The user must be authenticated to access this endpoint.
 
 ***
@@ -20,7 +16,68 @@ The **Get Company Plugins** API retrieves the list of plugins associated with a 
 
 The response contains a list of plugins associated with the user's current company.
 
-{\`\[ { "company\_id": 5267, "enabled": true, "plugin\_type": "TUNNEL", "clean\_name": "Tunnel", "configurable": false }, { "company\_id": 5267, "enabled": true, "plugin\_type": "FILE\_UPLOAD", "clean\_name": "File Upload", "configurable": false }, { "company\_id": 5267, "enabled": true, "plugin\_type": "TESTRAIL", "clean\_name": "Test Rail", "configurable": true, "testrail\_url": "https://testinium.testrail.net/", "testrail\_username": "onur@testinium.com", "testrail\_password": "Testinium.2014+" }, { "company\_id": 5267, "enabled": true, "plugin\_type": "XRAY", "clean\_name": "Xray", "configurable": true, "xray\_server\_url": "https://digiport.arcelik.com/", "xray\_username": "api.user", "xray\_api\_key": "Digiport123" }, { "company\_id": 5267, "enabled": true, "plugin\_type": "LIVE\_TESTING", "clean\_name": "Live Testing", "configurable": false }, { "company\_id": 5267, "enabled": true, "plugin\_type": "JIRA", "clean\_name": "Jira", "configurable": true, "jira\_server\_url": "https://kartalproject.atlassian.net", "jira\_username": "fkartal47@gmail.com", "jira\_password": "ATATT3xFfGF0EQBrkXOXKsgNYtzb2eb\_kk24roIFvn8CHhZi6M9izqoLUzp7Xs3KYmBxXhazIVpZMIgBn4ObAZ9ihojgW81rcfExaCCvpIhxFB2uZdZNpSsXpGwwEIvBl043C1GRtz-9imhcD0Kt77RqmIIZPabFltuH3rwVDvJBIYjYw1N37jg=1A695405" }, { "company\_id": 5267, "enabled": true, "plugin\_type": "SLACK", "clean\_name": "Slack", "configurable": true } ]\`}
+```json
+[
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "TUNNEL",
+    "clean_name": "Tunnel",
+    "configurable": false
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "FILE_UPLOAD",
+    "clean_name": "File Upload",
+    "configurable": false
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "TESTRAIL",
+    "clean_name": "Test Rail",
+    "configurable": true,
+    "testrail_url": "https://testinium.testrail.net/",
+    "testrail_username": "onur@testinium.com",
+    "testrail_password": "Testinium.2014+"
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "XRAY",
+    "clean_name": "Xray",
+    "configurable": true,
+    "xray_server_url": "https://digiport.arcelik.com/",
+    "xray_username": "api.user",
+    "xray_api_key": "Digiport123"
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "LIVE_TESTING",
+    "clean_name": "Live Testing",
+    "configurable": false
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "JIRA",
+    "clean_name": "Jira",
+    "configurable": true,
+    "jira_server_url": "https://kartalproject.atlassian.net",
+    "jira_username": "fkartal47@gmail.com",
+    "jira_password": "ATATT3xFfGF0EQBrkXOXKsgNYtzb2eb_kk24roIFvn8CHhZi6M9izqoLUzp7Xs3KYmBxXhazIVpZMIgBn4ObAZ9ihojgW81rcfExaCCvpIhxFB2uZdZNpSsXpGwwEIvBl043C1GRtz-9imhcD0Kt77RqmIIZPabFltuH3rwVDvJBIYjYw1N37jg=1A695405"
+  },
+  {
+    "company_id": 5267,
+    "enabled": true,
+    "plugin_type": "SLACK",
+    "clean_name": "Slack",
+    "configurable": true
+  }
+]
+```
 
 #### Response Fields
 

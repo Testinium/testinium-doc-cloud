@@ -1,9 +1,5 @@
 # Get TestRail Settings By ProjectID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get TestRail Settings By ProjectID
-
 This endpoint retrieves the TestRail settings associated with a specified project. The user must have access to the project and be part of the associated company. The endpoint returns the TestRail project details, including information such as project ID, name, announcement visibility, suite mode, and users associated with the project.
 
 ***
@@ -43,7 +39,84 @@ The response includes TestRail project details for the specified project.
 
 #### Example Response:
 
-{\`{ "offset": 0, "limit": 250, "size": 20, "entities": \[ { "id": 1, "name": "Testinium", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/1", "users": \[], "groups": \[] }, { "id": 8, "name": "TestiniumSuite- Planner", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/8", "users": \[], "groups": \[] }, { "id": 9, "name": "TestiniumSuite- Core Logic", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/9", "users": \[], "groups": \[] }, { "id": 12, "name": "Loadium (OLD)", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/12", "users": \[], "groups": \[] }, { "id": 13, "name": "Enterprice-Testinium", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/13", "users": \[], "groups": \[] }, { "id": 16, "name": "Digitürk Testinium", "show\_announcement": false, "is\_completed": false, "suite\_mode": 1, "url": "https://testinium.testrail.net/index.php?/projects/overview/16", "users": \[ { "user\_id": 1, "global\_role\_id": 1, "global\_role": "Lead", "project\_role\_id": 1, "project\_role": "Lead" } ], "groups": \[] } ], "\_links": {} }\`}
+```json
+{
+  "offset": 0,
+  "limit": 250,
+  "size": 20,
+  "entities": [
+    {
+      "id": 1,
+      "name": "Testinium",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/1",
+      "users": [],
+      "groups": []
+    },
+    {
+      "id": 8,
+      "name": "TestiniumSuite- Planner",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/8",
+      "users": [],
+      "groups": []
+    },
+    {
+      "id": 9,
+      "name": "TestiniumSuite- Core Logic",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/9",
+      "users": [],
+      "groups": []
+    },
+    {
+      "id": 12,
+      "name": "Loadium (OLD)",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/12",
+      "users": [],
+      "groups": []
+    },
+    {
+      "id": 13,
+      "name": "Enterprice-Testinium",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/13",
+      "users": [],
+      "groups": []
+    },
+    {
+      "id": 16,
+      "name": "Digitürk Testinium",
+      "show_announcement": false,
+      "is_completed": false,
+      "suite_mode": 1,
+      "url": "https://testinium.testrail.net/index.php?/projects/overview/16",
+      "users": [
+        {
+          "user_id": 1,
+          "global_role_id": 1,
+          "global_role": "Lead",
+          "project_role_id": 1,
+          "project_role": "Lead"
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "_links": {}
+}
+```
 
 ***
 

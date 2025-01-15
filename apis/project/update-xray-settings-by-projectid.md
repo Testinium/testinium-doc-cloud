@@ -1,9 +1,5 @@
 # Update Xray Settings By ProjectID
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Update Xray Settings By ProjectID
-
 This endpoint updates the Xray settings associated with a specified project. The user must have access to the project and be part of the associated company. The updated settings will include the Xray project key and configuration.
 
 ***
@@ -36,7 +32,17 @@ The request body must include the Xray settings to be updated.
 
 #### Example Request Body:
 
-{\`{ "project": \[ { "label": "xray\_label1", "value": "xray\_value1", "selected": true } ] }\`}
+```json
+{
+  "project": [
+    {
+      "label": "xray_label1",
+      "value": "xray_value1",
+      "selected": true
+    }
+  ]
+}
+```
 
 ***
 
@@ -46,7 +52,22 @@ The response includes the updated Xray project details for the specified project
 
 #### Example Response:
 
-{\`{ "project": \[ { "label": "xray\_label1", "value": "xray\_value1", "selected": true }, { "label": "xray\_label2", "value": "xray\_value2", "selected": false } ] }\`}
+```json
+{
+  "project": [
+    {
+      "label": "xray_label1",
+      "value": "xray_value1",
+      "selected": true
+    },
+    {
+      "label": "xray_label2",
+      "value": "xray_value2",
+      "selected": false
+    }
+  ]
+}
+```
 
 ***
 

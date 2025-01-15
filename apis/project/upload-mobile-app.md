@@ -1,9 +1,5 @@
 # Upload Mobile App
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Upload Mobile App
-
 The endpoint allows uploading a mobile application file (APK for Android or IPA for iOS) to an existing Appium project. The user must have the necessary permissions to update the project.
 
 ***

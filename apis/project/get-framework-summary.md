@@ -1,9 +1,5 @@
 # Get Framework Summary
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get Framework Summary
-
 This endpoint retrieves a summary of projects grouped by their test frameworks. Each group contains a list of active projects associated with the authenticated user's company.
 
 ***
@@ -26,7 +22,48 @@ No request body is required for this endpoint.
 
 The response is a list of frameworks, each containing its `title`, `value`, and associated projects.
 
-{\`\[ { "title": "SELENIUM", "value": "SELENIUM", "children": \[ { "id": 123, "name": "project1" }, { "id": 134, "name": "project2" } ] }, { "title": "APPIUM", "value": "APPIUM", "children": \[ { "id": 145, "name": "project3" } ] }, { "title": "SERVICE", "value": "SERVICE", "children": \[ { "id": 156, "name": "project4" }, { "id": 167, "name": "project5" } ] } ]\`}
+```json
+[
+    {
+        "title": "SELENIUM",
+        "value": "SELENIUM",
+        "children": [
+            {
+                "id": 123,
+                "name": "project1"
+            },
+            {
+                "id": 134,
+                "name": "project2"
+            }
+        ]
+    },
+    {
+        "title": "APPIUM",
+        "value": "APPIUM",
+        "children": [
+            {
+                "id": 145,
+                "name": "project3"
+            }
+        ]
+    },
+    {
+        "title": "SERVICE",
+        "value": "SERVICE",
+        "children": [
+            {
+                "id": 156,
+                "name": "project4"
+            },
+            {
+                "id": 167,
+                "name": "project5"
+            }
+        ]
+    }
+]
+```
 
 #### Response Fields
 

@@ -1,9 +1,5 @@
 # Create Project From Template
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Create Project From Template
-
 This endpoint allows the creation of a new Selenium project using a predefined template. Users must have the `PROJECT_CREATE` authority to use this endpoint.
 
 ***
@@ -46,7 +42,17 @@ The request body must be in JSON format and include the following fields:
 
 Example JSON:
 
-{\`{ "project\_name": "project\_name", "repository\_path": "repository\_path", "test\_file\_type": "SELENIUM\_JAVA", "test\_framework": "SELENIUM", "test\_runner\_tool": "MAVEN", "company\_id": company\_id, "site\_url": "https://www.siteurl.com/" }\`}
+```json
+{
+  "project_name": "project_name",
+  "repository_path": "repository_path",
+  "test_file_type": "SELENIUM_JAVA",
+  "test_framework": "SELENIUM",
+  "test_runner_tool": "MAVEN",
+  "company_id": company_id,
+  "site_url": "https://www.siteurl.com/"
+}
+```
 
 ***
 
@@ -54,7 +60,28 @@ Example JSON:
 
 If the project is successfully created, the endpoint returns the created project details.
 
-{\`{ "id": 1427, "project\_name": "project\_name", "enabled": true, "types": \[ "WEB" ], "repository\_path": "repository\_path", "test\_framework": "SELENIUM", "test\_file\_type": "SELENIUM\_JAVA", "test\_runner\_tool": "MAVEN", "created\_at": "2024-12-06T03:29:33Z", "updated\_at": "2024-12-06T03:29:33Z", "created\_by": "mehmetaksahin", "updated\_by": "mehmetaksahin", "branch\_name": "master", "testrail\_enabled": false, "jira\_enabled": false, "xray\_enabled": false }\`}
+```json
+{
+    "id": 1427,
+    "project_name": "project_name",
+    "enabled": true,
+    "types": [
+        "WEB"
+    ],
+    "repository_path": "repository_path",
+    "test_framework": "SELENIUM",
+    "test_file_type": "SELENIUM_JAVA",
+    "test_runner_tool": "MAVEN",
+    "created_at": "2024-12-06T03:29:33Z",
+    "updated_at": "2024-12-06T03:29:33Z",
+    "created_by": "mehmetaksahin",
+    "updated_by": "mehmetaksahin",
+    "branch_name": "master",
+    "testrail_enabled": false,
+    "jira_enabled": false,
+    "xray_enabled": false
+}
+```
 
 ***
 

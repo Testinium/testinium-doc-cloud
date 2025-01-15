@@ -1,9 +1,5 @@
 # Disable Project
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Disable Project
-
 This endpoint disables a specified project by setting its `enabled` field to `false`. The endpoint requires the user to have the `PROJECT_UPDATE` authority.
 
 ***
@@ -36,7 +32,9 @@ On success, the endpoint returns an HTTP status code of `200 OK`.
 
 #### Example Response:
 
-{\`"OK"\`}
+```json
+"OK"
+```
 
 ***
 
