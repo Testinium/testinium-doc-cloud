@@ -5,9 +5,9 @@
 * [General Information](README.md)
 * [Go to TESTINIUM](https://testinium.io)
 
-***
+## GENERAL FEATURES
 
-* [General Usage Features](general-usage-features.md)
+* [General Usage Features](general-features/general-usage-features.md)
 
 ## LOGIN
 
@@ -15,54 +15,75 @@
   * [Login Screen](login/login/login-screen.md)
   * [Forgot](login/login/forgot.md)
 
-***
+## DASHBOARD
 
-* [Dashboard](dashboard.md)
-* [User Profile](user-profile/README.md)
-  * [Account Information](user-profile/account-information.md)
-* [Projects](projects/README.md)
-  * [Create New Project](projects/create-new-project.md)
-  * [Summary](projects/summary.md)
-  * [Scenarios](projects/scenarios.md)
-  * [Plans](projects/plans.md)
-  * [Advanced](projects/advenced.md)
-  * [Properties](projects/properties.md)
-* [Scenarios](all-scenarios/README.md)
-  * [Create](all-scenarios/create.md)
-  * [Edit Scenarios](all-scenarios/edit-scenarios.md)
-  * [Delete Scenarios](all-scenarios/delete-scenarios.md)
-  * [Create New Group](all-scenarios/create-new-group.md)
-  * [Sync Sicenarios](all-scenarios/sync-sicenarios.md)
-* [Plans](all-plans/README.md)
-  * [Create Plan](all-plans/create-plan.md)
-  * [Edit Plans](all-plans/edit-plans.md)
-  * [Delete Plans](all-plans/delete-plans.md)
-  * [Report](all-plans/report.md)
-  * [Run Plan](all-plans/run-plan.md)
-  * [Rerun Plan](all-plans/rerun-plan.md)
-* [Reports](reports/README.md)
-  * [Test Execution(Auto)](reports/test-execution-auto.md)
-  * [Scheduled Reports(Periodically Scheduled)](reports/scheduled-reports-periodically-scheduled/README.md)
-    * [Create New Periodically Reports](reports/scheduled-reports-periodically-scheduled/create-new-periodically-reports.md)
-    * [Edit Periodically Report](reports/scheduled-reports-periodically-scheduled/edit-periodically-report.md)
-    * [Delete Periodically Report](reports/scheduled-reports-periodically-scheduled/delete-periodically-report.md)
-    * [Periodically Report History](reports/scheduled-reports-periodically-scheduled/periodically-report-history.md)
-  * [Smart Prioritization Report](reports/graph-report.md)
-* [Automated Test](automated-test/README.md)
-  * [Test Code Generator(Web)](automated-test/test-code-generator-web.md)
-  * [Test Code Generator(Android Web)](automated-test/test-code-generator-android-web.md)
-  * [Test Code Generator(IOS Web)](automated-test/test-code-generator-ios-web.md)
-  * [Test Code Generator(Android App)](automated-test/test-code-generator-android-app.md)
-  * [Test Code Generator(IOS App)](automated-test/test-code-generator-ios-app.md)
-  * [Operation Report](automated-test/operation-report.md)
-* [Plugins](plugins/README.md)
-  * [Xray](plugins/xray.md)
-  * [Jenkins](plugins/jenkins.md)
-  * [Automated Test](plugins/automated-test.md)
-  * [Jira](plugins/jira.md)
-  * [Slack](plugins/slack.md)
-  * [TestRail](plugins/testrail.md)
-  * [Tunnel](plugins/tunnel.md)
+* [Dashboard](dashboard/dashboard.md)
+
+## USER PROFILE
+
+* [User Profile](user-profile/user-profile/README.md)
+  * [Account Information](user-profile/user-profile/account-information.md)
+
+## PROJECTS
+
+* [Projects](projects/projects/README.md)
+  * [Create New Project](projects/projects/create-new-project.md)
+  * [Summary](projects/projects/summary.md)
+  * [Scenarios](projects/projects/scenarios.md)
+  * [Plans](projects/projects/plans.md)
+  * [Advanced](projects/projects/advenced.md)
+  * [Properties](projects/projects/properties.md)
+
+## SCENARIOS
+
+* [Scenarios](scenarios/all-scenarios/README.md)
+  * [Create](scenarios/all-scenarios/create.md)
+  * [Edit Scenarios](scenarios/all-scenarios/edit-scenarios.md)
+  * [Delete Scenarios](scenarios/all-scenarios/delete-scenarios.md)
+  * [Create New Group](scenarios/all-scenarios/create-new-group.md)
+  * [Sync Sicenarios](scenarios/all-scenarios/sync-sicenarios.md)
+
+## PLANS
+
+* [Plans](plans/all-plans/README.md)
+  * [Create Plan](plans/all-plans/create-plan.md)
+  * [Edit Plans](plans/all-plans/edit-plans.md)
+  * [Delete Plans](plans/all-plans/delete-plans.md)
+  * [Report](plans/all-plans/report.md)
+  * [Run Plan](plans/all-plans/run-plan.md)
+  * [Rerun Plan](plans/all-plans/rerun-plan.md)
+
+## REPORTS
+
+* [Reports](reports/reports/README.md)
+  * [Test Execution(Auto)](reports/reports/test-execution-auto.md)
+  * [Scheduled Reports(Periodically Scheduled)](reports/reports/scheduled-reports-periodically-scheduled/README.md)
+    * [Create New Periodically Reports](reports/reports/scheduled-reports-periodically-scheduled/create-new-periodically-reports.md)
+    * [Edit Periodically Report](reports/reports/scheduled-reports-periodically-scheduled/edit-periodically-report.md)
+    * [Delete Periodically Report](reports/reports/scheduled-reports-periodically-scheduled/delete-periodically-report.md)
+    * [Periodically Report History](reports/reports/scheduled-reports-periodically-scheduled/periodically-report-history.md)
+  * [Smart Prioritization Report](reports/reports/graph-report.md)
+
+## AUTOMATED TEST
+
+* [Automated Test](automated-test/automated-test/README.md)
+  * [Test Code Generator(Web)](automated-test/automated-test/test-code-generator-web.md)
+  * [Test Code Generator(Android Web)](automated-test/automated-test/test-code-generator-android-web.md)
+  * [Test Code Generator(IOS Web)](automated-test/automated-test/test-code-generator-ios-web.md)
+  * [Test Code Generator(Android App)](automated-test/automated-test/test-code-generator-android-app.md)
+  * [Test Code Generator(IOS App)](automated-test/automated-test/test-code-generator-ios-app.md)
+  * [Operation Report](automated-test/automated-test/operation-report.md)
+
+## PLUGINS
+
+* [Plugins](plugins/plugins/README.md)
+  * [Xray](plugins/plugins/xray.md)
+  * [Jenkins](plugins/plugins/jenkins.md)
+  * [Automated Test](plugins/plugins/automated-test.md)
+  * [Jira](plugins/plugins/jira.md)
+  * [Slack](plugins/plugins/slack.md)
+  * [TestRail](plugins/plugins/testrail.md)
+  * [Tunnel](plugins/plugins/tunnel.md)
 
 ## API's
 
