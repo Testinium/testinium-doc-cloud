@@ -6,7 +6,7 @@ The **Get Company Plugins** API retrieves the list of plugins associated with a 
 
 ### Endpoint Information
 
-* **URL**: `https://clouddev.testinium.io/Testinium.RestApi/api/companies/plugins`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/companies/plugins`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
@@ -112,6 +112,6 @@ The response contains a list of plugins associated with the user's current compa
 ### Example Request
 
 ```bash
-curl --location --request GET "https://clouddev.testinium.io/Testinium.RestApi/api/companies/plugins" \
+curl --location --request GET "https://testinium.io/Testinium.RestApi/api/companies/plugins" \
 --header 'Authorization: Bearer <your_access_token>'
 ```
