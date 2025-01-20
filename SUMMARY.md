@@ -115,6 +115,7 @@
   * [Get All Plans By Project ID](apis/plan/get-all-plans-by-project-id.md)
   * [Delete Test Plan](apis/plan/delete-test-plan.md)
   * [Get Maximum Execution Times](apis/plan/get-maximum-execution-times.md)
+  * [Get Last Failed Scenarios of a Test Plan](apis/plan/get-last-failed-scenarios-of-a-test-plan.md)
 * [Reports](apis/reports/README.md)
   * [Get All Test Executions By Plan ID](apis/reports/get-all-test-executions-by-plan-id.md)
   * [Get Test Execution By ID](apis/reports/get-test-execution-by-id.md)

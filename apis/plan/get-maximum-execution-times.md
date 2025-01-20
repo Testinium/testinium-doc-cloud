@@ -12,7 +12,7 @@ Retrieves the list of maximum execution time options available in the system. Th
 
 ***
 
-## Response
+## Response Body
 
 {% code overflow="wrap" fullWidth="false" %}
 ```json

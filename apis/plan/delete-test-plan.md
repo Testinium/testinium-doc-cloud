@@ -20,13 +20,13 @@ This endpoint allows the deletion of a specified test plan. The user must have t
 
 ***
 
-## Request Parameters
+## Request Body
 
 This endpoint does not require a request body.
 
 ***
 
-## Response
+## Response Body
 
 The response will return a `Boolean` indicating whether the test plan deletion was successful (`true` for success, `false` for failure).
 
