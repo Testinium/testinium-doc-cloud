@@ -113,6 +113,8 @@
   * [Check Test Plan Running Status](apis/plan/check-test-plan-running-status.md)
   * [Run Test Plan](apis/plan/run-test-plan.md)
   * [Get All Plans By Project ID](apis/plan/get-all-plans-by-project-id.md)
+  * [Delete Test Plan](apis/plan/delete-test-plan.md)
+  * [Get Maximum Execution Times](apis/plan/get-maximum-execution-times.md)
 * [Reports](apis/reports/README.md)
   * [Get All Test Executions By Plan ID](apis/reports/get-all-test-executions-by-plan-id.md)
   * [Get Test Execution By ID](apis/reports/get-test-execution-by-id.md)
