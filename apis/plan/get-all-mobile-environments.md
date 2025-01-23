@@ -1,22 +1,18 @@
 # Get All Mobile Environments
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; import CodeBlock from '@theme/CodeBlock';
-
-## Get All Mobile Environments
-
 Retrieves a list of all mobile environments available in the system, based on the mobile operating systems and their respective manufacturers and devices.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `/api/environments/mobile`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/environments/mobile`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 
 ***
 
-### Request Parameters
+### Path Parameters
 
 | Name   | Type   | Description                                |
 | ------ | ------ | ------------------------------------------ |
@@ -26,11 +22,289 @@ Retrieves a list of all mobile environments available in the system, based on th
 
 ### Response
 
-{\`\[ { "operating\_system": { "code": "IOS", "platform": "Mobile", "clean\_name": "iOS", "screen\_resolutions": \[ { "resolution\_name": "WXGA", "resolution\_width": 1280, "resolution\_height": 800 }, { "resolution\_name": "WXGA\_P", "resolution\_width": 1440, "resolution\_height": 900 } ], "mobile": true }, "manufacturers": \[ { "code": "APPLE", "name": "APPLE", "devices": \[ { "code": "iphone6", "name": "iPhone 6", "details": \[ { "environment\_id": 1103, "version": "12.5.5", "enabled": true } ] } ] } ], "browsers": \[], "enabled": false }, { "operating\_system": { "code": "ANDROID", "platform": "Mobile", "clean\_name": "Android", "screen\_resolutions": \[ { "resolution\_name": "FHD", "resolution\_width": 1920, "resolution\_height": 1080 } ], "mobile": true }, "manufacturers": \[ { "code": "LG", "name": "LG", "devices": \[ { "code": "G4", "name": "G4", "details": \[ { "environment\_id": 1212, "version": "1.2.3", "enabled": true } ] } ] } ], "browsers": \[], "enabled": false } ]\`}
+```json
+[
+    {
+        "operating_system": {
+            "code": "IOS",
+            "platform": "Mobile",
+            "clean_name": "iOS",
+            "screen_resolutions": [
+                {
+                    "resolution_name": "WXGA",
+                    "resolution_width": 1280,
+                    "resolution_height": 800
+                },
+                {
+                    "resolution_name": "WXGA_P",
+                    "resolution_width": 1440,
+                    "resolution_height": 900
+                },
+                {
+                    "resolution_name": "XGA",
+                    "resolution_width": 1024,
+                    "resolution_height": 768
+                }
+            ],
+            "mobile": true
+        },
+        "manufacturers": [
+            {
+                "code": "APPLE",
+                "name": "APPLE",
+                "devices": [
+                    {
+                        "code": "iphone6",
+                        "name": "iPhone 6",
+                        "details": [
+                            {
+                                "environment_id": 1103,
+                                "version": "12.5.5",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "iPhone_7",
+                        "name": "iPhone 7",
+                        "details": [
+                            {
+                                "environment_id": 1101,
+                                "version": "15.7.6",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "iPhone6s",
+                        "name": "iPhone 6S",
+                        "details": [
+                            {
+                                "environment_id": 1104,
+                                "version": "15.7.5",
+                                "enabled": true
+                            },
+                            {
+                                "environment_id": 1181,
+                                "version": "15.7.9",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "iPhone_XR",
+                        "name": "iPhone XR",
+                        "details": [
+                            {
+                                "environment_id": 1174,
+                                "version": "12.4.1",
+                                "enabled": true
+                            },
+                            {
+                                "environment_id": 1119,
+                                "version": "17.1",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "iPhone_X",
+                        "name": "iPhone X",
+                        "details": [
+                            {
+                                "environment_id": 1172,
+                                "version": "16.7.7",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "IPHONE_14_PLUS",
+                        "name": "IPHONE 14 PLUS",
+                        "details": [
+                            {
+                                "environment_id": 1202,
+                                "version": "18.1.1",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "IPHONE_13",
+                        "name": "IPHONE 13",
+                        "details": [
+                            {
+                                "environment_id": 1204,
+                                "version": "18.1.1",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "IPHONE_13_PRO_MAX",
+                        "name": "IPHONE 13 PRO MAX",
+                        "details": [
+                            {
+                                "environment_id": 1208,
+                                "version": "17.7",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "device create code",
+                        "name": "device create name",
+                        "details": [
+                            {
+                                "environment_id": 1214,
+                                "version": "13.0",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "LG",
+                "name": "LG",
+                "devices": [
+                    {
+                        "code": "G4",
+                        "name": "G4",
+                        "details": [
+                            {
+                                "environment_id": 1212,
+                                "version": "1.2.3",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "LG_G6",
+                        "name": "LG G6",
+                        "details": [
+                            {
+                                "environment_id": 1106,
+                                "version": "8.0.0",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "SAMSUNG",
+                "name": "SAMSUNG",
+                "devices": [
+                    {
+                        "code": "Galaxy_Note20",
+                        "name": "Galaxy Note 20",
+                        "details": [
+                            {
+                                "environment_id": 1177,
+                                "version": "13",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "browsers": [],
+        "enabled": false
+    },
+    {
+        "operating_system": {
+            "code": "ANDROID",
+            "platform": "Mobile",
+            "clean_name": "Android",
+            "screen_resolutions": [
+                {
+                    "resolution_name": "FHD",
+                    "resolution_width": 1920,
+                    "resolution_height": 1080
+                },
+                {
+                    "resolution_name": "SVGA",
+                    "resolution_width": 800,
+                    "resolution_height": 600
+                }
+            ],
+            "mobile": true
+        },
+        "manufacturers": [
+            {
+                "code": "LG",
+                "name": "LG",
+                "devices": [
+                    {
+                        "code": "G4",
+                        "name": "G4",
+                        "details": [
+                            {
+                                "environment_id": 1212,
+                                "version": "1.2.3",
+                                "enabled": true
+                            }
+                        ]
+                    },
+                    {
+                        "code": "LG_G6",
+                        "name": "LG G6",
+                        "details": [
+                            {
+                                "environment_id": 1106,
+                                "version": "8.0.0",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "Oppo",
+                "name": "Oppo",
+                "devices": [
+                    {
+                        "code": "Oppo_A91",
+                        "name": "Oppo A91",
+                        "details": [
+                            {
+                                "environment_id": 1210,
+                                "version": "11",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "SAMSUNG",
+                "name": "SAMSUNG",
+                "devices": [
+                    {
+                        "code": "Galaxy_Note20",
+                        "name": "Galaxy Note 20",
+                        "details": [
+                            {
+                                "environment_id": 1177,
+                                "version": "13",
+                                "enabled": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "browsers": [],
+        "enabled": false
+    }
+]
+```
 
 ***
 
-#### Key Response Fields
+### Response Fields
 
 | Field                | Type      | Description                                                                      |
 | -------------------- | --------- | -------------------------------------------------------------------------------- |
@@ -50,11 +324,18 @@ Retrieves a list of all mobile environments available in the system, based on th
 
 ***
 
-Error Codes HTTP Status Code Message 400 BAD\_REQUEST Invalid request parameters. 401 UNAUTHORIZED The user is not authorized to access this resource. 403 FORBIDDEN The user does not have sufficient permissions to access the resource. 500 INTERNAL\_ERROR An internal server error occurred while processing the request.
+### Error Codes
 
-#### Example Request
+| HTTP Status | Code             | Message                                                               |
+| ----------- | ---------------- | --------------------------------------------------------------------- |
+| 400         | `BAD_REQUEST`    | Invalid request parameters.                                           |
+| 401         | `UNAUTHORIZED`   | The user is not authorized to access this resource.                   |
+| 403         | `FORBIDDEN`      | The user does not have sufficient permissions to access the resource. |
+| 500         | `INTERNAL_ERROR` | An internal server error occurred while processing the request.       |
+
+### Example Request
 
 ```bash
-curl --location --request GET "https://api.example.com/api/environments/mobile" \
+curl --location --request GET "https://testinium.io/Testinium.RestApi/api/environments/mobile" \
 --header 'Authorization: Bearer <your_access_token>'
 ```

@@ -4,7 +4,7 @@ Retrieves the list of maximum execution time options available in the system. Th
 
 ***
 
-## Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/enums/maxExecutionTimes`
 * **Method**: `GET`
@@ -12,7 +12,7 @@ Retrieves the list of maximum execution time options available in the system. Th
 
 ***
 
-## Response Body
+### Response Body
 
 {% code overflow="wrap" fullWidth="false" %}
 ```json
@@ -54,14 +54,14 @@ Retrieves the list of maximum execution time options available in the system. Th
 ```
 {% endcode %}
 
+### Response Parameters
+
 | Field                  | Type      | Description                                    |
 | ---------------------- | --------- | ---------------------------------------------- |
 | `max_execution_minute` | `Integer` | The maximum execution time in minutes.         |
 | `max_execution_name`   | `String`  | The name of the maximum execution time option. |
 
-***
-
-## Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                |
 | --------- | ----------------------- | ---------------------------------------------------------- |
@@ -70,7 +70,7 @@ Retrieves the list of maximum execution time options available in the system. Th
 
 ***
 
-## Example Request
+### Example Request
 
 ```bash
 curl --location --request GET "https://testinium.io/Testinium.RestApi/api/enums/maxExecutionTimes" \

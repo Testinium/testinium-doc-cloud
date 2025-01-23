@@ -128,7 +128,7 @@ Retrieves detailed information about a specific test plan by its ID, including s
 
 ***
 
-### Key Response Fields
+### Response Fields
 
 | Field                      | Type      | Description                                                                  |
 | -------------------------- | --------- | ---------------------------------------------------------------------------- |

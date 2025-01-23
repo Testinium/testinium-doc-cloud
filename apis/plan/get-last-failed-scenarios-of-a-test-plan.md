@@ -4,7 +4,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ***
 
-## Endpoint Information
+### Endpoint Information
 
 * **URL**:`https://testinium.io/Testinium.RestApi/api/plans/{planId}/lastFailedScenarios`
 * **Method**: `GET`
@@ -12,7 +12,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ***
 
-## Path Parameters
+### Path Parameters
 
 | Parameter | Type   | Required | Description                                                            |
 | --------- | ------ | -------- | ---------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ***
 
-## Response Body
+### Response Body
 
 ```json
 [
@@ -203,9 +203,9 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ```
 
-### Response Field Tables
+## Response Field Tables
 
-#### Scenario Object
+### Scenario Object
 
 | Field               | Type      | Description                                    |
 | ------------------- | --------- | ---------------------------------------------- |
@@ -224,7 +224,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 | `java_test_class`   | `String`  | The associated Java test class.                |
 | `java_test_methods` | `String`  | The associated Java test methods.              |
 
-#### Test Results Object
+### Test Results Object
 
 | Field                          | Type      | Description                                   |
 | ------------------------------ | --------- | --------------------------------------------- |
@@ -242,7 +242,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ***
 
-## Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                          |
 | --------- | ----------------------- | -------------------------------------------------------------------- |
@@ -252,7 +252,7 @@ This endpoint retrieves the last failed scenarios and their test results for a s
 
 ***
 
-## Example Request
+### Example Request
 
 ```bash
 curl --location --request GET "https://testinium.io/Testinium.RestApi/api/plans/{planId}/lastFailedScenarios" \

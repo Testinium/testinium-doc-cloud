@@ -4,7 +4,7 @@ This endpoint allows the deletion of a specified test plan. The user must have t
 
 ***
 
-## Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/plans/{planId}`
 * **Method**: `DELETE`
@@ -12,7 +12,7 @@ This endpoint allows the deletion of a specified test plan. The user must have t
 
 ***
 
-## Path Parameters
+### Path Parameters
 
 | Parameter | Type   | Required | Description                            |
 | --------- | ------ | -------- | -------------------------------------- |
@@ -20,19 +20,19 @@ This endpoint allows the deletion of a specified test plan. The user must have t
 
 ***
 
-## Request Body
+### Request Body
 
 This endpoint does not require a request body.
 
 ***
 
-## Response Body
+### Response Body
 
 The response will return a `Boolean` indicating whether the test plan deletion was successful (`true` for success, `false` for failure).
 
 ***
 
-## Error Codes
+### Error Codes
 
 | HTTP Code | Error Code                         | Description                                                                |
 | --------- | ---------------------------------- | -------------------------------------------------------------------------- |
@@ -44,7 +44,7 @@ The response will return a `Boolean` indicating whether the test plan deletion w
 
 ***
 
-## Example Request
+### Example Request
 
 ```bash
 curl --location --request DELETE "https://testinium.io/Testinium.RestApi/api/plans/{planId}" \
