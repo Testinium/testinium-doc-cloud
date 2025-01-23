@@ -12,13 +12,7 @@ Retrieves the Xray project key for the given project if it is active. If the pro
 
 ***
 
-### Request
-
-{\`{ "user": { "currentCompany": "" }, "projectId": "" }\`}
-
-***
-
-#### Request Parameters
+### Path Parameters
 
 | Parameter   | Type     | Description                                               |
 | ----------- | -------- | --------------------------------------------------------- |
@@ -33,7 +27,7 @@ Retrieves the Xray project key for the given project if it is active. If the pro
 
 ***
 
-#### Response Fields
+### Response Fields
 
 | Field | Type  | Description                                                                                       |
 | ----- | ----- | ------------------------------------------------------------------------------------------------- |

@@ -22,7 +22,76 @@ Retrieves all available bandwidth types along with their associated read and wri
 
 ### Response
 
-{\`\[ { "band\_width\_name": "Wifi", "read\_band\_width\_limit": 307200000, "write\_band\_width\_limit": 307200000, "code": "WIFI" }, { "band\_width\_name": "Internet(Unlimited)", "read\_band\_width\_limit": 307200000, "write\_band\_width\_limit": 307200000, "code": "INTERNET\_UNLIMITED" }, { "band\_width\_name": "3G-Good", "read\_band\_width\_limit": 870400, "write\_band\_width\_limit": 870400, "code": "THREE\_G\_GOOD" }, { "band\_width\_name": "3G-Normal", "read\_band\_width\_limit": 798720, "write\_band\_width\_limit": 798720, "code": "THREE\_G\_NORMAL" }, { "band\_width\_name": "3G-Poor", "read\_band\_width\_limit": 798720, "write\_band\_width\_limit": 798720, "code": "THREE\_G\_POOR" }, { "band\_width\_name": "LTE", "read\_band\_width\_limit": 307200000, "write\_band\_width\_limit": 307200000, "code": "LTE" }, { "band\_width\_name": "Cable", "read\_band\_width\_limit": 6291456, "write\_band\_width\_limit": 6291456, "code": "CABLE" }, { "band\_width\_name": "DSL", "read\_band\_width\_limit": 2097152, "write\_band\_width\_limit": 2097152, "code": "DSL" }, { "band\_width\_name": "Edge-Good", "read\_band\_width\_limit": 256000, "write\_band\_width\_limit": 256000, "code": "EDGE\_GOOD" }, { "band\_width\_name": "Edge-Normal", "read\_band\_width\_limit": 245760, "write\_band\_width\_limit": 245760, "code": "EDGE\_NORMAL" }, { "band\_width\_name": "Edge-Poor", "read\_band\_width\_limit": 245760, "write\_band\_width\_limit": 245760, "code": "EDGE\_POOR" } ]\`}
+```json
+[
+    {
+        "band_width_name": "Wifi",
+        "read_band_width_limit": 307200000,
+        "write_band_width_limit": 307200000,
+        "code": "WIFI"
+    },
+    {
+        "band_width_name": "Internet(Unlimited)",
+        "read_band_width_limit": 307200000,
+        "write_band_width_limit": 307200000,
+        "code": "INTERNET_UNLIMITED"
+    },
+    {
+        "band_width_name": "3G-Good",
+        "read_band_width_limit": 870400,
+        "write_band_width_limit": 870400,
+        "code": "THREE_G_GOOD"
+    },
+    {
+        "band_width_name": "3G-Normal",
+        "read_band_width_limit": 798720,
+        "write_band_width_limit": 798720,
+        "code": "THREE_G_NORMAL"
+    },
+    {
+        "band_width_name": "3G-Poor",
+        "read_band_width_limit": 798720,
+        "write_band_width_limit": 798720,
+        "code": "THREE_G_POOR"
+    },
+    {
+        "band_width_name": "LTE",
+        "read_band_width_limit": 307200000,
+        "write_band_width_limit": 307200000,
+        "code": "LTE"
+    },
+    {
+        "band_width_name": "Cable",
+        "read_band_width_limit": 6291456,
+        "write_band_width_limit": 6291456,
+        "code": "CABLE"
+    },
+    {
+        "band_width_name": "DSL",
+        "read_band_width_limit": 2097152,
+        "write_band_width_limit": 2097152,
+        "code": "DSL"
+    },
+    {
+        "band_width_name": "Edge-Good",
+        "read_band_width_limit": 256000,
+        "write_band_width_limit": 256000,
+        "code": "EDGE_GOOD"
+    },
+    {
+        "band_width_name": "Edge-Normal",
+        "read_band_width_limit": 245760,
+        "write_band_width_limit": 245760,
+        "code": "EDGE_NORMAL"
+    },
+    {
+        "band_width_name": "Edge-Poor",
+        "read_band_width_limit": 245760,
+        "write_band_width_limit": 245760,
+        "code": "EDGE_POOR"
+    }
+]
+```
 
 ***
 

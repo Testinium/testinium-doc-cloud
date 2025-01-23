@@ -14,8 +14,6 @@ Retrieves a list of all desktop environments available in the system, based on t
 
 ### Response
 
-{\`\[ { "environment\_id": 1, "name": "Windows 10", "type": "desktop", "os": "Windows", "version": "10", "enabled": true }, { "environment\_id": 2, "name": "macOS", "type": "desktop", "os": "macOS", "version": "Big Sur", "enabled": true }, { "environment\_id": 3, "name": "Ubuntu", "type": "desktop", "os": "Linux", "version": "20.04", "enabled": true } ]\`}
-
 ```
 [
     {
@@ -2196,6 +2194,15 @@ Retrieves a list of all desktop environments available in the system, based on t
 | `enabled`        | `Boolean` | Indicates whether the environment is enabled for use.           |
 
 ***
+
+### Error Codes
+
+| HTTP Status | Code             | Message                                                               |
+| ----------- | ---------------- | --------------------------------------------------------------------- |
+| 400         | `BAD_REQUEST`    | Invalid request parameters.                                           |
+| 401         | `UNAUTHORIZED`   | The user is not authorized to access this resource.                   |
+| 403         | `FORBIDDEN`      | The user does not have sufficient permissions to access the resource. |
+| 500         | `INTERNAL_ERROR` | An internal server error occurred while processing the request.       |
 
 ### Example Request
 
