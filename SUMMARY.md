@@ -128,6 +128,8 @@
   * [Get All Desktop Environments](apis/plan/get-all-desktop-environments.md)
   * [Get All Mobile Environments](apis/plan/get-all-mobile-environments.md)
   * [Get Total Plan Count by Filter](apis/plan/get-total-plan-count-by-filter.md)
+  * [Get Files of a Test Plan](apis/plan/get-files-of-a-test-plan.md)
+  * [Page 1](apis/plan/page-1.md)
 * [Reports](apis/reports/README.md)
   * [Get All Test Executions By Plan ID](apis/reports/get-all-test-executions-by-plan-id.md)
   * [Get Test Execution By ID](apis/reports/get-test-execution-by-id.md)
