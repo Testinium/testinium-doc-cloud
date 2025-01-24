@@ -56,7 +56,7 @@ The response is a simple numerical value representing the total count of test pl
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/plans/totalCountByfilter?projectId=1424&service=true&planText=deneme' \  
+curl --location 'https://testinium.io/Testinium.RestApi/api/plans/totalCountByfilter?projectId=1424&service=true&planText=deneme' \  
 --header 'Authorization: Bearer <your_access_token>' \  
 --header 'current-company-id: <your_company_id>'  
 ```

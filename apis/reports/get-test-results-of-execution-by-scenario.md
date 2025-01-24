@@ -141,6 +141,6 @@ The response contains a list of test results for the specified execution and sce
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/results/execution/{executionId}/scenario/{scenarioId}' \  
+curl --location 'https://testinium.io/Testinium.RestApi/api/results/execution/{executionId}/scenario/{scenarioId}' \  
 --header 'Authorization: Bearer <your_access_token>'  
 ```

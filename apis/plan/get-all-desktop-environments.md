@@ -14,7 +14,7 @@ Retrieves a list of all desktop environments available in the system, based on t
 
 ### Response
 
-```
+```json
 [
     {
         "operating_system": {

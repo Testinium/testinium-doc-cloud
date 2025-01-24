@@ -144,5 +144,4 @@ This endpoint retrieves active test plans based on the provided company ID and o
 ```bash
 curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/plans/active?companyId=5251&activeTestStatuses=WAITING' \
 --header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: 5251'
 ```

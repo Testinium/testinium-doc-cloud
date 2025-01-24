@@ -73,7 +73,7 @@ true
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location --request POST 'https://testinium.io/Testinium.RestApi/api/plans/{planId}/fastRun' \  
+curl --location --request POST 'https://testinium.io/Testinium.RestApi/api/plans/{planId}/fastRun' \  
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'Content-Type: application/json' \  
 --data-raw '[  

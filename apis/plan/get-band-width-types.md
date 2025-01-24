@@ -110,7 +110,7 @@ Retrieves all available bandwidth types along with their associated read and wri
 | 403         | `FORBIDDEN`      | The user does not have sufficient permissions to access the resource. |
 | 500         | `INTERNAL_ERROR` | An internal server error occurred while processing the request.       |
 
-#### Example Request
+### Example Request
 
 ```bash
 curl --location --request GET "https://testinium.io/Testinium.RestApi/api/enums/bandWidthTypes" \
