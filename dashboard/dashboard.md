@@ -2,11 +2,9 @@
 
 Once the login process is successfully completed, the system directs to the **dashboard** screen.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-27 at 15.40.12.png" alt=""><figcaption></figcaption></figure>
 
 If the screen is examined; the menu screen containing the dashboard, projects, scenarios, plans, and reports is located on the left side. In the top right corner, the profile, account information screens, Log out tabs for signing out, and the Announcements tab displaying the list of announcements are available.
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 The following cards are displayed on the Dashboard screen;
 
