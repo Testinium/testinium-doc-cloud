@@ -1,6 +1,6 @@
 # Account Information
 
-It is a personal page with **users, billing, company, plugins** and **tunnel** information.
+_**Account Information**_ is the screen that contains user and company information in _Basic Information_, _Users_, _Billing_, _Company_ and _Plugins_ tabs.
 
 We cannot share the information of other pages due to the privacy policy.
 

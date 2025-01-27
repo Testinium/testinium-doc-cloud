@@ -2,58 +2,62 @@
 
 **TESTINIUM CLOUD JIRA PLUGIN MANUAL**
 
-In Testinium Cloud, there is a plugin that integrates Testinium and JIRA. You can create JIRA issues directly from your test result reports. In this document, you will find a step by step description on how to use JIRA Plugin in Testinium.
+Testinium Cloud includes a JIRA integration plugin, allowing you to create JIRA issues directly from your test result reports. This document provides a step-by-step guide on how to use the JIRA Plugin in Testinium.
 
-Once you open the dashboard,
+To get started:
 
-* First of, select the Account Information option from menu on the right.
+1. Open the dashboard.
+2. Select the **Account Information** option from the menu on the right.
 
-![](<../../.gitbook/assets/1 (4)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.29.23.png>)
 
-* Click on PLUGINS.
+* Click on the **Plugins** tab.
 
-![](<../../.gitbook/assets/2 (3)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.30.45.png>)
 
-* Click on the Edit button for JIRA plugin.
+* Click the **Edit** button for the JIRA plugin.
 
-![](<../../.gitbook/assets/3 (4)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.33.55.png>)
 
-* On the Plugin Page, Enter your server url, username and password for your Jira account. Then click Save.
+* On the **Plugin** page, enter your server URL, email address, and access token for your JIRA account. Then, click **Save**.
 
-![](<../../.gitbook/assets/4 (4)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.39.18.png>)
 
-* After saving, it is necessary to configure project specific settings. For that, navigate to the PROJECTS page from the left top corner in the dashboard. Then select the SUMMARY option for your project.
+* After saving, you need to configure project-specific settings. To do this, navigate to the **Projects** page from the top-left corner of the dashboard. Then, select the **Summary** option for your project.
 
-![](<../../.gitbook/assets/5 (2)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.43.39.png>)
 
-* Select ADVANCED option.
+* Select the **Advanced** option.
 
-![](../../.gitbook/assets/6)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.45.40.png>)
 
-* Set Enabled in JIRA tab and fill in necessary fields. Users and Projects of your JIRA account will be listed here. Then, click SAVE.
+* In the **JIRA** tab, set **Enabled** and fill in the required fields. The users and projects associated with your JIRA account will be listed here. Finally, click **Save**.
 
-![](<../../.gitbook/assets/7 (3)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.04.28.png>)
 
-* Now you can go to a test report and create a JIRA issue. In order to reach a test report page,
+* Now you can navigate to a test report and create a JIRA issue. To access a test report page:
+  1. Select the **Test Executions (Auto)** option from the **Reports** tab.
+  2. Select your project.
+  3. Click on **Details** for any test.
 
-1. Select TEST EXECUTIONS(AUTO) option from REPORTS tab.
-2. Select your project.
-3. Click on DETAILS for any test.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.07.32.png>)
 
-![](../../.gitbook/assets/8)
+* Click **Details** for the selected test.
 
-* Click DETAILS for the selected test.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.09.04.png>)
 
-![](<../../.gitbook/assets/9 (3)>)
+* Click the **Create JIRA Issue** button.
 
-* Click the CREATE JIRA ISSUE button.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.10.27.png>)
 
-![](<../../.gitbook/assets/10 (1)>)
+* Add any additional details or description for your issue, then click **Create**.
 
-* Add any additional summary for your issue and click CREATE.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.13.54.png>)
 
-![](<../../.gitbook/assets/11 (2)>)
+* You can view the created JIRA issue by clicking the **View JIRA Issue** button on the same page.
 
-* You can view the created issue from your JIRA dashboard.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-27 at 16.21.37.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/12 (2)>)
+* After clicking the **View JIRA Issue** button, you will be redirected to the JIRA board, where you can view the created issue.
+
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 16.18.13.png>)

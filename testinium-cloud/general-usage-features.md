@@ -1,10 +1,10 @@
-# General Usage Features
+# GENERAL USAGE FEATURES
 
 **Prerequisites;**
 
 In order to enable users to perform on Testinium modules the operations that are in the User Guide;
 
-\- User Login
+-User Login
 
 \- Menu and Operation authority must be given to user.
 
