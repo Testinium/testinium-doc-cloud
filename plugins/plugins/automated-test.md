@@ -2,28 +2,32 @@
 
 **TESTINIUM CLOUD AUTOMATED TEST MANUAL**
 
-When you use Testinium, there is an automated test option you can use to run your tests on the cloud. Automated Test enables users to take advantage of the advanced cloud testing infrastructure. You will write and modify tests on your local machine and run them on Testinium cloud. Throughout this manual, you will find a step by step tutorial on how to use the Automated Test feature on Testinium.
+Testinium provides an **Automated Test** feature that allows you to run your tests seamlessly on the cloud. This feature enables users to utilize Testinium's advanced cloud testing infrastructure. You can write and modify tests on your local machine and execute them directly on the Testinium cloud.
 
-* Once you login to your Testinium account, click on the AUTOMATED TEST option on the upper left corner of the dashboard. This button will take you to the Code Generator page.
+This manual provides a step-by-step guide to using the **Automated Test** feature in Testinium.
 
-![](../../.gitbook/assets/1)
+1. Log in to your Testinium account.
+2. Click on the **Automated Test** option located in the upper-left corner of the dashboard.
+   * This will redirect you to the **Code Generator** page.
 
-* On the Code Generator page, you are presented with options. You can select Platform, Operating System and Browser for your test. You can also choose Screenshots and Video Recording options if you want.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 17.14.56.png>)
 
-![](<../../.gitbook/assets/2 (2)>)
+* On the **Code Generator** page, you will see various options. You can select the **Platform**, **Operating System**, and **Browser** for your test. Additionally, you can enable the **Screenshots** and **Video Recording** options if desired.
 
-* When you scroll down the page, you will see the generated code for your test based on the options selected above. In this document, we will continue with Java code but you can select other options if you like.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 17.16.16.png>)
 
-![](<../../.gitbook/assets/3 (2)>)
+* When you scroll down the page, the generated code for your test, based on the options selected above, will be displayed. In this document, we will proceed with **Java** code; however, you may choose other options if preferred.
 
-* Copy the generated code to an IDE of your choice in your local machine. We use IntelliJ here.
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 17.17.12.png>)
+
+* Copy the generated code to an IDE of your choice on your local machine. In this guide, we will use **IntelliJ** as an example.
 
 ![](<../../.gitbook/assets/4 (5)>)
 
-* You will be required to add libraries for the code. We have added the libraries to the pom.xml file since we use Maven for dependency management.
+* You will need to add the required libraries for the code. Since we are using **Maven** for dependency management, the libraries have been added to the **pom.xml** file.
 
 ![](<../../.gitbook/assets/5 (5)>)
 
-* Now we are all set. You can run the test and navigate back to the Testinium OPERATION REPORT tab. At the top of the list, you can see the most recent test result.
+* Now everything is ready. You can run the test and navigate to the **Operation Report** tab in Testinium. At the top of the list, you will find the most recent test result.
 
 ![](<../../.gitbook/assets/6 (4)>)
