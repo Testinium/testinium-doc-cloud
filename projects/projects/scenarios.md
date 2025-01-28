@@ -12,6 +12,6 @@ Scenarios is the screen where the scenarios of the project are listed and new sc
 
 * A new scenario can be created by clicking on the _**Create New Scenario**_ button.
 * A new scenario group can be created by clicking on the _**Create New Scenario Group**_ button.
-* Synchronisation processes are performed by clicking the **Create New Scenarios** button.
+* Synchronisation processes are performed by clicking the _**Create New Scenarios**_ button.
 * Scenarios are listed.
 * Created scenarios can be edited and deleted.

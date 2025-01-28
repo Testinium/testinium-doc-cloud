@@ -1,20 +1,23 @@
 # Advanced
 
-It is the area where the integration of the project with **Testrail, Jira and Xray** is provided.
+Advenced is the field where the integration of the project with Testrail, Jira and Xray is provided.
 
-**Enable** button must be selected for plugin connection.
+1. Click the _**Advabced**_ Tab.
+2. Select the plugin to integrate.
+3. Switch the option from disable to enable.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 16.21.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 16.27.26.png" alt=""><figcaption></figcaption></figure>
 
-**TestRail Project Name,** Write the name to be given to the project.
+4. Select the plugin information required for integration.
+5. Click _**Apply**_ to ensure that the changes are applied.
+6. Click _**Save**_ to unsure that the system saves the information in the system.
+7. Click the _**Cancel**_ button to cancel the process.
 
-**Apply,** enables the changes to be applied.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 16.28.23.png" alt=""><figcaption></figcaption></figure>
 
-\*\*Save,\*\*the system saves the new scenario value to the system.
 
-**Cancel,** If the Cancel button is pressed, the system cancels the scenario definition process.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 21.10.14.png" alt=""><figcaption></figcaption></figure>
+
 
 
 
