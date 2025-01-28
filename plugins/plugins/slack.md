@@ -2,50 +2,67 @@
 
 **SLACK PLUGIN - CLOUD**
 
-1. Sign in the slack or create account with [https://slack.com/signin#/signin](https://slack.com/signin#/signin)
-2. Create a workspace if you do not have one. [https://slack.com/signin#/workspaces](https://slack.com/signin#/workspaces)
-3. Go to [https://api.slack.com/](https://api.slack.com) and click **Create a custom app**![](../../.gitbook/assets/2)
-4. Give your app a name and select the workspace you want to use.
+1. Sign in to Slack or create an account at [**Slack Sign-In**](https://slack.com/signin#/signin).
+2. If you do not already have a workspace, create one at [**Slack Workspaces**](https://slack.com/signin#/workspaces).
+3. Navigate to [**Slack API Apps**](https://api.slack.com/apps) and click **Create New App**.
 
-![](<../../.gitbook/assets/3 (3)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 21.48.01.png" alt=""><figcaption></figcaption></figure>
 
-1. Go to **Settings** -> **Manage Distribution** page. Under the **Share Your App with Other Workspaces** enable **Bots** and **Permissions**.
+4. Select **From Scratch** on the **Create an App** pop-up.
 
-![](<../../.gitbook/assets/4 (2)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 21.48.31.png" alt=""><figcaption></figcaption></figure>
 
-1. Go to **Features -> OAuth & Permissions**. Under the **Scopes** section, add the necessary OAuth scopes to **Bot Token Scopes.** These are channels:read, chat:write or chat:write.public according to your preference, usergroups:read, users.profile:read, users:read.
+5. Enter a name for your app, select the workspace you want to use, and click the **Create App** button.
 
-![](../../.gitbook/assets/5)
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 21.36.52.png>)
 
-1. From the same page, click **Reinstall to Workspace** button under the **OAuth Tokens & Redirect URLs** section for changes you made to take effect.
+6. Navigate to **Features** -> **OAuth & Permissions**.\
+   Under the **Scopes** section, add the required OAuth scopes to **Bot Token Scopes**. The necessary scopes are:
+   * `channels:read`
+   * `chat:write` or `chat:write.public`
+   * `usergroups:read`
+   * `users.profile:read`
+   * `users:read`
 
-![](<../../.gitbook/assets/6 (2)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 21.56.33.png" alt=""><figcaption></figcaption></figure>
 
-1. Copy your **Bot User OAuth Access Token**. Go to [Testinium](https://testinium.io).
-2. Go to **Account Information**
+7. Navigate to **Settings** - **Manage Distribution**. Under the **Share Your App with Other Workspaces** section, enable **Bots** and **Permissions**.
 
-![](<../../.gitbook/assets/7 (1)>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 21.54.15 (1).png" alt=""><figcaption></figcaption></figure>
 
-1. Go to **Plugins.** Click the Edit button of the **Slack Plugin.**
+8. On the same page, under the **OAuth Tokens & Redirect URLs** section, click the **Install to Workspace** button to apply the changes you made.
 
-![](<../../.gitbook/assets/8 (1)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 21.58.55.png>)
 
-1. Paste the **OAuth Access Token** you have copied into the **SLACK API TOKEN\*** box.
+9. Copy your **Bot User OAuth Access Token**. Then, navigate to **Testinium** and go to the **Account Information** page.
 
-![](<../../.gitbook/assets/9 (2)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-27 at 15.29.23 (1).png>)
 
-1. Click **SAVE** and go to the suite you want to use with Slack Plugin. Click **Edit**.
+10. Navigate to the **Plugins** tab and click the **Edit** button for the Slack Plugin.
 
-![](<../../.gitbook/assets/10 (2)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.04.10 (1).png>)
 
-1. Go to **SCHEDULE & NOTIFICATIONS** section. Enable **Notifications** if it is not.
+11. Paste the **OAuth Access Token** you copied into the **SLACK API TOKEN** box.
 
-![](../../.gitbook/assets/11)
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.06.34.png>)
 
-1. Select Slack as your **Notification Type.** In the **Slack\*** box, give **@username** if you want to send Slack notification to an user otherwise give **#channelname** to send Slack notification to a channel.
-2. Select **Execution Status** you wish and click the **ADD** button.
-3. Click **APPLY** and **SAVE** and run your Suite. According to your Execution Status, Slack notification should be received.
+12. Click **Save**, then navigate to the **Plan** you want to use with the Slack Plugin. Click **Edit** button.
 
-![](<../../.gitbook/assets/12 (1)>)
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.38.50.png>)
 
-![](<../../.gitbook/assets/13 (1)>)
+13. Navigate to the **SCHEDULE & NOTIFICATIONS** section. Enable **Notifications** if it is not already enabled. Select **Slack** as your **Notification Type**.
+
+    In the **Slack** box:
+
+    * Enter **@username** to send the Slack notification to a specific user.
+    * Enter **#channelname** to send the Slack notification to a specific channel.
+
+    Select the desired **Execution Status** for notifications and click the **Add** button. Then, click **Apply** and **Save** buttons.
+
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.36.45.png>)
+
+&#x20;14\. Run your test plan. Based on the selected **Execution Status**, a Slack notification will be sent and should be received.
+
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.40.01.png>)
+
+![](<../../.gitbook/assets/Screenshot 2025-01-28 at 22.46.35.png>)
