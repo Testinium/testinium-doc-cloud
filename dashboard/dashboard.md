@@ -22,8 +22,6 @@ The following cards are displayed on the Dashboard screen;
 
 <figure><img src="../.gitbook/assets/Ekran Resmi 2023-06-19 22.45.57.png" alt=""><figcaption></figcaption></figure>
 
-
-
 It is directed to the _**Execution of Reports**_ screen with the Detail button.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-27 at 16.08.00.png" alt=""><figcaption></figcaption></figure>

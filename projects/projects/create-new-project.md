@@ -2,92 +2,95 @@
 
 When the Create New Project button is clicked, you will be directed to the creation screen of the project to be uploaded to the system.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 00.39.16 (1).png" alt=""><figcaption></figcaption></figure>
+The following steps should be followed to create a new project;
+
+1. Click on _**Create New Project**_ button.
+2. Select the project type.
+
+_**Selenium**_ is selected if the test will be performed on the web browser, _**Appium**_ if the mobile test will be performed, and _**Service**_ if the service tests will be performed.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.16.06.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;**2.1  If&#x20;**_**Selenium**_**&#x20;is selected;**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.19.42.png" alt=""><figcaption></figcaption></figure>
+
+**a.** Enter these values on the screen that pops up;
+
+&#x20;   _1. Project Name_
+
+&#x20;   _2. GIT Project Folder Name (This is where the test codes are located)_
+
+&#x20;   _3. Test File Type_
+
+**Create From Template;** We'll create a sample web project based on a url give.The desired url     address is entered in the relevant field.
+
+**b.** Click the _**Save**_ button to save the new project
+
+**c.** Click the _**Cancel**_ button to cancel the new project definition process
 
 
 
-Project type selection is required.
+**2.2. If  Appium is selected;**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 00.40.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.38.16.png" alt=""><figcaption></figcaption></figure>
 
-**If the choice is Selenium;**
+**a.** Enter these values on the screen that pops up;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 08.05.07.png" alt=""><figcaption></figcaption></figure>
+&#x20;    _1. Test Framework_
 
-On the pop-up screen;
+&#x20;    _2. Test File Type_
 
-_1. Test Framework_
+&#x20;    _3. Project Name_
 
-_2. Test File Type_
+&#x20;    _4. GIT Project Folder Name_
 
-_3. Test Runner Tool_
+&#x20;    _5. IOS Mobile App_
 
-_4. Project Name_
+&#x20;    _6. Android Mobile App_
 
-_5. GIT Project Folder Name (This is where the test codes are located)_
+**Create From Template;** We'll create a sample web project based on a url give.The desired url     address is entered in the relevant field.
+
+**b.** Click the _**Save**_ button to save the new project
+
+**c.** Click the _**Cancel**_ button to cancel the new project definition process.
+
+
+
+**2.3. If Service is selected;**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.45.06.png" alt=""><figcaption></figcaption></figure>
+
+**a.** Enter these values on the screen that pops up;
+
+&#x20;     _1. Project Name_
+
+&#x20;    _2. Test File Type_
+
+&#x20;   _3. GIT Project Folder Name (This is where the test codes are located)_
 
 **Create From Template;** We'll create a sample web project based on a url give.The desired url address is entered in the relevant field.
 
-These values are entered and the Save button is clicked. The system saves the new project
+**b.** Click the _**Save**_ button to save the new project
 
-definition. If the Cancel button is clicked, the system cancels the new Project definition process.
+**c.** Click the _**Cancel**_ button to cancel the new project definition process.
 
-On the pop-up screen;
 
-**If the choice is Appium;**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 08.05.30.png" alt=""><figcaption></figcaption></figure>
+3. After creating the project, an access token must be created so that the account can pull the git code of the Testinium.io project.&#x20;
 
-_1.Test Framework_
+&#x20;    The access token is created from this page;&#x20;
 
-_2.Test File Type_
+&#x20;    https://git.testinium.io/-/profile/personal\_access\_tokens&#x20;
 
-_3.Project Name_
+&#x20;    For example;
 
-_4.GIT Project Folder Name_
+&#x20;    **username:** demouser&#x20;
 
-_5.IOS Mobile App_
+&#x20;    **repo:** https://git.testinium.io/\_demouser/demo-project.git&#x20;
 
-_6.Android Mobile App_
+&#x20;    **access token:** AAAAAAAAAAAAA  can be localised with git clone **https://demouser@git.testinium.io/\_demouser/demo-project.git** command.&#x20;
 
-**Create From Template;** We'll create a sample web project based on a url give.The desired url address is entered in the relevant field.
+&#x20;  Write the access token value (AAAAAAAAAAAAA) in the password field.&#x20;
 
-These values are entered and the Save button is clicked. The system saves the new project definition. If the Cancel button is clicked, the system cancels the new project definition process.
-
-**If the choice is Service;**
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 08.15.19.png" alt=""><figcaption></figcaption></figure>
-
-On the pop-up screen;
-
-_1. Test Framework_
-
-_2. Test File Type_
-
-_3. Test Runner Tool_
-
-_4. Project Name_
-
-_5. GIT Project Folder Name (This is where the test codes are located)_
-
-**Create From Template;** We'll create a sample web project based on a url give.The desired url address is entered in the relevant field.
-
-These values are entered and the Save button is clicked. The system saves the new project definition. If the Cancel button is clicked, the system cancels the new Project definition process.
-
-After the project is created, an access token must be created for the account to pull the git code of the Testinium.io project.
-
-Access token is created from page [https://git.testinium.io/-/profile/personal\_access\_tokens](https://git.testinium.io/-/profile/personal_access_tokens)
-
-For example:
-
-username: demouser\
-repo: https://git.testinium.io/\_demouser/demo-project.git\
-access token: AAAAAAAAAAA
-
-It can be pulled to the local with the\
-**git clone https://demouser@git.testinium.io/\_demouser/demo-project.git**\
-command.
-
-Access token value (AAAAAAAAAAA) is written in the password field.
-
-After the project is updated, it can be pushed with basic git commands.
+&#x20;  After the project is updated, it can be pushed with basic git commands.&#x20;

@@ -1,21 +1,26 @@
+---
+description: This screen can be found under the Projects heading in the Testinium menu.
+---
+
 # Projects
 
-It is the area where we upload the project that enables it to be tested by creating a project and plan in the system.
+_**Projects;**_ this is the field where projects and plans are created and projects are updated in order to perform tests in the system.
 
-Testinium -> Projects
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 10.03.07.png" alt=""><figcaption></figcaption></figure>
 
-* **Sort By (Recently Added);** Sorts by the most recently added project.
-* **Sort By (Project Name);** Sorts them alphabetically by project name.
+* The projects on the screen can be sorted according to the following headings on the top right of the screen;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 00.30.32.png" alt=""><figcaption></figcaption></figure>
+&#x20;         **Sort By Recently Added;** Sorts by the most recently added project.
 
-**"+"** By clicking on the button, you will be directed to the project adding and plan adding pages.
+&#x20;         **Sort By Project Name;** Sorts them alphabetically by project name.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 00.31.53.png" alt=""><figcaption></figcaption></figure>
+* **‘+’** button on the project card directs to the project and plan adding pages.
 
-**"---"** By clicking the button, the created project is deleted.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 11.24.09.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 00.32.25.png" alt=""><figcaption></figcaption></figure>
+* **‘---’** button on the project card directs to Delete button for deleting the related project.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 11.36.52.png" alt=""><figcaption></figcaption></figure>
 
 
 
