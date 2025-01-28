@@ -1,6 +1,8 @@
 # Properties
 
-Allows you to make changes from Project Name, Git Project Folder Name fields.
+Properties is the screen where changes can be made from the Project Name, Git Project Folder Name fields of the project.
+
+
 
 
 
