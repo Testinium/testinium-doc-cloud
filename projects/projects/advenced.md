@@ -12,7 +12,7 @@ The integration process is completed by following the steps below;
 
 4. Select the plugin information required for integration.
 5. Click _**Apply**_ to ensure that the changes are applied.
-6. Click _**Save**_ to unsure that the system saves the information in the system.
+6. Click _**Save**_ to ensure that the system saves the information in the system.
 7. Click the _**Cancel**_ button to cancel the process.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 16.28.23.png" alt=""><figcaption></figcaption></figure>
