@@ -1,6 +1,8 @@
 # Advanced
 
-Advenced is the field where the integration of the project with Testrail, Jira and Xray is provided.
+Advanced is the field where the integration of the project with Testrail, Jira and Xray is provided.
+
+The integration process is completed by following the steps below;
 
 1. Click the _**Advabced**_ Tab.
 2. Select the plugin to integrate.
