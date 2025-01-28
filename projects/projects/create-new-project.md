@@ -37,17 +37,15 @@ _**Selenium**_ is selected if the test will be performed on the web browser, _**
 
 **a.** Enter these values on the screen that pops up;
 
-&#x20;    _1. Test Framework_
+&#x20;    _1. Project Name_
 
-&#x20;    _2. Test File Type_
+&#x20;    _2. GIT Project Folder Name_
 
-&#x20;    _3. Project Name_
+&#x20;    _3. Test File Type_
 
-&#x20;    _4. GIT Project Folder Name_
+&#x20;    _4. IOS Mobile App_
 
-&#x20;    _5. IOS Mobile App_
-
-&#x20;    _6. Android Mobile App_
+&#x20;    _5. Android Mobile App_
 
 **Create From Template;** We'll create a sample web project based on a url give.The desired url     address is entered in the relevant field.
 
