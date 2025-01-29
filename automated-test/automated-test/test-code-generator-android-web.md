@@ -1,34 +1,38 @@
 # Test Code Generator(Android Web)
 
-**1.Select A Platform**
+**1. Select a Platform**
 
-Lets you choose the platform on which you want to run your test.Platforms to choose from;
+Allows you to choose the platform on which you want to run your test. Available platforms:
 
-* Android App
-* Android Web
+* **Android App**
+* **Android Web**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.02.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.04.14.png" alt=""><figcaption></figcaption></figure>
 
-**2.Select A Operating System**
+#### **2. Select an Operating System**
 
-It allows you to select the operating system, mobile device and version information on which you want to run your test.Fields to choose from;
+This option allows you to select the **operating system, mobile device, and version** for running your test.
 
-* Android
-* Mobile Device
-* Version
+#### **Fields to choose from:**
 
-**Take Screenshot,** allows you to take a screenshot of the test run.
+* **Android** – Select the Android OS for testing.
+* **Mobile Device** – Choose the specific mobile device.
+* **Version** – Specify the OS version.
+* **Take Screenshot** – Captures a screenshot during the test run.
+* **Record Video** – Records a video of the test execution.
 
-**Record Video,** allows you to take a record video of the test run.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.04.36.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.02.47.png" alt=""><figcaption></figcaption></figure>
+#### **3. Generated Code for Local Execution**
 
-It is the part of the code created so that you can run it in your local environment.Executable code options;
+This section contains the code generated for execution in your local environment.
 
-* Java
-* C#
-* Pytho
-* Ruby
-* Node
+#### **Executable code options:**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.03.41.png" alt=""><figcaption></figcaption></figure>
+* **Java**
+* **C#**
+* **Python**
+* **Ruby**
+* **Node.js**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.05.06.png" alt=""><figcaption></figcaption></figure>

@@ -1,33 +1,39 @@
 # Test Code Generator(IOS Web)
 
-**1.Select A Platform**
+#### **1. Select a Platform**
 
-Lets you choose the platform on which you want to run your test.Platforms to choose from;
+This option allows you to choose the platform on which you want to run your test.
 
-* IOS Web
+#### **Available platforms:**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.06.18.png" alt=""><figcaption></figcaption></figure>
+* **iOS Web**
 
-**2.Select A Operating System**
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.22.53.png" alt=""><figcaption></figcaption></figure>
 
-It allows you to select the operating system, mobile device and version information on which you want to run your test.Fields to choose from;
+#### **2. Select an Operating System**
 
-* IOS
-* Mobile Device
-* Version
+This option allows you to select the **operating system, mobile device, and version** for running your test.
 
-**Take Screenshot,** allows you to take a screenshot of the test run.
+#### **Fields to choose from:**
 
-**Record Video,** allows you to take a record video of the test run.
+* **iOS** – Select the iOS operating system for testing.
+* **Mobile Device** – Choose the specific mobile device.
+* **Version** – Specify the OS version.
+* **Take Screenshot** – Captures a screenshot during the test run.
+* **Record Video** – Records a video of the test execution.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.06.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.23.26.png" alt=""><figcaption></figcaption></figure>
 
-It is the part of the code created so that you can run it in your local environment.Executable code options;
+#### **3. Generated Code for Local Execution**
 
-* Java
-* C#
-* Pytho
-* Ruby
-* Node
+This section contains the code generated for execution in your local environment.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.07.04.png" alt=""><figcaption></figcaption></figure>
+#### **Executable code options:**
+
+* **Java**
+* **C#**
+* **Python**
+* **Ruby**
+* **Node.js**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 16.24.14.png" alt=""><figcaption></figcaption></figure>

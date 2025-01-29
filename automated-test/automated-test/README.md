@@ -1,7 +1,7 @@
 # Automated Test
 
-It shows the sample base of the test that will be triggered from local and run in testinium according to the selected environments.
+On this page, the sample base of the test is created and displayed based on the selected environments. The test will be triggered locally and executed in Testinium.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 10.35.05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 15.44.02.png" alt=""><figcaption></figcaption></figure>
 
 ###

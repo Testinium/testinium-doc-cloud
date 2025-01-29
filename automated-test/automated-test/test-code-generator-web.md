@@ -1,39 +1,40 @@
 # Test Code Generator(Web)
 
-**1.Select A Platform**
+**1. Select a Platform**
 
-Lets you choose the platform on which you want to run your test.Platforms to choose from;
+Allows you to choose the platform on which you want to run your test. Available platforms:
 
-* Web
+* **Web**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 16.31.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 15.49.55.png" alt=""><figcaption></figcaption></figure>
 
-**2.Select A Operating System**
+**2. Select an Operating System**
 
-It allows you to choose the Operating system, browser and version you want to run your test.Fields to choose from;
+This option allows you to choose the **operating system, browser, and version** for running your test.
 
-* Operating System
-* Browser
-* Version
+#### **Fields to choose from:**
 
-**Take Screenshot,** allows you to take a screenshot of the test run.
-
-**Record Video,** allows you to take a record video of the test run.
-
-**Screen Resolution** ,sets the screen size of the window in which the automation will run.
-
+* **Operating System** – Select the OS on which the test will run.
+* **Browser** – Choose the browser for execution.
+* **Version** – Specify the browser version.
+* **Take Screenshot** – Captures a screenshot during the test run.
+* **Record Video** – Records a video of the test execution.
+* **Screen Resolution** – Sets the screen size for the test automation window.
 
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 16.32.46.png" alt=""><figcaption></figcaption></figure>
 
-It is the part of the code created so that you can run it in your local environment.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 15.50.17.png" alt=""><figcaption></figcaption></figure>
 
-Executable code options;
+#### **3. Generated Code for Local Execution**
 
-* Java
-* C#
-* Pytho
-* Ruby
-* Node
+This section contains the code generated for execution in your local environment.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 16.33.37.png" alt=""><figcaption></figcaption></figure>
+#### **Executable code options:**
+
+* **Java**
+* **C#**
+* **Python**
+* **Ruby**
+* **Node.js**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 15.50.40.png" alt=""><figcaption></figcaption></figure>

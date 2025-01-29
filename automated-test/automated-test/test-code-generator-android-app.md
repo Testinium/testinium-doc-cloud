@@ -32,12 +32,16 @@ If you do not have an apk file, the default application file will be selected fo
 
 <figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.11.58.png" alt=""><figcaption></figcaption></figure>
 
-It is the part of the code created so that you can run it in your local environment.Executable code options;
+#### **4. Generated Code for Local Execution**
 
-* Java
-* C#
-* Pytho
-* Ruby
-* Node
+This section contains the code generated for execution in your local environment.
+
+#### **Executable code options:**
+
+* **Java**
+* **C#**
+* **Python**
+* **Ruby**
+* **Node.js**
 
 <figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.12.18.png" alt=""><figcaption></figcaption></figure>
