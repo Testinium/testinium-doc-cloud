@@ -1,36 +1,35 @@
 # Test Code Generator(Android App)
 
-**1.Select A Platform**
+**1. Select a Platform**
 
-Lets you choose the platform on which you want to run your test.Platforms to choose from;
+Allows you to choose the platform on which you want to run your test. Available platforms:
 
-* Android App
+* **Android App**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.08.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 17.37.16.png" alt=""><figcaption></figcaption></figure>
 
-**2.Select A Operating System**
+#### **2. Select an Operating System**
 
-It allows you to select the operating system, mobile device and version information on which you want to run your test.Fields to choose from;
+This option allows you to select the **operating system, mobile device, and version** for running your test.
 
-* Android
-* Mobile Device
-* Version
+#### **Fields to choose from:**
 
-**Take Screenshot,** allows you to take a screenshot of the test run.
+* **Android** – Select the Android operating system for testing.
+* **Mobile Device** – Choose the specific mobile device.
+* **Version** – Specify the OS version.
+* **Take Screenshot** – Captures a screenshot during the test run.
+* **Record Video** – Records a video of the test execution.
 
-**Record Video,** allows you to take a record video of the test run.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 17.37.39.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.11.20.png" alt=""><figcaption></figcaption></figure>
+#### **3. Select a Mobile App**
 
-**3.Select A Mobile App**
+This section allows you to install the **APK file** of the application you want to test.
 
-Test is the section that installs the apk file of the application you want to run.
+* If you do not have an APK file, a default application file will be selected for you.
+* Click the **Upload Android** button to install the APK file.
 
-If you do not have an apk file, the default application file will be selected for you.
-
-**Upload Android** click the button to install the apk file.
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.11.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 17.46.22.png" alt=""><figcaption></figcaption></figure>
 
 #### **4. Generated Code for Local Execution**
 
@@ -44,4 +43,4 @@ This section contains the code generated for execution in your local environment
 * **Ruby**
 * **Node.js**
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-22 09.12.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-29 at 17.49.05.png" alt=""><figcaption></figcaption></figure>

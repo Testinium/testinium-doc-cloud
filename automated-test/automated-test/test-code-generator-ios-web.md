@@ -1,10 +1,8 @@
 # Test Code Generator(IOS Web)
 
-#### **1. Select a Platform**
+**1. Select a Platform**
 
-This option allows you to choose the platform on which you want to run your test.
-
-#### **Available platforms:**
+Allows you to choose the platform on which you want to run your test. Available platforms:
 
 * **iOS Web**
 
