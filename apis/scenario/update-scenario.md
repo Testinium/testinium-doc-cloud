@@ -1,0 +1,293 @@
+# Update Scenario
+
+This endpoint is used to **update an existing scenario** in a specified project.
+
+***
+
+### Endpoint Information
+
+* **URL**: `https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios/{scenarioId}`
+* **Method**: `PUT`
+* **Authentication**: Required (`Bearer Token`)
+* **Headers**: Required (`current-company-id: <your_company_id>`)
+
+***
+
+### Path Parameters
+
+| Parameter    | Type     | Required | Description                                    |
+| ------------ | -------- | -------- | ---------------------------------------------- |
+| `projectId`  | `String` | Yes      | The ID of the project containing the scenario. |
+| `scenarioId` | `String` | Yes      | The ID of the scenario to be updated.          |
+
+***
+
+### Request Body
+
+```json
+{
+    "id": 247460,
+    "type": "SELENIUM",
+    "scenario_name": "changedScenarioName",
+    "description": "",
+    "enabled": true,
+    "deleted": false,
+    "testrail_enabled": false,
+    "parent": {
+        "id": 247459,
+        "type": "SELENIUM",
+        "scenario_name": "deneme13",
+        "description": "deneme123",
+        "enabled": true,
+        "deleted": false,
+        "testrail_enabled": false,
+        "execute_mode": "AUTOMATED",
+        "project_id": 3986,
+        "childs": [
+            {
+                "id": 247460,
+                "type": "SELENIUM",
+                "scenario_name": "denemeScenario",
+                "description": "Create Scenario",
+                "enabled": true,
+                "deleted": false,
+                "testrail_enabled": false,
+                "execute_mode": "AUTOMATED",
+                "source_file": "Works.spec",
+                "max_execution_time": 60,
+                "project_id": 3986,
+                "parameterized": false,
+                "has_parameterized_class": false,
+                "java_test_class": "Works",
+                "java_test_methods": "@onlySave",
+                "test_scenario_java_parameters": [],
+                "group": false
+            },
+            {
+                "id": 247461,
+                "type": "SELENIUM",
+                "scenario_name": "subScenario",
+                "description": "Add Sub Scenario",
+                "enabled": true,
+                "deleted": false,
+                "testrail_enabled": false,
+                "execute_mode": "AUTOMATED",
+                "source_file": "Settings.spec",
+                "project_id": 3986,
+                "parameterized": false,
+                "has_parameterized_class": false,
+                "java_test_class": "Settings",
+                "java_test_methods": "@changeLanguage",
+                "test_scenario_java_parameters": [],
+                "group": false
+            }
+        ],
+        "parameterized": false,
+        "has_parameterized_class": false,
+        "test_scenario_java_parameters": [],
+        "group": true
+    },
+    "execute_mode": "AUTOMATED",
+    "source_file": "Works.spec",
+    "max_execution_time": 60,
+    "project_id": 3986,
+    "childs": [],
+    "parameterized": false,
+    "has_parameterized_class": false,
+    "java_test_class": "Works",
+    "java_test_methods": "@saveAndSendWithNotConfirm",
+    "test_scenario_java_parameters": [],
+    "group": false,
+    "jira_enabled": false,
+    "xray_enabled": false
+}
+```
+
+### Request Fields
+
+| Field                           | Type      | Required | Description                                                 |
+| ------------------------------- | --------- | -------- | ----------------------------------------------------------- |
+| `id`                            | `Integer` | Yes      | The ID of the scenario to be updated.                       |
+| `scenario_name`                 | `String`  | Yes      | The updated name of the scenario.                           |
+| `description`                   | `String`  | No       | The updated description of the scenario.                    |
+| `enabled`                       | `Boolean` | No       | Indicates if the scenario is enabled.                       |
+| `deleted`                       | `Boolean` | No       | Indicates if the scenario is deleted.                       |
+| `testrail_enabled`              | `Boolean` | No       | Indicates if TestRail integration is enabled.               |
+| `parent`                        | `Object`  | No       | The parent scenario details.                                |
+| `execute_mode`                  | `String`  | No       | The execution mode of the scenario (`AUTOMATED`, `MANUAL`). |
+| `source_file`                   | `String`  | No       | The source file associated with the scenario.               |
+| `max_execution_time`            | `Integer` | No       | The maximum execution time (in seconds).                    |
+| `project_id`                    | `Integer` | Yes      | The ID of the project associated with the scenario.         |
+| `childs`                        | `Array`   | No       | The child scenarios associated with this scenario.          |
+| `parameterized`                 | `Boolean` | No       | Whether the scenario is parameterized.                      |
+| `has_parameterized_class`       | `Boolean` | No       | Indicates if the scenario has a parameterized class.        |
+| `java_test_class`               | `String`  | No       | The Java test class associated with the scenario.           |
+| `java_test_methods`             | `String`  | No       | The Java test methods associated with the scenario.         |
+| `test_scenario_java_parameters` | `Array`   | No       | A list of Java test parameters.                             |
+| `group`                         | `Boolean` | No       | Indicates if the scenario is a group scenario.              |
+
+***
+
+### Response
+
+A successful request returns the **updated scenario** with the new details.
+
+```json
+{
+    "id": 247460,
+    "type": "SELENIUM",
+    "scenario_name": "changedScenarioName",
+    "description": "",
+    "enabled": true,
+    "deleted": false,
+    "testrail_enabled": false,
+    "parent": {
+        "id": 247459,
+        "type": "SELENIUM",
+        "scenario_name": "deneme13",
+        "description": "deneme123",
+        "enabled": true,
+        "deleted": false,
+        "testrail_enabled": false,
+        "execute_mode": "AUTOMATED",
+        "project_id": 3986,
+        "parameterized": false,
+        "has_parameterized_class": false,
+        "test_scenario_java_parameters": [],
+        "group": true
+    },
+    "execute_mode": "AUTOMATED",
+    "source_file": "Works.spec",
+    "max_execution_time": 60,
+    "project_id": 3986,
+    "childs": [],
+    "parameterized": false,
+    "has_parameterized_class": false,
+    "java_test_class": "Works",
+    "java_test_methods": "@saveAndSendWithNotConfirm",
+    "test_scenario_java_parameters": [],
+    "group": false
+}
+```
+
+### Response Fields
+
+| Field                           | Type      | Description                                         |
+| ------------------------------- | --------- | --------------------------------------------------- |
+| `id`                            | `Integer` | The unique ID of the updated scenario.              |
+| `scenario_name`                 | `String`  | The name of the scenario.                           |
+| `description`                   | `String`  | The description of the scenario.                    |
+| `enabled`                       | `Boolean` | Indicates whether the scenario is active.           |
+| `deleted`                       | `Boolean` | Indicates whether the scenario is deleted.          |
+| `testrail_enabled`              | `Boolean` | Indicates if TestRail integration is enabled.       |
+| `parent`                        | `Object`  | The parent scenario details (if any).               |
+| `execute_mode`                  | `String`  | The execution mode (`AUTOMATED`, `MANUAL`).         |
+| `source_file`                   | `String`  | The source file associated with the scenario.       |
+| `max_execution_time`            | `Integer` | The maximum execution time (in seconds).            |
+| `project_id`                    | `Integer` | The ID of the project associated with the scenario. |
+| `childs`                        | `Array`   | List of child scenarios (empty if none).            |
+| `parameterized`                 | `Boolean` | Indicates if the scenario is parameterized.         |
+| `has_parameterized_class`       | `Boolean` | Indicates if it contains a parameterized class.     |
+| `java_test_class`               | `String`  | The Java test class associated with the scenario.   |
+| `java_test_methods`             | `String`  | The Java test methods associated with the scenario. |
+| `test_scenario_java_parameters` | `Array`   | List of Java test parameters.                       |
+| `group`                         | `Boolean` | Indicates if this is a group scenario.              |
+
+***
+
+### Error Codes
+
+| HTTP Code | Error Message           | Description                                               |
+| --------- | ----------------------- | --------------------------------------------------------- |
+| `404`     | `PROJECT_NOT_FOUND`     | The specified `projectId` was not found.                  |
+| `404`     | `SCENARIO_NOT_FOUND`    | The specified `scenarioId` was not found.                 |
+| `401`     | `UNAUTHORIZED_USER`     | The user is unauthorized or the token is missing/invalid. |
+| `400`     | `INVALID_REQUEST`       | Invalid or incomplete data in the request body.           |
+| `500`     | `INTERNAL_SERVER_ERROR` | A general server error occurred.                          |
+
+***
+
+### Example Request
+
+```bash
+curl --location 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios/{scenarioId}' \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'current-company-id: <your_company_id>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id": 247460,
+    "type": "SELENIUM",
+    "scenario_name": "changedScenarioName",
+    "description": "",
+    "enabled": true,
+    "deleted": false,
+    "testrail_enabled": false,
+    "parent": {
+        "id": 247459,
+        "type": "SELENIUM",
+        "scenario_name": "deneme13",
+        "description": "deneme123",
+        "enabled": true,
+        "deleted": false,
+        "testrail_enabled": false,
+        "execute_mode": "AUTOMATED",
+        "project_id": 3986,
+        "childs": [
+            {
+                "id": 247460,
+                "type": "SELENIUM",
+                "scenario_name": "denemeScenario",
+                "description": "Create Scenario",
+                "enabled": true,
+                "deleted": false,
+                "testrail_enabled": false,
+                "execute_mode": "AUTOMATED",
+                "source_file": "Works.spec",
+                "max_execution_time": 60,
+                "project_id": 3986,
+                "parameterized": false,
+                "has_parameterized_class": false,
+                "java_test_class": "Works",
+                "java_test_methods": "@onlySave",
+                "test_scenario_java_parameters": [],
+                "group": false
+            },
+            {
+                "id": 247461,
+                "type": "SELENIUM",
+                "scenario_name": "subScenario",
+                "description": "Add Sub Scenario",
+                "enabled": true,
+                "deleted": false,
+                "testrail_enabled": false,
+                "execute_mode": "AUTOMATED",
+                "source_file": "Settings.spec",
+                "project_id": 3986,
+                "parameterized": false,
+                "has_parameterized_class": false,
+                "java_test_class": "Settings",
+                "java_test_methods": "@changeLanguage",
+                "test_scenario_java_parameters": [],
+                "group": false
+            }
+        ],
+        "parameterized": false,
+        "has_parameterized_class": false,
+        "test_scenario_java_parameters": [],
+        "group": true
+    },
+    "execute_mode": "AUTOMATED",
+    "source_file": "Works.spec",
+    "max_execution_time": 60,
+    "project_id": 3986,
+    "childs": [],
+    "parameterized": false,
+    "has_parameterized_class": false,
+    "java_test_class": "Works",
+    "java_test_methods": "@saveAndSendWithNotConfirm",
+    "test_scenario_java_parameters": [],
+    "group": false,
+    "jira_enabled": false,
+    "xray_enabled": false
+}'
+```
