@@ -152,4 +152,3 @@
   * [Get File List (Source Tree)](apis/scenario/get-file-list-source-tree.md)
   * [Get BDD Steps](apis/scenario/get-bdd-steps.md)
   * [Read Test Method List](apis/scenario/read-test-method-list.md)
-  * [File Edit](apis/scenario/file-edit.md)

@@ -61,7 +61,7 @@ The response will contain a list of BDD steps categorized into **concepts** and 
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/vcs/{projectId}/bddSteps' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/vcs/{projectId}/bddSteps' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json'

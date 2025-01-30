@@ -130,7 +130,7 @@ The response is a **paginated** list of test scenarios.
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/scenarios/filter?page=1&size=20email=kullanici@email.com' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/scenarios/filter?page=1&size=20email=kullanici@email.com' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

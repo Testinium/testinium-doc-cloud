@@ -99,7 +99,7 @@ A successful request returns the **details of the created group scenario**.
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/groupScenarios' \
+curl --location --request POST 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/groupScenarios' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

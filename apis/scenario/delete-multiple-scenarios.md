@@ -59,7 +59,7 @@ true
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/scenarios/deleteMultipleScenarios' \
+curl --location --request DELETE 'https://testinium.io/Testinium.RestApi/api/scenarios/deleteMultipleScenarios' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

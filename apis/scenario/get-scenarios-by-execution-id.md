@@ -100,6 +100,6 @@ The response contains a list of scenarios associated with the specified executio
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/scenarios/execution/{executionId}' \  
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/scenarios/execution/{executionId}' \  
 --header 'Authorization: Bearer <your_access_token>'
 ```

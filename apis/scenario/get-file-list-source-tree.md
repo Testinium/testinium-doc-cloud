@@ -112,7 +112,7 @@ The response provides the hierarchical **file and directory structure** for the 
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/vcs/3536/sourceTree?fullPath=true' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/vcs/3536/sourceTree?fullPath=true' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

@@ -10,7 +10,7 @@ This endpoint is used to **create a new scenario in a specified project**.
 
 ### Endpoint Information
 
-* **URL**: `https://testinium.io/Testinium.RestApi/api/``projects/{projectId}/scenarios`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios`
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 * **Headers**: Required (`current-company-id: <your_company_id>`)
@@ -156,7 +156,7 @@ A successful request returns the **details of the created scenario**.
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios' \
+curl --location --request POST 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

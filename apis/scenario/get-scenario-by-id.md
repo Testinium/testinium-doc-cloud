@@ -89,7 +89,7 @@ The response returns the details of the requested test scenario.
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/scenarios/{scenarioId}' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/scenarios/{scenarioId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

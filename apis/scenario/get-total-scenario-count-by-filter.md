@@ -53,7 +53,7 @@ The response returns the total count of scenarios that match the specified filte
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/scenarios/totalCountByfilter?projectId=123&planId=456&scenarioText=example' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/scenarios/totalCountByfilter?projectId=123&planId=456&scenarioText=example' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

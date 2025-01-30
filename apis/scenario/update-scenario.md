@@ -210,7 +210,7 @@ A successful request returns the **updated scenario** with the new details.
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios/{scenarioId}' \
+curl --location --request PUT 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/scenarios/{scenarioId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

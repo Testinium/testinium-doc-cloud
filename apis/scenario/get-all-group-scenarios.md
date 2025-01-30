@@ -118,7 +118,7 @@ The response will contain a list of **group scenarios** and their associated chi
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/groupScenarios' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/projects/{projectId}/groupScenarios' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json'
