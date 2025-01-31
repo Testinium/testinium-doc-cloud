@@ -2,7 +2,7 @@
 
 1. Navigate to [https://account.testinium.com/uaa/login](https://account.testinium.com/uaa/login) .
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-15 15.42.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-31 at 08.26.31.png" alt=""><figcaption></figcaption></figure>
 
 2. On the pop-up screen;
 

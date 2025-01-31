@@ -1,6 +1,6 @@
 # Jira
 
-**TESTINIUM CLOUD JIRA PLUGIN MANUAL**
+**TESTINIUM CLOUD JIRA PLUGIN**&#x20;
 
 Testinium Cloud includes a JIRA integration plugin, allowing you to create JIRA issues directly from your test result reports. This document provides a step-by-step guide on how to use the JIRA Plugin in Testinium.
 
