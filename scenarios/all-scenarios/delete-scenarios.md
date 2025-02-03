@@ -1,9 +1,11 @@
 # Delete Scenarios
 
-**Delete** button allows deletion of the created scenario.
+This page will explain what to do for scenario deletion. For scenario deletion, the following steps are followed;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.47.03.png" alt=""><figcaption></figcaption></figure>
+1. Click the **Delete** button to delete the created scenario.
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+<figure><img src="../../.gitbook/assets/Scenario  Delete 1 .png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.47.21.png" alt=""><figcaption></figcaption></figure>
+1. Click the _**Yes**_ button to response to the question "Are you sure you want to delete this record?". If the _**No**_ button is clicked, the system cancels the deletion process.
+
+<figure><img src="../../.gitbook/assets/Scenario Delete 2.png" alt=""><figcaption></figcaption></figure>

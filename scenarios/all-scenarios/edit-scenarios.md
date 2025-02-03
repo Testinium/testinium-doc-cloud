@@ -1,33 +1,30 @@
 # Edit Scenarios
 
-**Edit**, It allows you to go to the details of the scenario created by clicking the button and make adjustments.
+_**Edit**_ is the button that allows you to edit the selected scenario in the scenario list and view the details.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.33.44.png" alt=""><figcaption></figcaption></figure>
+The selected scenario is updated by following the steps below;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.36.28.png" alt=""><figcaption></figcaption></figure>
+1. Click to _**Edit**_ button.
 
-On the tab that opens, users can make changes in these fields;
+<figure><img src="../../.gitbook/assets/Scenario Edit 1 (1).png" alt=""><figcaption></figcaption></figure>
 
-**1.Properties**
+2. Make the required changes in the following fields on Properties screen that opens;
 
-**2. Select Source File**
+* Properties
+* Select Source File
+* Select Test Method
+* File Content
+* Set System Parameters
 
-**3. Select Test Method**
+<figure><img src="../../.gitbook/assets/Edit Scenario 2.png" alt=""><figcaption></figcaption></figure>
 
-**4.File Content,**&#x69;t allows you to make changes to the test steps in the file and save them with the save button.
+3. a. Click to Apply to enable the changes to be applied.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.43.51 (1).png" alt=""><figcaption></figcaption></figure>
+&#x20;      b. Click to _**Save**_ to save changes made.
 
-**5. Set System Parameters**
+&#x20;      c. Click to _**Cancel**_ to cancel the scenario change process.
 
-**Apply,** enables the changes to be applied.
+4. Click on the _**IDE**_ tab to change the project codes.
+5. Click the **Save** button to save the changes made.
 
-\*\*Save,\*\*the system saves the new scenario value to the system.
-
-**Cancel,** If the Cancel button is pressed, the system cancels the scenario definition process.
-
-**Ide**, it allows you to make changes to your code in your project.
-
-The **Save button** allows you to save the changes made.
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 22.45.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Edit Scenario 3.png" alt=""><figcaption></figcaption></figure>
