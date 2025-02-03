@@ -41,7 +41,7 @@
   * [Edit Scenarios](scenarios/all-scenarios/edit-scenarios.md)
   * [Delete Scenarios](scenarios/all-scenarios/delete-scenarios.md)
   * [Create New Group](scenarios/all-scenarios/create-new-group.md)
-  * [Sync Sicenarios](scenarios/all-scenarios/sync-sicenarios.md)
+  * [Sync Scenarios](scenarios/all-scenarios/sync-sicenarios.md)
 
 ## PLANS
 
