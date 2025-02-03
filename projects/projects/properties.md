@@ -1,6 +1,6 @@
 # Properties
 
-Properties is the screen where changes can be made from the Project Name, Git Project Folder Name fields of the project.
+_**Properties**_ is the screen where changes can be made from the Project Name, Git Project Folder Name fields of the project.
 
 1. Click the _**Properties**_ tab.
 
