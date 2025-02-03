@@ -6,7 +6,7 @@
 * [GENERAL USAGE FEATURES](testinium-cloud/general-usage-features.md)
 * [GO TO TESTINIUM](https://testinium.io)
 * [GET STARTED](testinium-cloud/get-started/README.md)
-  * [General Information](testinium-cloud/get-started/general-information.md)
+  * [What is Testinium?](testinium-cloud/get-started/what-is-testinium.md)
   * [Go to Testinium](https://account.testinium.com/uaa/login)
 
 ## LOGIN
@@ -37,7 +37,7 @@
 ## SCENARIOS
 
 * [Scenarios](scenarios/all-scenarios/README.md)
-  * [Create](scenarios/all-scenarios/create.md)
+  * [Create Scenario](scenarios/all-scenarios/create.md)
   * [Edit Scenarios](scenarios/all-scenarios/edit-scenarios.md)
   * [Delete Scenarios](scenarios/all-scenarios/delete-scenarios.md)
   * [Create New Group](scenarios/all-scenarios/create-new-group.md)
