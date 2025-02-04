@@ -1,9 +1,13 @@
 # Delete Plans
 
-### Delete Plans
+This page will explain what to do for plan deletion. For plan deletion, the following steps are followed;
 
-Plans defined in the system can be deleted. User should click on the Delete icon for the record to be deleted from the listing screen.
+1. Click the **Delete** button to delete the created plan.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.35.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 14.58.43.png" alt=""><figcaption></figcaption></figure>
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+2. a. Click the _**‘Yes’**_ button in the pop up to delete the plan.&#x20;
+
+&#x20;      b. Click on the _**‘No’**_ button in the pop up if you are not sure about deleting the plan.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 14.59.04.png" alt=""><figcaption></figcaption></figure>

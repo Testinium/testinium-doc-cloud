@@ -1,54 +1,60 @@
+---
+hidden: true
+---
+
 # Edit Plans
 
-### Edit Plans
+_**Edit**_ is the feature that allows you to edit the selected plan in the plan list and view details.
 
-All defined plans are listed on the listing screen. The last four icons in the list area are for **Edit**, **Delete**, **Test Report** and **Run Plan.**
+The selected plan is updated by following the steps below;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 23.58.22.png" alt=""><figcaption></figcaption></figure>
+1. Click to _**Edit**_ button.
 
-Click the Edit icon for the record you want to update from the list. System displays the system tabs:
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 16.52.34.png" alt=""><figcaption></figcaption></figure>
 
-On the tab that opens, users can make changes in these fields;
+2. a.  Update the following fields in the _**Properties**_ tab if necessary;
 
-**1.Properties**
+* Properties
+* Select Scenarios & Define Scenario Order
+* Platform Selection
 
-**2. Select Scenarios & Define Scenario Order**
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 15.57.40.png" alt=""><figcaption></figcaption></figure>
 
-**3.Platform Selection**
+&#x20;      b. Click to _**Apply**_ to enable the changes to be applied.
+
+&#x20;          Click to _**Save**_ to save changes made.
+
+&#x20;          Click to _**Cancel**_ to cancel the scenario change process.
 
 ***
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.02.17.png" alt=""><figcaption></figcaption></figure>
+3. a. Update the fields in the _**Advanced Settings**_ tab if necessary;
 
-**4.Advanced Settings**
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 16.57.50.png" alt=""><figcaption></figcaption></figure>
 
-It is the tab where advanced settings are defined for the plan.
+It is the tab where advanced settings are defined for the plan. The fields that can be updated in this tab and their descriptions are as follows;
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.09.14.png" alt=""><figcaption></figcaption></figure>
+* _**Failed Test Retry Count;**_ it is the number of times the test is repeated when the test fails.&#x20;
+* _**Parallel Test Limit;**_ it is actually shows the limit that the company has. The number can be reduced on a plan basis.&#x20;
+* _**Upload File to Node;**_
+* _**Maximum Execution Time Per Scenario;**_ it is determined from this field. If the test is not finished in the time selected here, the system terminates the test. &#x20;
+* _**Bandwidth Type;**_ users can select Bandwidth Type for the plan.&#x20;
+* _**Screenshots & Record Video,**_ it  allows recording of test runs.
+* _**Capture Performance Data,**_ it allows you to log your network activity.
+* _**Set System Parameters;**_ it allows you to set system parameters.The required fields for the parameters are below,
+  * Name
+  * Value
+  * Description
 
-**Failed Test Retry Count,** is the number of times the test is repeated when the test fails.&#x20;
+&#x20; b.  Click to _**Apply**_ to enable the changes to be applied.
 
-**Parallel Test Limit,** actually shows the limit that the company has. The number can be reduced on a plan basis.&#x20;
+&#x20;      Click to _**Save**_ to save changes made.
 
-**Maximum Execution Time Per Scenario,** is determined from this field. If the test is not finished in the time selected here, the system terminates the test. &#x20;
-
-**Bandwidth Type,** users can select Bandwidth Type for the plan.&#x20;
-
-**Screenshots & Record Video,** allows recording of test runs.
-
-**Capture Performance Data,** It allows you to log your network activity.
-
-**Set System Parameters;** allows you to set system parameters.The required fields for the parameters are below,
-
-* **Name**
-* **Value**
-* **Description**
-
-**Add** ,Allows to save system parameters.
-
-The **Save button** allows you to save the changes made.
+&#x20;      Click to _**Cancel**_ to cancel the scenario change process.
 
 
+
+4.
 
 **5.Schedule & Notification**
 

@@ -6,6 +6,8 @@ This page will explain what to do for scenario deletion. For scenario deletion, 
 
 <figure><img src="../../.gitbook/assets/Scenario  Delete 1 .png" alt=""><figcaption></figcaption></figure>
 
-1. Click the _**Yes**_ button to response to the question "Are you sure you want to delete this record?". If the _**No**_ button is clicked, the system cancels the deletion process.
+2. a. Click the _**‘Yes’**_ button in the pop up to delete the scenario.&#x20;
+
+&#x20;      b. Click on the _**‘No’**_ button in the pop up if you are not sure about deleting the scenario.
 
 <figure><img src="../../.gitbook/assets/Scenario Delete 2.png" alt=""><figcaption></figcaption></figure>

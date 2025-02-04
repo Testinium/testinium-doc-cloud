@@ -1,6 +1,6 @@
 # Edit Scenarios
 
-_**Edit**_ is the button that allows you to edit the selected scenario in the scenario list and view the details.
+_**Edit**_ is the feature that allows you to edit the selected scenario in the scenario list and view details.
 
 The selected scenario is updated by following the steps below;
 

@@ -1,6 +1,6 @@
 # Create Plan
 
-It is the screen where a new plan definition is made in the system. Before creating a new plan, it is mandatory to select Project Name from the homepage. If the Create a new plan button is clicked without selecting the Project Name, the system displays the error message regarding the selection of the project name.
+_**Create Plan;**_ It is the screen where a new plan definition is made in the system. Before creating a new plan, it is mandatory to select Project Name from the homepage. If the Create a new plan button is clicked without selecting the Project Name, the system displays the error message regarding the selection of the project name.
 
 **On the tab that opens;**
 
