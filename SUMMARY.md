@@ -12,7 +12,7 @@
 ## LOGIN
 
 * [Login](login/login/README.md)
-  * [Login Screen](login/login/login-screen.md)
+  * [Log in to Testinium](login/login/login-screen.md)
   * [Forgot](login/login/forgot.md)
 
 ## DASHBOARD
