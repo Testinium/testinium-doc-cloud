@@ -2,11 +2,7 @@
 
 _**Plans**_ is the field where the plans of the projects are created.
 
-&#x20;
-
-&#x20;
-
-&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 14.20.29.png" alt=""><figcaption></figcaption></figure>
 
 1. _**Plans**_ on the screen can be filtered according to the following headings;
 
