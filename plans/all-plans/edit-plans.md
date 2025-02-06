@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Edit Plans
 
 _**Edit**_ is the feature that allows you to edit the selected plan in the plan list and view details.
@@ -18,13 +14,15 @@ The selected plan is updated by following the steps below;
 * Select Scenarios & Define Scenario Order
 * Platform Selection
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-04 at 15.57.40.png" alt=""><figcaption></figcaption></figure>
+&#x20;    &#x20;
 
-&#x20;      b. Click to _**Apply**_ to enable the changes to be applied.
+&#x20;b.  Click one of the following options:
 
-&#x20;          Click to _**Save**_ to save changes made.
+* _**Apply**_; to ensure that the changes are applied.
+* _**Save**_; to save the changes made.
+* _**Cancel**_; to cancel the plan change process.
 
-&#x20;          Click to _**Cancel**_ to cancel the scenario change process.
+
 
 ***
 
@@ -46,31 +44,35 @@ It is the tab where advanced settings are defined for the plan. The fields that 
   * Value
   * Description
 
-&#x20; b.  Click to _**Apply**_ to enable the changes to be applied.
+&#x20; b.  Click one of the following options:
 
-&#x20;      Click to _**Save**_ to save changes made.
+* _**Apply**_; to ensure that the changes are applied.
+* _**Save**_; to save the changes made.
+* _**Cancel**_; to cancel the plan change process.
 
-&#x20;      Click to _**Cancel**_ to cancel the scenario change process.
+4. a. Schedule your tests in _**Schedule & Notification**_ tab if needed.
+
+&#x20;      The execution of test plans can be scheduled via Testinium.&#x20;
+
+&#x20;      In this tab; 3 optional period types can be selected for the timing of the planning.
+
+* &#x20;_**Manually run this plan;**_ is the option selected to run the test manually by the user at the desired time.
+* &#x20;_**Automatically run this plan;**_ allows your test to run automatically at the selected date and time.
+* &#x20;_**Repeat;**_ allows to automate your test run with selected date and period.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 08.46.47.png" alt=""><figcaption></figcaption></figure>
+
+b. Enable the _**Notification**_ option if you want to receive notifications about test results.&#x20;
+
+This allows the execution status and results of the desired test results to be sent to the e-mail address entered.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 08.49.19.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;b.  Click one of the following options:
+
+* _**Apply**_; to ensure that the changes are applied.
+* _**Save**_; to save the changes made.
+* _**Cancel**_; to cancel the plan change process.
 
 
-
-4.
-
-**5.Schedule & Notification**
-
-You can can schedule your test plan on Testinium. On this tab users can select 3 optional period type about scheduling.
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.26.49.png" alt=""><figcaption></figcaption></figure>
-
-
-
-Repeat options allows to automate your test run with selected date and period.&#x20;
-
-
-
-If you enabled Test Result Notifications, Testinium allows to send an e mail notification by selected execution status and test result status.&#x20;
-
-
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.31.13.png" alt=""><figcaption></figcaption></figure>
 

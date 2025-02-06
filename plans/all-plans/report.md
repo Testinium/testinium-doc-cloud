@@ -1,9 +1,11 @@
 # Report
 
-### Report
+_**Report**_ redirects to the Test Execution List (Automatic) screen for the selected test plan. Test results of the related plan are displayed on the screen.
 
-The system directs you to the Test Execution List (Auto) screen so that the Project and Test Plan list is selected on the screen and filtered accordingly.
+1. Click the _**Report.**_
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.36.21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 09.52.42.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 00.36.37.png" alt=""><figcaption></figcaption></figure>
+2. Information about the test result is displayed on the screen.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 09.54.12.png" alt=""><figcaption></figcaption></figure>

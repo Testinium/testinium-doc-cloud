@@ -52,6 +52,7 @@
   * [Report](plans/all-plans/report.md)
   * [Run Plan](plans/all-plans/run-plan.md)
   * [Rerun Plan](plans/all-plans/rerun-plan.md)
+  * [Quick Run Plan](plans/all-plans/quick-run-plan.md)
 
 ## REPORTS
 
