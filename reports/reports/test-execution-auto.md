@@ -1,8 +1,6 @@
 # Test Execution(Auto)
 
-These are the reports that show the result of a plan after it is run completely on the basis of all scenarios and browser/phone.
-
-Testinium -> Reports -> Test Executions(Auto)
+_**Test Execution (Auto);**_ it is the screen with reports showing the result of a plan after it has been completely executed on the basis of all scenarios and browser/phone.
 
 The detail of the test result run in the system is displayed. User should select a record from the list and click the Details button.
 

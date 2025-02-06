@@ -46,6 +46,6 @@ The following steps should be followed to create a new scenario;
 
 &#x20;
 
-7. a. Click to _**Save**_ to save the new scenario value to the system.
+7. a. Click to _**Save**_ to save the new scenario to the system.
 
 &#x20;     b. Click to _**Cancel**_ to cancel the scenario definition process.

@@ -1,7 +1,7 @@
 # Reports
 
-These are the screens where the test results run are reported.
+_**Reports**_ is the screen where the run test results are reported.
 
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-21 08.06.16.png" alt=""><figcaption></figcaption></figure>
+Pie chart and line graph on the Reports screen allows analysing according to the selected time interval.
 
-Pie chart and line chart graphs allows to analyzing selected project an plan performance by selected period.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 13.45.53.png" alt=""><figcaption></figcaption></figure>
