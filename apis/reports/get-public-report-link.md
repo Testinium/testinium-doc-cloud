@@ -1,6 +1,4 @@
-# 13Get Public Report Link
-
-###
+# Get Public Report Link
 
 This endpoint retrieves a publicly accessible link for a specific test result. The user must have the `TEST_RESULT_VIEW`authority to access this endpoint.
 
@@ -8,11 +6,7 @@ This endpoint retrieves a publicly accessible link for a specific test result. T
 
 ### Endpoint Information
 
-*   **URL**:
-
-    ```
-    bashKopyalaDüzenlehttps://devcluster.testinium.io/Testinium.RestApi/api/results/{resultId}/publicReportLink
-    ```
+* **URL**:`https://testinium.io/Testinium.RestApi/api/results/{resultId}/publicReportLink`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -27,19 +21,15 @@ This endpoint retrieves a publicly accessible link for a specific test result. T
 
 ***
 
-### Request Parameters
-
-No request body is required for this endpoint. The parameter `resultId` is provided via the URL path.
-
-***
-
 ### Response
 
 The response contains the public report URL path.
 
-\<CodeBlock language="json"> {\`"/public/report/ab21e60b-354a-45c5-ae28-5f7899b12e13/5251"\`} \</CodeBlock>&#x20;
+```json
+`"/public/report/ab21e60b-354a-45c5-ae28-5f7899b12e13/5251"
+```
 
-#### Response Fields
+### Response Fields
 
 | Field    | Type     | Description                 |
 | -------- | -------- | --------------------------- |
@@ -61,7 +51,7 @@ The response contains the public report URL path.
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location --request GET 'https://devcluster.testinium.io/Testinium.RestApi/api/results/3274073/publicReportLink' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/results/{resultId}/publicReportLink' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

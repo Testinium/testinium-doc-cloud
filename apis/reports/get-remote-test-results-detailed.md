@@ -1,6 +1,4 @@
-# 15Get Remote Test Results Detailed
-
-##
+# Get Remote Test Results Detailed
 
 This endpoint retrieves remote test results with detailed information, including the environment, message, and runtime.
 
@@ -8,7 +6,7 @@ This endpoint retrieves remote test results with detailed information, including
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/results/remote/{page}/{size}`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/results/remote/{page}/{size}`
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -25,20 +23,12 @@ This endpoint retrieves remote test results with detailed information, including
 
 ***
 
-### Request Body
-
-The request body must contain the necessary filter data, which will be mapped to a `TestResultFilterForm`.
-
-***
-
 ### Response
 
 The response contains a list of remote test results.
 
-#### Response Format
-
 ```json
-jsonKopyalaDüzenle{
+{
     "result": [
         {
             "id": 3249220,
@@ -113,7 +103,7 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Response Fields
+### Response Fields
 
 | Field                             | Type      | Description                                                  |
 | --------------------------------- | --------- | ------------------------------------------------------------ |
@@ -137,17 +127,6 @@ jsonKopyalaDüzenle{
 
 ***
 
-### Example Request
-
-```bash
-bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.RestApi/api/results/remote/1/15' \
---header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: <your_company_id>' \
---data '{"filterCriteria": "value"}'
-```
-
-***
-
 ### Error Codes
 
 | HTTP Code | Error Message           | Description                                      |
@@ -156,3 +135,13 @@ bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.Re
 | `403`     | `FORBIDDEN`             | User lacks permission to access this resource.   |
 | `400`     | `INVALID_REQUEST`       | Invalid request or malformed data.               |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
+
+***
+
+### Example Request
+
+```bash
+curl --location --request POST 'https://testinium.io/Testinium.RestApi/api/results/remote/1/15' \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'current-company-id: <your_company_id>' 
+```

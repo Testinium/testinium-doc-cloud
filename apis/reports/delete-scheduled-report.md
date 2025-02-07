@@ -1,6 +1,4 @@
-# 12Delete Scheduled Report
-
-##
+# Delete Scheduled Report
 
 This endpoint deletes a scheduled report. The user must have the necessary permissions to delete scheduled reports.
 
@@ -8,7 +6,7 @@ This endpoint deletes a scheduled report. The user must have the necessary permi
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/{id}`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/{id}`
 * **Method**: DELETE
 * **Authentication**: Required (Bearer Token)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -23,23 +21,15 @@ This endpoint deletes a scheduled report. The user must have the necessary permi
 
 ***
 
-### Query Parameters
-
-| Parameter | Type | Required | Description                   |
-| --------- | ---- | -------- | ----------------------------- |
-| companyId | Long | Yes      | The unique ID of the company. |
-
-***
-
 ### Response
 
 If the report is successfully deleted, the response returns `true`.
 
 ```json
-jsonKopyalaDüzenletrue
+true
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field  | Type    | Description                                    |
 | ------ | ------- | ---------------------------------------------- |
@@ -58,10 +48,10 @@ jsonKopyalaDüzenletrue
 
 ***
 
-### Example Request (cURL)
+### Example Request&#x20;
 
 ```bash
-bashKopyalaDüzenlecurl --location --request DELETE 'https://devcluster.testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
+curl --location --request DELETE 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

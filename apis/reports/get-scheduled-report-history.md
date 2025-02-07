@@ -1,6 +1,4 @@
-# 1 1Get Scheduled Report History
-
-##
+# Get Scheduled Report History
 
 This endpoint retrieves the execution history of a specific scheduled report. The user must have the necessary permissions to access the report history.
 
@@ -8,7 +6,7 @@ This endpoint retrieves the execution history of a specific scheduled report. Th
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/history/{id}`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/history/{id}`
 * **Method**: GET
 * **Authentication**: Required (Bearer Token)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -28,7 +26,7 @@ This endpoint retrieves the execution history of a specific scheduled report. Th
 The response contains the execution history of the scheduled report as a list of historical execution records.
 
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "id": 987,
         "scheduled_report_id": 132,
@@ -48,7 +46,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field                  | Type   | Description                                                  |
 | ---------------------- | ------ | ------------------------------------------------------------ |
@@ -72,10 +70,10 @@ jsonKopyalaDüzenle[
 
 ***
 
-### Example Request (cURL)
+### Example Request&#x20;
 
 ```bash
-bashKopyalaDüzenlecurl --location --request GET 'https://devcluster.testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/history/132' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/history/132' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

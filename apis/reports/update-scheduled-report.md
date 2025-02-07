@@ -1,4 +1,4 @@
-# 10Update Scheduled Report
+# Update Scheduled Report
 
 The endpoint updates an existing scheduled report. The user must have the necessary permissions to modify scheduled reports.
 
@@ -21,20 +21,12 @@ The endpoint updates an existing scheduled report. The user must have the necess
 
 ***
 
-### Query Parameters
-
-| Parameter | Type | Required | Description                   |
-| --------- | ---- | -------- | ----------------------------- |
-| companyId | Long | Yes      | The unique ID of the company. |
-
-***
-
-### Request Body
+### Request&#x20;
 
 The request body should contain the updated scheduled report details.
 
 ```json
-jsonKopyalaDüzenle{
+{
     "id": 132,
     "report_name": "ScheduledReportDeneme1",
     "content_mail": "<p>ScheduledReportDeneme success.</p>",
@@ -78,7 +70,7 @@ jsonKopyalaDüzenle{
 The response contains the updated scheduled report details.
 
 ```json
-jsonKopyalaDüzenle{
+{
     "id": 132,
     "report_name": "ScheduledReportDeneme1",
     "content_mail": "<p>ScheduledReportDeneme success.</p>",
@@ -115,7 +107,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field                                | Type    | Description                                           |
 | ------------------------------------ | ------- | ----------------------------------------------------- |
@@ -153,10 +145,10 @@ jsonKopyalaDüzenle{
 
 ***
 
-### Example Request (cURL)
+### Example Request&#x20;
 
 ```bash
-bashKopyalaDüzenlecurl --location --request PUT 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
+curl --location --request PUT 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

@@ -1,6 +1,4 @@
-# 14Get Automated Apps for a Company
-
-##
+# Get Automated Apps for a Company
 
 This endpoint retrieves the list of automated apps for a specific company.
 
@@ -8,7 +6,7 @@ This endpoint retrieves the list of automated apps for a specific company.
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/automated-apps/{companyId}`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/automated-apps/{companyId}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -23,20 +21,12 @@ This endpoint retrieves the list of automated apps for a specific company.
 
 ***
 
-### Request Parameters
-
-No request body is required. The `companyId` is provided via the URL path.
-
-***
-
 ### Response
 
 The response contains a list of automated apps associated with the specified company.
 
-#### Response Format
-
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "id": 15,
         "app_type": "android",
@@ -65,7 +55,7 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Response Fields
+### Response Fields
 
 | Field              | Type     | Description                                                               |
 | ------------------ | -------- | ------------------------------------------------------------------------- |
@@ -94,7 +84,7 @@ jsonKopyalaDüzenle[
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.RestApi/api/automated-apps/5251' \
+curl --location 'https://testinium.io/Testinium.RestApi/api/automated-apps/{companyId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

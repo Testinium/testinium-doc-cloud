@@ -4,7 +4,7 @@ This endpoint retrieves the details of a specific scheduled report based on the 
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/{id}`
 * **Method**: `GET`

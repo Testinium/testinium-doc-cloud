@@ -1,6 +1,4 @@
-# 16Get Test Result Detailed
-
-##
+# Get Test Result Detailed
 
 Fetches detailed test results along with test command results, paginated based on the given parameters.
 
@@ -8,25 +6,12 @@ Fetches detailed test results along with test command results, paginated based o
 
 ### Endpoint Information
 
-* **URL**: `/api/results/{resultId}/detailed/filter`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/results/{resultId}/detailed/filter`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-* **Header**: Required (`current-company-id: <your_company_id>`)
+* **Header**: Required (`current-company-id: <your_company_id>`
 
-***
-
-### Request
-
-```json
-jsonKopyalaDüzenle{
-  "resultId": 3249220,
-  "page": 1,
-  "size": 10,
-  "isDesc": false
-}
-```
-
-#### Request Parameters
+### Path Parameters
 
 | Parameter  | Type      | Description                                                           |
 | ---------- | --------- | --------------------------------------------------------------------- |
@@ -40,7 +25,7 @@ jsonKopyalaDüzenle{
 ### Response
 
 ```json
-jsonKopyalaDüzenle{
+{
   "id": 3249220,
   "level": "ERROR",
   "runtime": 31474,
@@ -112,7 +97,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-#### Key Response Fields
+### Response Fields
 
 | Field                                   | Type      | Description                                                          |
 | --------------------------------------- | --------- | -------------------------------------------------------------------- |
@@ -151,7 +136,7 @@ jsonKopyalaDüzenle{
 #### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location --request GET "https://api.example.com/api/results/{resultId}/detailed/filter?page=1&size=10" \
+curl --location --request GET "https://testinium.io/Testinium.RestApi/api/results/{resultId}/detailed/filter?page=1&size=10" \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```
