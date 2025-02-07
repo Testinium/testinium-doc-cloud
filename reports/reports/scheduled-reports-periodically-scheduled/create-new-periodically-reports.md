@@ -1,41 +1,37 @@
 # Create New Periodically Reports
 
-A new periodic report definition is made in the system. The first General Informations tab appears on the screen.
+The following steps are followed to define a new periodic report in the system;
 
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.27.48.png" alt=""><figcaption></figcaption></figure>
+1. Click the _**Create New Schedule**_.
 
-On the screen that opens;
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.11.39 (1).png" alt=""><figcaption></figcaption></figure>
 
-1\. Report Name
+2. Enter the following fields in the _**General Information**_ tab.
 
-2\. Mail Content
+* Report Name
+* Mail Content
+* Status
+* Usage Gauge
+* Enabled
+* Project List
 
-3\. Status
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.47.42.png" alt=""><figcaption></figcaption></figure>
 
-4\. Usage Gauge
+3. Select the time period to send the report from the _**Timing Issues**_ tab.
 
-5\. Enabled
+* Report Frequency
+* Start Date
+* Report Hour
+* End Date
 
-6\. Project List
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.47.58.png" alt=""><figcaption></figcaption></figure>
 
-These values are entered and the Timing Issues tab is clicked.
+4. Enter the e-mail address of the contact to which the report will be sent from the Alert Issues tab.
 
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.31.11.png" alt=""><figcaption></figcaption></figure>
+On the screen that opens, enter the e-mail address and add this address with the Add button.
 
-On the screen that opens;
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.48.46.png" alt=""><figcaption></figcaption></figure>
 
-1\. Report Frequency
+5.  a. Click to _**Save**_ to save the new scheduled report.
 
-2\. Start Date
-
-3\. Report Hour
-
-4\. End Date
-
-These values are entered and the Alert Issues tab is clicked.
-
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.37.48.png" alt=""><figcaption></figcaption></figure>
-
-On the screen that opens;
-
-Enter the e-mail value and click the Add button. The e-mail is added to the list and can be removed with the Delete button if desired.The user clicks the Save button and completes the new periodic report definition process. If the Cancel button is clicked, the system cancels the new periodic report definition process.
+    b. Click to _**Cancel**_ to cancel the report definition process.

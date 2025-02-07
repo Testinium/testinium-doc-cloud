@@ -1,10 +1,15 @@
 # Edit Periodically Report
 
-All defined periodic reports are listed on the listing screen. The last three icons in the list area are for Update, Delete and Report History.
+The defined periodic reports are edited by following the steps below;
+
+1. Click the _**Edit**_.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.53.40.png" alt=""><figcaption></figcaption></figure>
+
+2. Edit the required fields from General Information, Timing Issues, Alert Issues tabs.
+3.  a. Click _**Save**_ to save the changed information .
+
+    b. Click _**Cancel**_ to cancel the editing process.
 
 
-
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.42.01.png" alt=""><figcaption></figcaption></figure>
-
-One, or all, of the values entered in the General Informations, Timing Issues, Alert Issues tabs are changed and the Save button is clicked. The system saves the changed information of the current periodic report value to the system. If the Cancel button is pressed, the system cancels the periodic report update process.
 

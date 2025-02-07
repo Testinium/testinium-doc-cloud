@@ -1,7 +1,13 @@
 # Delete Periodically Report
 
-Periodic reports defined in the system can be deleted. Click on the Delete icon for the record to be deleted from the listing screen.
+The following steps should be followed to delete the periodic report created;
 
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.44.21.png" alt=""><figcaption></figcaption></figure>
+1. Click the _**Delete**_ button.
 
-In the pop-up that appears, the Yes button is pressed in response to the question "Are you sure you want to delete this record?". If the No button is pressed, the system cancels the deletion process.
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 10.05.12.png" alt=""><figcaption></figcaption></figure>
+
+2. a. Click the _**‘Yes’**_ button in the pop up to delete the report.&#x20;
+
+&#x20;      b. Click on the _**‘No’**_ button in the pop up if you are not sure about deleting the report.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 10.06.04.png" alt=""><figcaption></figcaption></figure>
