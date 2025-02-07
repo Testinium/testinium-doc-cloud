@@ -1,21 +1,19 @@
-# 5Graph Prioritization Scenario
+# Graph Prioritization
 
-###
-
-This endpoint retrieves data for the graph prioritization of test scenarios, including execution data and failure information for a given project.
+This endpoint retrieves data for the graph prioritization of test plans, including execution data and failure information for a given project.
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
-* **URL**: `https://testinium.io/Testinium.RestApi/api/reports/graphPrioritizationScenario/{projectId}`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/plans/zeroExecution`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
-#### Path Parameters
+### Path Parameters
 
 | Parameter   | Type   | Required | Description                   |
 | ----------- | ------ | -------- | ----------------------------- |
@@ -23,7 +21,7 @@ This endpoint retrieves data for the graph prioritization of test scenarios, inc
 
 ***
 
-#### Request Parameters
+### Request Parameters
 
 | Parameter         | Type         | Required | Description                                                            |
 | ----------------- | ------------ | -------- | ---------------------------------------------------------------------- |
@@ -36,39 +34,50 @@ This endpoint retrieves data for the graph prioritization of test scenarios, inc
 
 #### Response
 
-The response contains a list of test scenarios with their execution details.
+The response contains a list of test plans with their execution details.
 
 ```json
-jsonKopyalaDüzenle[
+[
   {
-    "total_failure": 20,
-    "total_run_time": 37869,
-    "scenario_name": "Ber Gratis",
-    "scenario_id": 9993,
+    "total_failure": 0,
+    "total_run_time": 15278,
+    "plan_name": "Mac1",
+    "plan_id": 1447,
     "project_name": "Ber Gratis Test",
     "project_id": 408,
     "make_red": false,
-    "faults_divide_time": 0.0317
-  }
+    "faults_divide_time": 0.0
+  },
+  {
+    "total_failure": 0,
+    "total_run_time": 1568,
+    "plan_name": "Android",
+    "plan_id": 1448,
+    "project_name": "Ber Gratis Test",
+    "project_id": 408,
+    "make_red": false,
+    "faults_divide_time": 0.0
+  },
+  ...
 ]
 ```
 
-**Response Fields**
+### **Response Fields**
 
-| Field                | Type      | Description                                                                       |
-| -------------------- | --------- | --------------------------------------------------------------------------------- |
-| `total_failure`      | `Integer` | The total number of failures for the test scenario.                               |
-| `total_run_time`     | `Integer` | The total run time for the test scenario, in milliseconds.                        |
-| `scenario_name`      | `String`  | The name of the test scenario.                                                    |
-| `scenario_id`        | `Long`    | The unique ID of the test scenario.                                               |
-| `project_name`       | `String`  | The name of the project associated with the test scenario.                        |
-| `project_id`         | `Long`    | The unique ID of the project.                                                     |
-| `make_red`           | `Boolean` | Flag indicating whether to make the test scenario red in the graph visualization. |
-| `faults_divide_time` | `Double`  | The ratio of fault divide time for the test scenario.                             |
+| Field                | Type      | Description                                                                   |
+| -------------------- | --------- | ----------------------------------------------------------------------------- |
+| `total_failure`      | `Integer` | The total number of failures for the test plan.                               |
+| `total_run_time`     | `Integer` | The total run time for the test plan, in milliseconds.                        |
+| `plan_name`          | `String`  | The name of the test plan.                                                    |
+| `plan_id`            | `Long`    | The unique ID of the test plan.                                               |
+| `project_name`       | `String`  | The name of the project associated with the test plan.                        |
+| `project_id`         | `Long`    | The unique ID of the project.                                                 |
+| `make_red`           | `Boolean` | Flag indicating whether to make the test plan red in the graph visualization. |
+| `faults_divide_time` | `Double`  | The ratio of fault divide time for the test plan.                             |
 
 ***
 
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                           |
 | --------- | ----------------------- | --------------------------------------------------------------------- |
@@ -81,10 +90,10 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Example Request
+### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/reports/graphPrioritizationScenario/408' \
+curl --location 'https://testinium.io/Testinium.RestApi/api/plans/zeroExecution' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --data 'testPlans=1447,1448,1450,1485,1486,1487,1489,1490,1491,1492&isAllExecutions=true&size=0&ignoredCount=0'

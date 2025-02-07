@@ -1,6 +1,4 @@
-# 2Get Total Test Execution Runtime
-
-##
+# Get Total Test Execution Runtime
 
 This endpoint retrieves the total execution runtime of test results for a specified company, project, or test plan within a given date range.
 
@@ -13,7 +11,7 @@ This endpoint retrieves the total execution runtime of test results for a specif
 
 ***
 
-### Query Parameters
+### Path Parameters
 
 | Parameter   | Type   | Required | Description                                      |
 | ----------- | ------ | -------- | ------------------------------------------------ |
@@ -25,21 +23,12 @@ This endpoint retrieves the total execution runtime of test results for a specif
 
 ***
 
-### Authorization
-
-* The user must have the `TEST_RESULT_VIEW` authority.
-* The `companyId` parameter is required and must match the authenticated user's company.
-
-***
-
 ### Response
 
 The response contains the total test execution runtime in milliseconds.
 
-#### Example Response
-
 ```json
-jsonKopyalaDüzenle139533
+139533
 ```
 
 ***
@@ -66,7 +55,7 @@ jsonKopyalaDüzenle139533
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location --request GET 'https://testinium.io/Testinium.Reporter/api/test-results/total-runtime?companyId=1234&startDate=2024-01-01&endDate=2024-01-31' \
+curl --location --request GET 'https://testinium.io/Testinium.Reporter/api/test-results/total-runtime?companyId=1234&startDate=2024-01-01&endDate=2024-01-31' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

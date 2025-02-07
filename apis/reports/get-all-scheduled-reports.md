@@ -1,25 +1,19 @@
-# 8Get All Scheduled Reports
-
-###
+# Get All Scheduled Reports
 
 This endpoint is used to retrieve a paginated list of scheduled reports for a specific company. You can filter and paginate the results based on the provided parameters.
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
-* **Path Parameters**:
-  * `companyId`: The ID of the company for which to retrieve the scheduled reports.
 
 ***
 
-#### Request
-
-**Request Parameters**
+### **Path Parameters**
 
 | Parameter    | Type     | Description                                                          |
 | ------------ | -------- | -------------------------------------------------------------------- |
@@ -28,24 +22,12 @@ This endpoint is used to retrieve a paginated list of scheduled reports for a sp
 | `size`       | `int`    | The number of items per page.                                        |
 | `filterText` | `String` | (Optional) A filter string to search reports by name or content.     |
 
-**Request Example**
-
-```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled?companyId=5251&page=1&size=20' \
---header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: <your_company_id>'
-```
-
-***
-
-#### Response
+### Response
 
 The response contains a paginated result with a list of scheduled reports. It includes metadata such as the current page, total count of reports, and page count.
 
-**Response Example**
-
 ```json
-jsonKopyalaDüzenle{
+{
     "current_page": 1,
     "total_count": 1,
     "page_count": 1,
@@ -98,7 +80,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-**Response Fields**
+### **Response Fields**
 
 | Field           | Type     | Description                                         |
 | --------------- | -------- | --------------------------------------------------- |
@@ -110,7 +92,7 @@ jsonKopyalaDüzenle{
 | `item_list`     | `Array`  | The list of scheduled reports for the current page. |
 | `rest_api_url`  | `String` | The base URL for the REST API.                      |
 
-**Item List Fields**
+### **Item List Fields**
 
 | Field          | Type      | Description                                             |
 | -------------- | --------- | ------------------------------------------------------- |
@@ -130,7 +112,7 @@ jsonKopyalaDüzenle{
 | `email_list`   | `Array`   | List of email addresses to receive the report.          |
 | `alerts`       | `Array`   | List of alert configurations for the report.            |
 
-**Alerts Fields**
+### **Alerts Fields**
 
 | Field                         | Type      | Description                                           |
 | ----------------------------- | --------- | ----------------------------------------------------- |
@@ -142,17 +124,7 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Example Request
-
-```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled?companyId=5251&page=1&size=20' \
---header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: <your_company_id>'
-```
-
-***
-
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                  |
 | --------- | ----------------------- | ------------------------------------------------------------ |
@@ -160,3 +132,13 @@ bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/s
 | `401`     | `UNAUTHORIZED`          | The request lacks proper authentication.                     |
 | `403`     | `ACCESS_DENIED`         | User lacks the necessary permissions to access the resource. |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side.             |
+
+***
+
+### Example Request
+
+```bash
+curl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled?companyId=5251&page=1&size=20' \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'current-company-id: <your_company_id>'
+```

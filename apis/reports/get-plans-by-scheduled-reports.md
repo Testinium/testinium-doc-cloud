@@ -1,12 +1,10 @@
-# 6Get Plans By Scheduled Reports
-
-###
+# Get Plans By Scheduled Reports
 
 This endpoint retrieves all active plans and their associated projects for the currently authenticated company.
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/plans/createScheduledReport`
 * **Method**: `GET`
@@ -15,18 +13,12 @@ This endpoint retrieves all active plans and their associated projects for the c
 
 ***
 
-#### Request
-
-No request parameters are required for this endpoint. The request will use the authenticated user's company context.
-
-***
-
-#### Response
+### Response
 
 The response contains a list of active plans and their associated projects for the user's company.
 
 ```json
-jsonKopyalaDüzenle[
+[
   {
     "id": 1341,
     "project_id": 368,
@@ -48,7 +40,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-**Response Fields**
+### **Response Fields**
 
 | Field          | Type     | Description                                            |
 | -------------- | -------- | ------------------------------------------------------ |
@@ -59,7 +51,7 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                  |
 | --------- | ----------------------- | ------------------------------------------------------------ |
@@ -70,10 +62,10 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Example Request
+### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/plans/createScheduledReport' \
+curl --location 'https://testinium.io/Testinium.RestApi/api/plans/createScheduledReport' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

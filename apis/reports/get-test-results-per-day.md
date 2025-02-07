@@ -1,6 +1,4 @@
-# 3Get Test Results Per Day
-
-###
+# Get Test Results Per Day
 
 This endpoint retrieves the test result counts per day for a specified time range.
 
@@ -11,7 +9,7 @@ This endpoint retrieves the test result counts per day for a specified time rang
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
 
-#### Request Parameters
+### Request Parameters
 
 | Parameter   | Type   | Required | Description                                          |
 | ----------- | ------ | -------- | ---------------------------------------------------- |
@@ -23,10 +21,10 @@ This endpoint retrieves the test result counts per day for a specified time rang
 
 ***
 
-#### Response
+### Response
 
 ```json
-jsonKopyalaDüzenle{
+{
   "companyId": 5251,
   "projectId": null,
   "planId": null,
@@ -44,7 +42,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-**Response Fields**
+### **Response Fields**
 
 | Field                        | Type     | Description                                   |
 | ---------------------------- | -------- | --------------------------------------------- |
@@ -57,7 +55,7 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Example Request
+### Example Request
 
 ```bash
 bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.Reporter/api/test-results/results-per-day' \

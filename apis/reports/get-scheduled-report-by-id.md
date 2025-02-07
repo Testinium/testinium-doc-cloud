@@ -1,6 +1,4 @@
-# 9Get Scheduled Report by ID
-
-###
+# Get Scheduled Report by ID
 
 This endpoint retrieves the details of a specific scheduled report based on the report ID and company ID.
 
@@ -8,33 +6,24 @@ This endpoint retrieves the details of a specific scheduled report based on the 
 
 #### Endpoint Information
 
-*   **URL**:
-
-    ```
-    bashKopyalaDüzenlehttps://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/{id}
-    ```
+* **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/{id}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-* **Headers**:
-  * `current-company-id: <your_company_id>`
-* **Path Parameters**:
-  * `id`: The ID of the scheduled report to retrieve.
+* **Headers**: `current-company-id: <your_company_id>`
 
 ***
 
-#### Request
-
-**Request Parameters**
+### **Path Parameters**
 
 | Parameter   | Type   | Required | Description                                 |
 | ----------- | ------ | -------- | ------------------------------------------- |
 | `id`        | `Long` | ✅        | The ID of the scheduled report.             |
 | `companyId` | `Long` | ✅        | The company ID to which the report belongs. |
 
-**Request Example**
+### **Request Example**
 
 ```json
-jsonKopyalaDüzenle{
+{
     "id": 132,
     "report_name": "ScheduledReportDeneme",
     "content_mail": "<p>ScheduledReportDeneme success.</p>",
@@ -77,7 +66,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-**Response Fields**
+### **Response Fields**
 
 | Field          | Type      | Description                                               |
 | -------------- | --------- | --------------------------------------------------------- |
@@ -97,7 +86,7 @@ jsonKopyalaDüzenle{
 | `email_list`   | `Array`   | List of recipients for the report email.                  |
 | `alerts`       | `Array`   | List of alert settings for the report.                    |
 
-**Alerts Fields**
+### **Alerts Fields**
 
 | Field                         | Type      | Description                                           |
 | ----------------------------- | --------- | ----------------------------------------------------- |
@@ -109,7 +98,7 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Error Responses
+### Error Responses
 
 | HTTP Code | Error Message           | Description                                    |
 | --------- | ----------------------- | ---------------------------------------------- |
@@ -121,10 +110,10 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### cURL Request
+### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
+curl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled/132?companyId=5251' \
 --header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: 5251'
+--header 'current-company-id: <your_company_id>'
 ```

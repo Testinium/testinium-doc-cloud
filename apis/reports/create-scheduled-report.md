@@ -1,30 +1,24 @@
-# 7Create Scheduled Report
-
-###
+# Create Scheduled Report
 
 This endpoint allows the creation of a scheduled report, which can be used to automatically generate and send reports based on specified parameters such as frequency, user roles, and email recipients.
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
 * **URL**: `https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled`
 * **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
-* **Path Parameters**:
-  * `companyId`: The ID of the company to which the report belongs.
 
 ***
 
-#### Request
+### Request
 
 The request body should be a JSON object containing the details of the scheduled report.
 
-**Request Body Example**
-
 ```json
-jsonKopyalaDüzenle{
+{
     "report_name": "ScheduledReportDeneme",
     "content_mail": "<p>ScheduledReportDeneme success.</p>",
     "user_roles": [
@@ -46,7 +40,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-**Request Fields**
+### **Request Fields**
 
 | Field             | Type      | Description                                             |
 | ----------------- | --------- | ------------------------------------------------------- |
@@ -67,14 +61,12 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Response
+### Response
 
 The response contains the details of the created scheduled report.
 
-**Response Example**
-
 ```json
-jsonKopyalaDüzenle{
+{
     "report_name": "ScheduledReportDeneme",
     "content_mail": "<p>ScheduledReportDeneme success.</p>",
     "user_roles": [
@@ -107,7 +99,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-**Response Fields**
+### **Response Fields**
 
 | Field          | Type      | Description                                             |
 | -------------- | --------- | ------------------------------------------------------- |
@@ -127,7 +119,7 @@ jsonKopyalaDüzenle{
 
 ***
 
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                  |
 | --------- | ----------------------- | ------------------------------------------------------------ |
@@ -141,7 +133,7 @@ jsonKopyalaDüzenle{
 #### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled?companyId=5251' \
+curl --location --request POST 'https://testinium.io/Testinium.RestApi/api/scheduled-reports/scheduled?companyId=5251' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
 --header 'Content-Type: application/json' \

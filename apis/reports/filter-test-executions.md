@@ -1,19 +1,17 @@
-# 1Filter Test Executions
-
-##
+# Filter Test Executions
 
 This endpoint allows authorized users to filter test executions based on various parameters such as project ID, plan ID, date range, status, and user email.
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/executions/filter`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/executions/filter`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
-### Query Parameters
+### Path Parameters
 
 | Parameter   | Type     | Required | Description                                                   |
 | ----------- | -------- | -------- | ------------------------------------------------------------- |
@@ -28,21 +26,12 @@ This endpoint allows authorized users to filter test executions based on various
 
 ***
 
-### Authorization
-
-* The user must have the `TEST_EXECUTION_VIEW` authority.
-* If an email filter is provided, it must match the authenticated user's email.
-
-***
-
 ### Response
 
 The response is paginated and includes test execution details.
 
-#### Example Response:
-
 ```json
-jsonKopyalaDüzenle{
+{
     "current_page": 1,
     "total_count": 7,
     "page_count": 1,
@@ -116,7 +105,7 @@ jsonKopyalaDüzenle{
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location --request GET 'https://devcluster.testinium.io/Testinium.RestApi/api/executions/filter?page=1&size=10' \
+curl --location --request GET 'https://testinium.io/Testinium.RestApi/api/executions/filter?page=1&size=10' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```
