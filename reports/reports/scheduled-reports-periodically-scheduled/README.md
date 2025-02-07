@@ -1,7 +1,7 @@
 # Scheduled Reports(Periodically Scheduled)
 
-It ensures that a graphical report is prepared in a certain number of repetitions in a specified time interval and transmitted to the specified persons.
+_**Scheduled Reports;**_ It enables the preparation of a graphical report with a certain number of repetitions in a specified time interval and forwarding it to specified contacts.
 
-* Testinium > Reports > Periodically Scheduled Reports
+Scheduled Reports; It is located under the Reports heading in the Testinium menu.
 
-<figure><img src="../../../.gitbook/assets/Ekran Resmi 2023-06-21 09.25.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
