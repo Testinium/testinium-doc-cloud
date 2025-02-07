@@ -1,3 +1,3 @@
 # Login
 
-Users of Testinium product must be logged in to the system in order to make transactions. Login to the system is provided from the Login screen.
+Testinium product users are required to log in to the system from the Login screen in order to make transactions.

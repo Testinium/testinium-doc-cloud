@@ -4,7 +4,7 @@ _**Smart Prioritization Report;**_ it is a report page with pages showing the nu
 
 The following steps are followed to create this report;
 
-1. Select projects, plans and the status of projects
-2. Click Draw to create report
+1. Select projects, plans and the status of projects.
+2. Click _**Draw**_ to create report.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-07 at 10.25.46.png" alt=""><figcaption></figcaption></figure>

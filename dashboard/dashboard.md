@@ -1,8 +1,8 @@
 # Dashboard
 
-Once the login process is successfully completed, the system directs to the **dashboard** screen.
+_**Dashboard**_ is the screen to which the user is directed after successful login.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-27 at 15.40.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-07 at 15.16.04 (1).png" alt=""><figcaption></figcaption></figure>
 
 If the screen is examined; the menu screen containing the dashboard, projects, scenarios, plans, and reports is located on the left side. In the top right corner, the profile, account information screens, Log out tabs for signing out, and the Announcements tab displaying the list of announcements are available.
 
