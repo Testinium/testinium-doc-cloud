@@ -40,7 +40,7 @@ The response contains a list of plugins associated with the user's current compa
     "configurable": true,
     "testrail_url": "https://testinium.testrail.net/",
     "testrail_username": "onur@testinium.com",
-    "testrail_password": "Testinium.2014+"
+    "testrail_password": "password"
   },
   {
     "company_id": 5267,
@@ -67,7 +67,7 @@ The response contains a list of plugins associated with the user's current compa
     "configurable": true,
     "jira_server_url": "https://kartalproject.atlassian.net",
     "jira_username": "fkartal47@gmail.com",
-    "jira_password": "ATATT3xFfGF0EQBrkXOXKsgNYtzb2eb_kk24roIFvn8CHhZi6M9izqoLUzp7Xs3KYmBxXhazIVpZMIgBn4ObAZ9ihojgW81rcfExaCCvpIhxFB2uZdZNpSsXpGwwEIvBl043C1GRtz-9imhcD0Kt77RqmIIZPabFltuH3rwVDvJBIYjYw1N37jg=1A695405"
+    "jira_password": "password"
   },
   {
     "company_id": 5267,
