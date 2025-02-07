@@ -57,7 +57,7 @@ The response includes detailed information about the test result, along with a p
                 "name": "IPHONE 6S",
                 "operating_system": "IOS"
             },
-            "udid": "33e67c137457ee479aae6f5c47b59f57c849a025"
+            "udid": "abcd123xyz"
         },
         "device_model_name": "IPHONE 6S",
         "enabled": true,
@@ -118,7 +118,7 @@ The response includes detailed information about the test result, along with a p
             "ROLE_NEW_COMPANY_ADMIN",
             "ROLE_REPORT"
         ],
-        "access_token": "afbe7d859ad86b5149f75077c52035e3"
+        "access_token": "abc123xyz"
     },
     "start_date": "2025-01-23T14:25:21Z",
     "end_date": "2025-01-23T14:25:24Z",
@@ -230,7 +230,7 @@ The response includes detailed information about the test result, along with a p
                             "name": "IPHONE 6S",
                             "operating_system": "IOS"
                         },
-                        "udid": "33e67c137457ee479aae6f5c47b59f57c849a025"
+                        "udid": "abc123xyz"
                     },
                     "device_model_name": "IPHONE 6S",
                     "enabled": true,
