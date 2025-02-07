@@ -95,7 +95,7 @@
   * [Get All Roles](apis/account/get-all-roles.md)
   * [Get Customer ID by Company ID](apis/account/get-customer-id-by-company-id.md)
   * [Get Package Price by Package, Period, and Currency](apis/account/get-package-price-by-package-period-and-currency.md)
-  * [Get User Details by Customer ID and User ID](apis/account/get-user-details-by-customer-id-and-user-id.md)
+  * [Get User Details by Customer ID and User ID](apis/account/page-1.md)
   * [Get Customer Information](apis/account/get-customer-information.md)
   * [Get Last Subscribed Product Packages of Customer](apis/account/get-last-subscribed-product-packages-of-customer.md)
   * [Update User](apis/account/update-user.md)

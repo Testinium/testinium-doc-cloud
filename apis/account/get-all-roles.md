@@ -1,14 +1,12 @@
 # Get All Roles
 
-###
-
 Retrieves a list of roles associated with the authenticated user.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `/api/roles`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/roles`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -18,7 +16,7 @@ Retrieves a list of roles associated with the authenticated user.
 ### Response
 
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "entity_id": 1,
         "name": "ROLE_ADMIN",
@@ -59,7 +57,7 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Response Fields
+### Response Fields
 
 | Field        | Type      | Description                                              |
 | ------------ | --------- | -------------------------------------------------------- |
@@ -67,19 +65,7 @@ jsonKopyalaDüzenle[
 | `name`       | `String`  | The name of the role (e.g., `ROLE_ADMIN`).               |
 | `clean_name` | `String`  | A human-readable name for the role (e.g., `ROLE ADMIN`). |
 
-***
-
-### Example Request
-
-```bash
-bashKopyalaDüzenlecurl --location --request GET "https://devcluster.testinium.io/Testinium.RestApi/api/roles" \
---header 'Authorization: Bearer <your_access_token>' \
---header 'current-company-id: <your_company_id>'
-```
-
-***
-
-#### Error Codes
+### Error Codes
 
 | HTTP Status | Code            | Message                     |
 | ----------- | --------------- | --------------------------- |
@@ -88,3 +74,15 @@ bashKopyalaDüzenlecurl --location --request GET "https://devcluster.testinium.i
 | 403         | FORBIDDEN       | Insufficient permissions.   |
 | 404         | NOT\_FOUND      | Resource not found.         |
 | 500         | INTERNAL\_ERROR | Server error.               |
+
+***
+
+### Example Request
+
+```bash
+curl --location --request GET "https://testinium.io/Testinium.RestApi/api/roles" \
+--header 'Authorization: Bearer <your_access_token>' \
+--header 'current-company-id: <your_company_id>'
+```
+
+***

@@ -1,17 +1,15 @@
 # Get Customer Information
 
-##
-
 The endpoint retrieves customer details based on the given customer ID. The user must have the appropriate access rights to view the requested customer information.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/customers/{id}`
+* **URL**: `https://account.testinium.com/account/api/v1/customers/{customerId}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-* **Headers**: Required (`Authorization`, `current-company-id: <your_company_id>`)
+* **Headers**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
@@ -20,12 +18,6 @@ The endpoint retrieves customer details based on the given customer ID. The user
 | Parameter | Type   | Required | Description                    |
 | --------- | ------ | -------- | ------------------------------ |
 | `id`      | `Long` | Yes      | The unique ID of the customer. |
-
-***
-
-### Request Parameters
-
-No request body is required for this endpoint. The parameter `id` is provided via the URL path.
 
 ***
 
@@ -580,7 +572,7 @@ The response contains details about the customer.
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/customers/3393' \
+curl --location 'https://account.testinium.com/account/api/v1/customers/{customerId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

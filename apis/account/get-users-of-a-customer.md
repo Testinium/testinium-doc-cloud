@@ -1,19 +1,15 @@
 # Get Users of a Customer
 
-##
-
 Retrieves the list of users associated with a specific customer. The user must have `ROLE_ADMIN` or `ROLE_COMPANY_ADMIN`authority to access this endpoint.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/customers/{id}/users/`
+* **URL**: `https://account.testinium.com/account/api/v1/customers/{customerId}/users/`
 * **Method**: `GET`
 * **Authentication**: Required (Bearer Token)
-* **Headers**:
-  * `Authorization: Bearer <your_access_token>`
-  * `Content-Type: application/json`
+* **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
@@ -25,17 +21,9 @@ Retrieves the list of users associated with a specific customer. The user must h
 
 ***
 
-### Request Parameters
-
-No request body is required for this endpoint. The `id` parameter is provided via the URL path.
-
-***
-
 ### Response
 
 A list of user objects related to the specified customer.
-
-#### Example Response
 
 ```json
 [
@@ -212,19 +200,6 @@ A list of user objects related to the specified customer.
 ]
 ```
 
-#### Response Fields
-
-| Field       | Type    | Description                                  |
-| ----------- | ------- | -------------------------------------------- |
-| entityId    | Long    | Unique identifier for the user.              |
-| username    | String  | The username of the user.                    |
-| email       | String  | The email address of the user.               |
-| companyName | String  | The name of the company the user belongs to. |
-| enabled     | Boolean | Indicates if the user account is active.     |
-| customer    | Long    | The associated customer ID.                  |
-| createdDate | Long    | Timestamp of when the user was created.      |
-| authorities | Array   | List of roles assigned to the user.          |
-
 ***
 
 ### Error Codes
@@ -241,7 +216,8 @@ A list of user objects related to the specified customer.
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/customers/3393/users/' \
+curl --location 'https://account.testinium.com/account/api/v1/customers/{customerId}/users/' \
 --header 'Authorization: Bearer <your_access_token>' \
---header 'Content-Type: application/json'
+--header 'Content-Type: application/json'\
+--header 'current-company-id: <your_company_id>'
 ```

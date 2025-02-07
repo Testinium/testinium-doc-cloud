@@ -6,7 +6,7 @@ This endpoint allows an authorized user to delete a specific customer. The user 
 
 ### Endpoint Information
 
-* **URL**: https://account-devcluster.testinium.io/api/v1/customers`/{customerId}`
+* **URL**: https://account.testinium.com/api/v1/customers`/{customerId}`
 * **Method**: `DELETE`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -18,18 +18,6 @@ This endpoint allows an authorized user to delete a specific customer. The user 
 | Parameter | Type   | Required | Description                    |
 | --------- | ------ | -------- | ------------------------------ |
 | `id`      | `Long` | Yes      | The unique ID of the customer. |
-
-***
-
-### Authorization
-
-The user must have either `ROLE_ADMIN` or `ROLE_COMPANY_ADMIN` authority to perform this operation. If the user does not have the required permissions, the request will be denied.
-
-***
-
-### Request Parameters
-
-No request body is required for this endpoint. The `id` parameter is provided via the URL path.
 
 ***
 
@@ -53,7 +41,7 @@ If the request is successful, the response will return an HTTP `200 OK` status w
 ### Example Request
 
 ```bash
-curl --location --request DELETE 'https://https://account-devcluster.testinium.io/api/v1/customers/{customerId}' \
+curl --location --request DELETE 'https://https://account.testinium.com/api/v1/customers/{customerId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

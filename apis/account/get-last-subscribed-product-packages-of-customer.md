@@ -1,21 +1,19 @@
 # Get Last Subscribed Product Packages of Customer
 
-###
-
 This endpoint retrieves the most recent product packages that a customer has subscribed to.
 
 ***
 
 #### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/customers/packages/last/{id}`
+* **URL**: `https://account.testinium.com/account/api/v1/customers/packages/last/{customerId}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
-#### Path Parameters
+### Path Parameters
 
 | Parameter | Type   | Required | Description                    |
 | --------- | ------ | -------- | ------------------------------ |
@@ -23,20 +21,12 @@ This endpoint retrieves the most recent product packages that a customer has sub
 
 ***
 
-#### Request Parameters
-
-This endpoint does not require a request body. The parameter `id` is provided as part of the URL path.
-
-***
-
-#### Response
+### Response
 
 The response contains the details of the customer's last subscribed product packages.
 
-**Example Response**
-
 ```json
-jsonKopyalaDüzenle[
+[
   {
     "entityId": 6810,
     "subscription": {
@@ -192,7 +182,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field            | Type      | Description                                           |
 | ---------------- | --------- | ----------------------------------------------------- |
@@ -206,7 +196,7 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                 |
 | --------- | ----------------------- | ----------------------------------------------------------- |
@@ -217,10 +207,10 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Example Request
+### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/customers/packages/last/{id}' \
+curl --location 'https://account.testinium.com/account/api/v1/customers/packages/last/{customerId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

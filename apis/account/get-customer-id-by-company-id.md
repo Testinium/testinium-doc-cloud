@@ -1,14 +1,12 @@
 # Get Customer ID by Company ID
 
-###
-
 This endpoint retrieves the customer ID for a given company by its company ID. The user must have appropriate access to the company to retrieve the customer ID.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/companies/{companyId}/customerId`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/companies/{companyId}/customerId`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -23,18 +21,12 @@ This endpoint retrieves the customer ID for a given company by its company ID. T
 
 ***
 
-### Request Parameters
-
-No request body is required for this endpoint. The `companyId` is provided via the URL path.
-
-***
-
 ### Response
 
 The response contains the customer ID associated with the provided company ID.
 
 ```json
-jsonKopyalaDüzenle{
+{
   "customerId": 3393
 }
 ```
@@ -61,7 +53,7 @@ jsonKopyalaDüzenle{
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.RestApi/api/companies/{companyId}/customerId' \
+curl --location 'https://testinium.io/Testinium.RestApi/api/companies/{companyId}/customerId' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

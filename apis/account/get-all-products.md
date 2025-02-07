@@ -1,27 +1,24 @@
 # Get All Products
 
-###
-
 This endpoint retrieves all products. The user must have `ROLE_ADMIN` or `ROLE_COMPANY_ADMIN` to access this endpoint.
 
 ***
 
-#### Endpoint Information
+### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/products/`
+* **URL**: `https://account.testinium.com/account/api/v1/products/`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
-* **Produces**: `application/hal+json`
 
 ***
 
-#### Response
+### Response
 
 The response contains a list of products, with each product including links to related actions.
 
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "entityId": 1,
         "name": "Testinium",
@@ -44,7 +41,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field                   | Type     | Description                                                              |
 | ----------------------- | -------- | ------------------------------------------------------------------------ |
@@ -59,7 +56,7 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Error Codes
+### Error Codes
 
 | HTTP Code | Error Message           | Description                                                |
 | --------- | ----------------------- | ---------------------------------------------------------- |
@@ -68,10 +65,10 @@ jsonKopyalaDüzenle[
 
 ***
 
-#### Example Request
+### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/products/' \
+curl --location 'https://account.testinium.com/account/api/v1/products/' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

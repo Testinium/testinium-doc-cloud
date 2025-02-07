@@ -1,18 +1,15 @@
 # Get Billings by Customer ID
 
-##
-
 This endpoint retrieves billing information for a specific customer by their `customerId`. The user must have sufficient permissions to access the customer's billing data.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/billings/customer/{id}`
+* **URL**: `https://account.testinium.com/account/api/v1/billings/customer/{customerId}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
-* **Produces**: `HAL_JSON_VALUE`
 
 ***
 
@@ -27,8 +24,6 @@ This endpoint retrieves billing information for a specific customer by their `cu
 ### Response
 
 The response returns a list of billing details for the specified customer. Each billing object includes information about the subscription, product details, billing status, payment details, and more.
-
-#### Example Response
 
 ```json
 [
@@ -395,10 +390,10 @@ The response returns a list of billing details for the specified customer. Each 
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/billings/customer/3393' \
+curl --location --request GET 'https://account.testinium.com/account/api/v1/billings/customer/{customerId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
---request GET
+
 ```
 
 4o mini

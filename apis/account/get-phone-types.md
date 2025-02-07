@@ -1,22 +1,15 @@
 # Get Phone Types
 
-##
-
 The endpoint retrieves the list of phone types. The user must have the appropriate authorization to access this endpoint.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/enums/phone_types`
+* **URL**: `https://account.testinium.com/account/api/v1/enums/phone_types`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-
-***
-
-### Request Parameters
-
-No request body is required for this endpoint. The request is made with a simple GET request to retrieve the phone types.
+* **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
@@ -25,7 +18,7 @@ No request body is required for this endpoint. The request is made with a simple
 The response contains a list of phone types, each represented by a `key` and a `value`.
 
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "key": "H",
         "value": "Home"
@@ -41,7 +34,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field   | Type     | Description                                  |
 | ------- | -------- | -------------------------------------------- |
@@ -62,7 +55,7 @@ jsonKopyalaDüzenle[
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/enums/phone_types' \
---request GET \
---header 'Authorization: Bearer <your_access_token>'
+curl --location --request GET 'https://account-devcluster.testinium.io/account/api/v1/enums/phone_types' \
+--header 'Authorization: Bearer <your_access_token>'\
+--header 'current-company-id: <your_company_id>' \
 ```

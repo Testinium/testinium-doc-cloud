@@ -1,22 +1,15 @@
 # Get Countries
 
-##
-
 The endpoint retrieves a list of countries. The user must have the appropriate authorization to access this endpoint.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/enums/countries`
+* **URL**: `https://account.testinium.com/account/api/v1/enums/countries`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-
-***
-
-### Request Parameters
-
-No request body is required for this endpoint. A GET request will retrieve the list of countries.
+* **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
@@ -25,7 +18,7 @@ No request body is required for this endpoint. A GET request will retrieve the l
 The response contains a list of countries, each with the following fields:
 
 ```json
-jsonKopyalaDüzenle[
+[
     {
         "entityId": 3,
         "provinces": null,
@@ -43,7 +36,7 @@ jsonKopyalaDüzenle[
 ]
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field       | Type      | Description                                        |
 | ----------- | --------- | -------------------------------------------------- |
@@ -67,7 +60,7 @@ jsonKopyalaDüzenle[
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/enums/countries' \
---request GET \
---header 'Authorization: Bearer <your_access_token>'
+curl --location --request GET 'https://account-devcluster.testinium.io/account/api/v1/enums/countries' \
+--header 'Authorization: Bearer <your_access_token>'\
+--header 'current-company-id: <your_company_id>' \
 ```

@@ -1,7 +1,5 @@
 # Get User Details by Customer ID and User ID
 
-###
-
 This API endpoint retrieves the details of a specific user associated with a given customer ID. The requesting user must have appropriate access permissions.
 
 ***
@@ -9,7 +7,7 @@ This API endpoint retrieves the details of a specific user associated with a giv
 ### Endpoint Information
 
 * **URL**:\
-  `https://account-devcluster.testinium.io/account/api/v1/customers/{customerId}/users/{userId}`
+  `https://account.testinium.com/account/api/v1/customers/{customerId}/users/{userId}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -25,18 +23,12 @@ This API endpoint retrieves the details of a specific user associated with a giv
 
 ***
 
-### Request Parameters
-
-No request body is required for this endpoint. The parameters (`customerId` and `userId`) are provided via the URL path.
-
-***
-
 ### Response
 
 The response contains detailed information about the user.
 
 ```json
-jsonKopyalaDüzenle{
+{
     "userType": null,
     "verificationToken": null,
     "resetPasswordToken": null,
@@ -47,7 +39,7 @@ jsonKopyalaDüzenle{
     "email": "mehmet.aksahin@testinium.com",
     "password": null,
     "newPassword": null,
-    "accessToken": "afbe7d859ad86b5149f75077c52035e3",
+    "accessToken": "xxx",
     "companyName": null,
     "enabled": true,
     "accountNonExpired": true,
@@ -103,7 +95,7 @@ jsonKopyalaDüzenle{
             "cleanName": null
         }
     ],
-    "vcsPassword": "EBgdEMJkfw0dTqmVeCm7hQ=="
+    "vcsPassword": "xxx"
 }
 ```
 
@@ -140,7 +132,7 @@ jsonKopyalaDüzenle{
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/customers/3393/users/6835' \
+curl --location 'https://account.testinium.com/account/api/v1/customers/{customerId}/users/{userId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

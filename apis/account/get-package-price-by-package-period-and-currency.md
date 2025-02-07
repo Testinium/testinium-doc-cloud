@@ -1,14 +1,12 @@
 # Get Package Price by Package, Period, and Currency
 
-###
-
 This endpoint retrieves the price definition for a specific product package based on the package ID, period, and currency. The user must ensure that the package exists and provide the correct parameters.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/public/pricing/package_id/{package_id}/period/{period}/currency/{currency}`
+* **URL**: `https://account.testinium.com/account/public/pricing/package_id/{package_id}/period/{period}/currency/{currency}`
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
@@ -25,18 +23,12 @@ This endpoint retrieves the price definition for a specific product package base
 
 ***
 
-### Request Parameters
-
-No request body is required for this endpoint. The parameters (`package_id`, `period`, and `currency`) are provided via the URL path.
-
-***
-
 ### Response
 
 The response contains the price definition and associated details for the requested product package, period, and currency.
 
 ```json
-jsonKopyalaDüzenle{
+{
   "entityId": 3130,
   "productPackage": {
     "entityId": 3129,
@@ -106,7 +98,7 @@ jsonKopyalaDüzenle{
 }
 ```
 
-#### Response Fields
+### Response Fields
 
 | Field            | Type     | Description                                                        |
 | ---------------- | -------- | ------------------------------------------------------------------ |
@@ -133,7 +125,7 @@ jsonKopyalaDüzenle{
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/public/pricing/package_id/{package_id}/period/{period}/currency/{currency}' \
+curl --location 'https://account.testinium.com/account/public/pricing/package_id/{package_id}/period/{period}/currency/{currency}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>'
 ```

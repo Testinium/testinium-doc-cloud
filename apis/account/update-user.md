@@ -1,18 +1,15 @@
 # Update User
 
-##
-
 This endpoint allows you to update the user information for a specific user within a customer account. The request requires the `userId` and `customerId` to be provided. The user must have appropriate permissions to update user details.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://account-devcluster.testinium.io/account/api/v1/customers/{id}/users/{userId}`
+* **URL**: `https://account.testinium.com/account/api/v1/customers/{id}/users/{userId}`
 * **Method**: `PUT`
 * **Authentication**: Required (`Bearer Token`)
 * **Header**: Required (`current-company-id: <your_company_id>`)
-* **Produces**: `HAL_JSON_VALUE`
 
 ***
 
@@ -25,12 +22,12 @@ This endpoint allows you to update the user information for a specific user with
 
 ***
 
-### Request Body
+### Request
 
 The request body should contain the updated information for the user. You can update fields such as `name`, `surname`, `username`, `email`, and other user-related properties.
 
 ```json
-jsonKopyalaDüzenle{
+{
   "userType": null,
   "verificationToken": null,
   "resetPasswordToken": null,
@@ -70,7 +67,7 @@ jsonKopyalaDüzenle{
 The response returns the updated information of the user.
 
 ```json
-jsonKopyalaDüzenle{
+{
   "userType": null,
   "verificationToken": null,
   "resetPasswordToken": null,
@@ -117,10 +114,9 @@ jsonKopyalaDüzenle{
 ### Example Request
 
 ```bash
-bashKopyalaDüzenlecurl --location 'https://account-devcluster.testinium.io/account/api/v1/customers/3393/users/6860' \
+curl --location --request PUT 'https://account.testinium.com/account/api/v1/customers/{customerId}/users/{userId}' \
 --header 'Authorization: Bearer <your_access_token>' \
 --header 'current-company-id: <your_company_id>' \
---request PUT \
 --data '{"name":"Denemee","surname":"User","username":"selinvural","email":"selin.vural@testinium.com","enabled":false,"accountNonExpired":true,"accountNonLocked":true,"credentialNonExpired":true,"authorities":[{"entityId":2,"name":"ROLE_USER","cleanName":"ROLE USER"}]}'
 ```
 

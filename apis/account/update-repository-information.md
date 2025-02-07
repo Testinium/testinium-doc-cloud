@@ -1,25 +1,21 @@
 # Update Repository Information
 
-## Update Repository Information
-
 This endpoint updates the repository information for a company. The user must be authenticated and have the appropriate role to access this endpoint.
 
 ***
 
 ### Endpoint Information
 
-* **URL**: `https://devcluster.testinium.io/Testinium.RestApi/api/companies/repository`
+* **URL**: `https://testinium.io/Testinium.RestApi/api/companies/repository`
 * **Method**: `PUT`
 * **Authentication**: Required (`Bearer Token`)
-* **Authorization**: Required roles: `ROLE_ADMIN` or `ROLE_COMPANY_ADMIN`
+* **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
 ### Request Body
 
 The request body must contain a `CompanyDTO` object with the repository details to be updated.
-
-#### Example Request Body
 
 ```json
 {
@@ -40,8 +36,6 @@ The request body must contain a `CompanyDTO` object with the repository details 
 ### Response
 
 The response contains the updated company information, including the repository details.
-
-#### Example Response
 
 ```json
 {
@@ -150,11 +144,10 @@ The response contains the updated company information, including the repository 
 
 ### Example Request
 
-```bash
-bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.RestApi/api/companies/repository' \
---request PUT \
---header 'Authorization: Bearer <your_access_token>' \
---header 'Content-Type: application/json' \
+<pre class="language-bash"><code class="lang-bash">curl --location --request PUT 'https://testinium.io/Testinium.RestApi/api/companies/repository' \
+<strong>--header 'Authorization: Bearer &#x3C;your_access_token>' \
+</strong>--header 'Content-Type: application/json' \
+--header 'current-company-id: &#x3C;your_company_id>'\
 --data '{
   "id": 5251,
   "repository_url": "https://github.com/FurkanKartalTSTNM",
@@ -166,4 +159,4 @@ bashKopyalaDüzenlecurl --location 'https://devcluster.testinium.io/Testinium.Re
   "external_repository": true,
   "vcs_type": "GIT"
 }'
-```
+</code></pre>
