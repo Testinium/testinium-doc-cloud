@@ -26,9 +26,7 @@ The following steps are followed to define a new periodic report in the system;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.47.58.png" alt=""><figcaption></figcaption></figure>
 
-4. Enter the e-mail address of the contact to which the report will be sent from the Alert Issues tab.
-
-On the screen that opens, enter the e-mail address and add this address with the Add button.
+4. Enter the e-mail address of the contact to which the report will be sent from the _**Alert Issues**_ tab. On the screen that opens, enter the e-mail address and add this address with the _**Add**_ button.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-02-07 at 09.48.46.png" alt=""><figcaption></figcaption></figure>
 
