@@ -1,6 +1,5 @@
 ---
 icon: party-horn
-hidden: true
 ---
 
 # GET STARTED

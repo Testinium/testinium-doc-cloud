@@ -1,4 +1,8 @@
-# General Information
+---
+hidden: true
+---
+
+# GENERAL INFORMATION
 
 **Testinium Cloud Product**
 

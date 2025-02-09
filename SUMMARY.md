@@ -4,7 +4,6 @@
 
 * [GENERAL INFORMATION](README.md)
 * [GENERAL USAGE FEATURES](testinium-cloud/general-usage-features.md)
-* [GO TO TESTINIUM](https://testinium.io)
 * [GET STARTED](testinium-cloud/get-started/README.md)
   * [What is Testinium?](testinium-cloud/get-started/what-is-testinium.md)
   * [Go to Testinium](https://account.testinium.com/uaa/login)
