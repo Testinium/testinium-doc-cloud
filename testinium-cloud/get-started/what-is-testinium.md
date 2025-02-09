@@ -8,5 +8,5 @@ icon: info
 
 It is a tool that gathers all test automation proccess under a single roof.
 
-<figure><img src="../../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Untitled (1).png" alt=""><figcaption></figcaption></figure></div>
 
