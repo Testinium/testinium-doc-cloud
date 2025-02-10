@@ -34,7 +34,7 @@ It is the tab where advanced settings are defined for the plan. The fields that 
 
 * _**Failed Test Retry Count;**_ it is the number of times the test is repeated when the test fails.&#x20;
 * _**Parallel Test Limit;**_ it is actually shows the limit that the company has. The number can be reduced on a plan basis.&#x20;
-* _**Upload File to Node;**_
+* _**Upload File to Node;**_&#x20;
 * _**Maximum Execution Time Per Scenario;**_ it is determined from this field. If the test is not finished in the time selected here, the system terminates the test. &#x20;
 * _**Bandwidth Type;**_ users can select Bandwidth Type for the plan.&#x20;
 * _**Screenshots & Record Video,**_ it  allows recording of test runs.
@@ -62,13 +62,13 @@ It is the tab where advanced settings are defined for the plan. The fields that 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 08.46.47.png" alt=""><figcaption></figcaption></figure>
 
-b. Enable the _**Notification**_ option if you want to receive notifications about test results.&#x20;
+&#x20;b. Enable the _**Notification**_ option if you want to receive notifications about test results.&#x20;
 
 This allows the execution status and results of the desired test results to be sent to the e-mail address entered.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 08.49.19.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;b.  Click one of the following options:
+&#x20; c. Click one of the following options:
 
 * _**Apply**_; to ensure that the changes are applied.
 * _**Save**_; to save the changes made.

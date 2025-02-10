@@ -4,7 +4,7 @@ _**Create Plan;**_ It is the screen where a new plan definition is made in the s
 
 The following steps should be followed to create a new scenario;
 
-1. Click the _**Create New Plan**_ on the Plans screen.
+1. Click the _**Create New Plan**_ button.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 13.31.30.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,13 +22,15 @@ _**Search**_ for the project to plan, then tick the check box and select the pro
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 13.37.34.png" alt=""><figcaption></figcaption></figure>
 
-4. Add platforms.
+4. a. Select the Operating System, Browser, Version and Screen Resolution.
 
-&#x20;Select the Operating System, Browser, Version and Screen Resolution to run the plan and add it with the _**Add**_ button. Click the _**Delete**_ to delete platform if necessary.
+&#x20;      b. Click to _**Add**_ button.&#x20;
+
+&#x20;      c. Click the _**Delete**_ to delete platform if necessary
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 13.39.55.png" alt=""><figcaption></figcaption></figure>
 
-5.  a. Click to _**Save**_ to save the new plan to the system.
+5. a. Click to _**Save**_ to save the new plan to the system.
 
-    b. Click to _**Cancel**_ to cancel the plan definition process.
+&#x20;      b. Click to _**Cancel**_ to cancel the plan definition process.
 
