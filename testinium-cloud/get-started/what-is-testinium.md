@@ -8,5 +8,5 @@ _**Testinium**_ is a test automation tool which allows its users to orchestrate 
 
 It is a tool that gathers all test automation proccess under a single roof.
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/Untitled (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2025-02-10 at 16.08.22.png" alt=""><figcaption></figcaption></figure></div>
 

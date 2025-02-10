@@ -18,7 +18,7 @@ The selected scenario is updated by following the steps below;
 
 <figure><img src="../../.gitbook/assets/Edit Scenario 2.png" alt=""><figcaption></figcaption></figure>
 
-3. a. Click to Apply to enable the changes to be applied.
+3. a. Click to _**Apply**_ to enable the changes to be applied.
 
 &#x20;      b. Click to _**Save**_ to save changes made.
 

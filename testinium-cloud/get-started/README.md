@@ -4,7 +4,7 @@ icon: party-horn
 
 # GET STARTED
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-03 at 17.16.52.png" alt="" width="375"><figcaption></figcaption></figure>
+<div align="center" data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-02-03 at 17.16.52.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 **Welcome to Testinium !**
 

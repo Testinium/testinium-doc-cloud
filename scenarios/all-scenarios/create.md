@@ -24,7 +24,7 @@ The following steps should be followed to create a new scenario;
 
 4. Select the methods listed for the file selected from the _**Select Test Method**_ field.
 
-* _**Create Scenario Group;**_ you can select multiple scenarios and name the group like a scenario as what you type in SCENARIO NAME field on left.update the source codes of the selected file from the File Content field in case of need
+* _**Create Scenario Group;**_ you can select multiple scenarios and name the group like a scenario as what you type in SCENARIO NAME field on left.update the source codes of the selected file from the File Content field in case of need.
 
 <figure><img src="../../.gitbook/assets/SelectTestMethods.png" alt=""><figcaption></figcaption></figure>
 

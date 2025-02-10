@@ -6,7 +6,7 @@ Summary is the screen where the details of the project can be accessed and actio
 
 <figure><img src="../../.gitbook/assets/Project Summary.png" alt=""><figcaption></figcaption></figure>
 
-1. This displays information about the test plans and finalised working plans for this project. The actions and field information that can be done are as follows;
+2. This displays information about the test plans and finalised working plans for this project. The actions and field information that can be done are as follows;
 
 * _**Create New Plan;**_ lets you create a new plan.
 * _**Report;**_ it allows you to access the reports of the project.

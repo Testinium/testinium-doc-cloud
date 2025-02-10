@@ -2,7 +2,9 @@
 
 _**Account Information**_ is the screen that contains user and company information in _Basic Information_, _Users_, _Billing_, _Company_ and _Plugins_ tabs.
 
+{% hint style="info" %}
 We cannot share the information of Users, Billings and Company tabs due to the privacy policy.
+{% endhint %}
 
 * _**Basic Information;**_ This tab contains general information about the user and the company.
 
@@ -12,14 +14,16 @@ We cannot share the information of Users, Billings and Company tabs due to the p
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.49.54.png" alt=""><figcaption></figcaption></figure>
 
-* The plugin can be integrated by following the steps below;
+The plugin can be integrated by following the steps below;
 
-1. Click _**Edit**_.
+1. Click the _**Edit**_ button.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.51.18.png" alt=""><figcaption></figcaption></figure>
 
-2. Enter the credentials for the related plugin.
-3. Click _**Save**_.
+2. Enter the credentials for the plugin.
+3. a. Click the  _**Save**_ button to integrate the plugin.
+
+&#x20;     b. Click the  _**Cancel**_ button to cancel the process.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.52.41.png" alt=""><figcaption></figcaption></figure>
 
