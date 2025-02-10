@@ -4,7 +4,7 @@ Summary is the screen where the details of the project can be accessed and actio
 
 1. Click on the _**Summary**_ button on the project card to access the details of the project.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 14.14.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Project Summary.png" alt=""><figcaption></figcaption></figure>
 
 1. This displays information about the test plans and finalised working plans for this project. The actions and field information that can be done are as follows;
 
@@ -14,4 +14,4 @@ Summary is the screen where the details of the project can be accessed and actio
 * _**Latest Plan Runs;**_ shows Id, Plan Name, Run Date, Run Time, Test Result information of last running plans.
 * _**Details;**_ provides the report of the plan that has been run.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 14.18.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-10 at 09.50.08.png" alt=""><figcaption></figcaption></figure>

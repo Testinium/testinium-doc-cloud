@@ -6,7 +6,7 @@ description: This screen can be found under the Projects heading in the Testiniu
 
 _**Projects;**_ this is the field where projects and plans are created and projects are updated in order to perform tests in the system.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 10.03.07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-10 at 09.20.15.png" alt=""><figcaption></figcaption></figure>
 
 * The projects on the screen can be sorted according to the following headings on the top right of the screen;
 
@@ -14,13 +14,13 @@ _**Projects;**_ this is the field where projects and plans are created and proje
 
 &#x20;         **Sort By Project Name;** Sorts them alphabetically by project name.
 
-* **‘+’** button on the project card directs to the project and plan adding pages.
+1. _**‘+’**_ button on the project card directs to the project and plan adding pages.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 11.24.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-10 at 09.26.42.png" alt=""><figcaption></figcaption></figure>
 
-* **‘---’** button on the project card directs to Delete button for deleting the related project.
+2. _**‘---’**_ button on the project card directs to Delete button for deleting the related project.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 11.36.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-10 at 09.33.02.png" alt=""><figcaption></figcaption></figure>
 
 
 

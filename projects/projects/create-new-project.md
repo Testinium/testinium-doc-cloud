@@ -4,14 +4,17 @@ When the Create New Project button is clicked, you will be directed to the creat
 
 The following steps should be followed to create a new project;
 
-1. Click on _**Create New Project**_ button.
+1. Click  _**Create New Project**_ button.
+
+<figure><img src="../../.gitbook/assets/Create project.png" alt=""><figcaption></figcaption></figure>
+
 2. Select the project type.
 
 _**Selenium**_ is selected if the test will be performed on the web browser, _**Appium**_ if the mobile test will be performed, and _**Service**_ if the service tests will be performed.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.16.06.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;**2.1  If&#x20;**_**Selenium**_**&#x20;is selected;**
+&#x20;2.1  If _**Selenium**_ is selected;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.19.42.png" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +34,7 @@ _**Selenium**_ is selected if the test will be performed on the web browser, _**
 
 
 
-**2.2. If  Appium is selected;**
+2.2. If  **Appium** is selected;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.38.16.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +58,7 @@ _**Selenium**_ is selected if the test will be performed on the web browser, _**
 
 
 
-**2.3. If Service is selected;**
+2.3. If **Service** is selected;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 12.45.06.png" alt=""><figcaption></figcaption></figure>
 
