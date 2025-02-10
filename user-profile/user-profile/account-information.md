@@ -3,7 +3,7 @@
 _**Account Information**_ is the screen that contains user and company information in _Basic Information_, _Users_, _Billing_, _Company_ and _Plugins_ tabs.
 
 {% hint style="info" %}
-We cannot share the information of Users, Billings and Company tabs due to the privacy policy.
+_We cannot share the information of **Users**, **Billings** and **Company** tabs due to the privacy policy._
 {% endhint %}
 
 * _**Basic Information;**_ This tab contains general information about the user and the company.

@@ -4,7 +4,7 @@ Advanced is the field where the integration of the project with Testrail, Jira a
 
 The integration process is completed by following the steps below;
 
-1. Click the _**Advabced**_ Tab.
+1. Click the _**Advanced**_ tab.
 2. Select the plugin to integrate.
 3. Switch the option from disable to enable.
 
