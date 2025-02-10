@@ -11,6 +11,9 @@
 
 3. Click the _**Sign In**_ button.
 
-* If the “Remember Me” option is selected, the system will fill the Username and Password in these fields in the next login process.
+{% hint style="info" %}
+If the _**“Remember Me”**_ option is selected, the system will fill the username and password in these fields in the next login process.
 
-&#x20;     Paired **LinkedIn, Google and Github** accounts can also be logged into the system.
+Paired _**LinkedIn, Google**_ and _**Github**_ accounts can also be logged into the system.
+{% endhint %}
+
