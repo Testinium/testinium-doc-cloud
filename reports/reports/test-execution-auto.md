@@ -20,7 +20,9 @@ The details of the test result run on the system are displayed. The following st
 
 2. a. Execution Detail screen of the selected plan is displayed.
 
-&#x20;      b. Click on _**Export Table**_ button to export the information on the Execution Details         screen to excel and _**Export PDF**_ button to export to PDF.
+&#x20;      b. Click on _**Export Table**_ button to export the information to excel and&#x20;
+
+&#x20;      c. Click the _**Export PDF**_ button to export the information to PDF.
 
 
 

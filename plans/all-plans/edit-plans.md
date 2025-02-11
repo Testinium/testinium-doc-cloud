@@ -34,7 +34,7 @@ It is the tab where advanced settings are defined for the plan. The fields that 
 
 * _**Failed Test Retry Count;**_ it is the number of times the test is repeated when the test fails.&#x20;
 * _**Parallel Test Limit;**_ it is actually shows the limit that the company has. The number can be reduced on a plan basis.&#x20;
-* _**Upload File to Node;**_&#x20;
+* _**Upload File to Node;**_ If this field is activated; it allows the files (test data files, configuration files, etc.) that need to be used during the test run to be uploaded to Testinium nodes. These uploaded files can be used in test steps.
 * _**Maximum Execution Time Per Scenario;**_ it is determined from this field. If the test is not finished in the time selected here, the system terminates the test. &#x20;
 * _**Bandwidth Type;**_ users can select Bandwidth Type for the plan.&#x20;
 * _**Screenshots & Record Video,**_ it  allows recording of test runs.
