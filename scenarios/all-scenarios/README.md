@@ -1,26 +1,23 @@
 # Scenarios
 
-It is the part that enables the creation of scenarios for the created project.
+_**Scenarios;**_ it is the part that enables the creation of scenarios for the created project.
 
-### **Scenarios Dashboard**
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 08.27.36.png" alt=""><figcaption></figcaption></figure>
 
-On this tab, all scenerios are listed. Testinium allows to filter scenarios by project and plan.
+1. _**Scenarios**_ on the screen can be filtered according to the following headings;
 
-Users can make the following changes in this tab;
+* Project; this is the part where the project selection is made to create the scenario.
+* Plans(Containing); lists the plans, if any, that have been created for the project you have selected.
 
-**Create New Scenarios,** It is the screen where a new scenario definition is made in the system.
+&#x20;2\. The operations and field information that can be done on the plan page are as follows;
 
-**Edit,**&#x54;he edit button is used to make changes to the scenarios.
+* Scenarios are listed on the listing screen for all projects or for the selected project and plans.
+* _**Create New Scenarios;**_  it is the screen where a new scenario definition is made in the system.
+* _**Edit;**_**&#x20;t**he edit button is used to make changes to the scenarios.
+* _**Delete;**_ allows the created scenarios to be deleted.
+* _**Export Table;**_ it allows you to download the scenario and plan information you have selected as an excel file.
 
-**Delete,** Allows the created scenarios to be deleted.
 
-**Project,** this is the part where the project selection is made to create the scenario.
-
-**Plans(Containing),** lists the plans, if any, that have been created for the project you have selected.
-
-**Export Table,** it allows you to download the scenario and plan information you have selected as an excel file.
-
-<figure><img src="../../.gitbook/assets/Ekran Resmi 2023-06-20 21.46.47.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

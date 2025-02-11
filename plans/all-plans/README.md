@@ -12,7 +12,7 @@ _**Plans**_ is the field where the plans of the projects are created.
 * Service
 * Running Plans
 
-2. The operations and field information that can be done on the scenario page are as follows;
+2. The operations and field information that can be done on the plan page are as follows;
 
 * Plans are listed on the listing screen for all projects or for the selected project and environment.
 * _**Edit;**_ allows making changes on the plans.

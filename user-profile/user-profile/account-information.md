@@ -12,18 +12,19 @@ _We cannot share the information of **Users**, **Billings** and **Company** tabs
 
 * _**Plugins;**_ This tab is where active plugins can be displayed. In this tab; the necessary credentials are entered and integration is performed for the relevant plugin.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.49.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 08.11.04.png" alt=""><figcaption></figcaption></figure>
 
 The plugin can be integrated by following the steps below;
 
 1. Click the _**Edit**_ button.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.51.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 08.12.55.png" alt=""><figcaption></figcaption></figure>
 
 2. Enter the credentials for the plugin.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-11 at 08.14.21 (1).png" alt=""><figcaption></figcaption></figure>
+
 3. a. Click the  _**Save**_ button to integrate the plugin.
 
 &#x20;     b. Click the  _**Cancel**_ button to cancel the process.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-02-09 at 16.52.41.png" alt=""><figcaption></figcaption></figure>
 

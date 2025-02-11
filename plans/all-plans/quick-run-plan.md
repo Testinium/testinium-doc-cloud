@@ -8,7 +8,7 @@ _**Quick Run;**_ It provides a quick test run by easily selecting the scenario i
 
 The following steps should be followed to run the tests quickly with Quick run;
 
-1. Click the _**Quick Run**_.
+1. Click the _**Quick Run**_ button.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 12.56.11.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,13 +18,13 @@ Scenarios and environments selected in the plan are listed in this field with th
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 11.01.52.png" alt=""><figcaption></figcaption></figure>
 
-
-
 3. a. Select the environments.
 
-_**'Environments'**_ lists the selected environments in the plan. The selected scenarios are listed above the Environments selection field.
+&#x20;       b. Click  the _**Add Environments**_ butto&#x6E;_**.**_
 
-b. Click  the _**Add Environments.**_
+{% hint style="info" %}
+_**'Environments'**_ lists the selected environments in the plan. The selected scenarios are listed above the Environments selection field.  &#x20;
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-06 at 13.06.10.png" alt=""><figcaption></figcaption></figure>
 
