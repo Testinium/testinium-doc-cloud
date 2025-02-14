@@ -8,7 +8,7 @@ The endpoint enables users to authenticate and acquire an access token. The acce
 
 * **URL**: `https://account.testinium.com/uaa/oauth/token`
 * **Method**: `POST`
-* **Header**: Basic Authentication (`client_id` and `client_secret`)
+* **Header**: Basic Authentication (\<username> and \<password>)
 * **Content-Type**: `application/x-www-form-urlencoded`
 
 ***
@@ -20,7 +20,7 @@ To obtain an access token, the following **form-data parameters** are required:
 | Parameter    | Type     | Required | Description                                     |
 | ------------ | -------- | -------- | ----------------------------------------------- |
 | `grant_type` | `String` | Yes      | The grant type, typically `password`.           |
-| `username`   | `String` | Yes      | The user's email address or username.           |
+| `username`   | `String` | Yes      | The user's username.                            |
 | `password`   | `String` | Yes      | The user's account password.                    |
 | `scope`      | `String` | No       | The scope of access for the token, e.g., `api`. |
 
@@ -61,7 +61,7 @@ The following error codes may be encountered during token generation:
 | HTTP Code | Error Message           | Description                                         |
 | --------- | ----------------------- | --------------------------------------------------- |
 | `400`     | `INVALID_REQUEST`       | The request is invalid or missing parameters.       |
-| `401`     | `INVALID_CLIENT`        | The `client_id` or `client_secret` is incorrect.    |
+| `401`     | `INVALID_CLIENT`        | The \<username> or \<password> is incorrect.        |
 | `403`     | `ACCESS_DENIED`         | Authentication failed due to incorrect credentials. |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server.         |
 
@@ -76,6 +76,6 @@ curl --location 'https://account.testinium.com/uaa/oauth/token' \
 --header 'Authorization: Basic dGVzdGluaXVtU3VpdGVUcnVzdGVkQ2xpZW50OnRlc3Rpbml1bVN1aXRlU2VjcmV0S2V5' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=password' \
---data-urlencode 'username=<client-id>' \
---data-urlencode 'password=<client_secret>'
+--data-urlencode 'username= <username>' \
+--data-urlencode 'password= <password>'
 ```
