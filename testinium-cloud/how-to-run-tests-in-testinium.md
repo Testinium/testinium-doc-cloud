@@ -4,7 +4,7 @@ hidden: true
 
 # How to run tests in Testinium?
 
-<figure><img src="../.gitbook/assets/Untitled (6).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled (7).jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 1. **User Login:**  [_Click here to learn how to **login.**_](../login/login/)
 2. **Project Selection and Environment Settings:**  [_Click here for the **project** detail screen._](../projects/projects/)
@@ -14,3 +14,7 @@ hidden: true
 6. **Analyzing Test Results:**  [_Click here to reach **test reports.**_](../plans/all-plans/report.md)
 7. **Quick Run Plan:** [_Click here to **run test quickly** again._](../plans/all-plans/quick-run-plan.md)
 8. **User Logout:** [_Click here to learn how to **logout.**_](../login/logout.md)
+
+
+
+<figure><img src="../.gitbook/assets/Untitled (8) (1).jpg" alt=""><figcaption></figcaption></figure>
