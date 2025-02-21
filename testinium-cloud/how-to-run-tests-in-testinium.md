@@ -13,4 +13,4 @@ hidden: true
 5. **Run the Test:** [_Click here to learn how to **run test**._](../plans/all-plans/run-plan.md)
 6. **Analyzing Test Results:**  [_Click here to reach **test reports.**_](../plans/all-plans/report.md)
 7. **Quick Run Plan:** [_Click here to **run test quickly** again._](../plans/all-plans/quick-run-plan.md)
-8. **User Logut**
+8. **User Logout:** [_Click here to learn how to **logout.**_](../login/logout.md)
