@@ -7,7 +7,7 @@
 * [GET STARTED](testinium-cloud/get-started/README.md)
   * [What is Testinium?](testinium-cloud/get-started/what-is-testinium.md)
   * [Go to Testinium](https://account.testinium.com/uaa/login)
-* [How Testinium Works?](testinium-cloud/how-testinium-works.md)
+* [How to run tests in Testinium?](testinium-cloud/how-to-run-tests-in-testinium.md)
 
 ## LOGIN
 
