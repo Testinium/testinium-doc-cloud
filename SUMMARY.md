@@ -2,7 +2,7 @@
 
 ## Testinium Cloud
 
-* [GENERAL INFORMATION](README.md)
+* [Testinium Cloud Documentation](README.md)
 * [GENERAL USAGE FEATURES](testinium-cloud/general-usage-features.md)
 * [GET STARTED](testinium-cloud/get-started/README.md)
   * [What is Testinium?](testinium-cloud/get-started/what-is-testinium.md)
