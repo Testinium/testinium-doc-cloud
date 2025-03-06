@@ -2,10 +2,10 @@
 
 **TEST RAIL PLUGIN - CLOUD**
 
-1. Create a new account or log in to your Test Rail account with [https://secure.gurock.com/](https://secure.gurock.com)
+1. Create a new account or log in to your Test Rail account with [https://www.testrail.com/](https://www.testrail.com/)
 2. Go to **Administration** -> **Site Settings** -> **API**. **Select Enable API** and save settings.
 
-![](<../../.gitbook/assets/2 (1)>)
+![](<../../.gitbook/assets/Screenshot 2025-03-04 at 10.33.40.png>)
 
 1. Go to [Testinium](https://testinium.io). Go to **Account Information** -> **Plugins.**
 
