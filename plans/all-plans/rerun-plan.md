@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Rerun Plan
 
 Click the **Rerun** button and the following popup will appear.
