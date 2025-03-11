@@ -87,11 +87,6 @@
   * [TestRail](plugins/plugins/testrail.md)
   * [Tunnel](plugins/plugins/tunnel.md)
 
-## RELEASE NOTES
-
-* [Release Notes](release-notes/plugins/README.md)
-  * [Testinium-Cloud 2.13.6 Release Notes](release-notes/plugins/xray.md)
-
 ## API's
 
 * [Auth](apis/auth/README.md)
@@ -196,3 +191,8 @@
   * [Get File List (Source Tree)](apis/scenario/get-file-list-source-tree.md)
   * [Get BDD Steps](apis/scenario/get-bdd-steps.md)
   * [Read Test Method List](apis/scenario/read-test-method-list.md)
+
+## RELEASE NOTES
+
+* [Release Notes](release-notes/plugins/README.md)
+  * [Testinium-Cloud 2.13.6 Release Notes](release-notes/plugins/xray.md)
