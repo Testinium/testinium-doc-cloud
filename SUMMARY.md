@@ -87,6 +87,11 @@
   * [TestRail](plugins/plugins/testrail.md)
   * [Tunnel](plugins/plugins/tunnel.md)
 
+## RELEASE NOTES
+
+* [Release Notes](release-notes/plugins/README.md)
+  * [Testinium-Cloud 2.13.6 Release Notes](release-notes/plugins/xray.md)
+
 ## API's
 
 * [Auth](apis/auth/README.md)
