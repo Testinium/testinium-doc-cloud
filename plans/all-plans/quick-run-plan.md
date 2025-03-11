@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Quick Run Plan
 
 _**Quick Run;**_ It provides a quick test run by easily selecting the scenario in the plan and the environments selected in the plan without changing the main settings of the plan.

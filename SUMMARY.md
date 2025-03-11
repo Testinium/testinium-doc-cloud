@@ -194,5 +194,5 @@
 
 ## RELEASE NOTES
 
-* [Release Notes](release-notes/plugins/README.md)
-  * [Testinium-Cloud 2.13.6 Release Notes](release-notes/plugins/xray.md)
+* [Release Notes](release-notes/release-notes/README.md)
+  * [Testinium-Cloud 2.13.6 Release Notes](release-notes/release-notes/testinium-cloud-2.13.6-release-notes.md)
