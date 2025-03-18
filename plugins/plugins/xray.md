@@ -1,5 +1,6 @@
 ---
 description: TESTINIUM CLOUD XRAY PLUGIN
+hidden: true
 ---
 
 # Xray

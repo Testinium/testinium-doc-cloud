@@ -30,4 +30,4 @@ This manual provides a step-by-step guide to using the **Automated Test** featur
 
 * Now everything is ready. You can run the test and navigate to the **Operation Report** tab in Testinium. At the top of the list, you will find the most recent test result.
 
-![](<../../.gitbook/assets/6 (4)>)
+![](<../../.gitbook/assets/Screenshot 2025-03-18 at 17.50.46.png>)
