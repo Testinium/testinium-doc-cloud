@@ -8,6 +8,7 @@
   * [What is Testinium?](testinium-cloud/get-started/what-is-testinium.md)
   * [Go to Testinium](https://account.testinium.com/uaa/login)
 * [How to run tests in Testinium?](testinium-cloud/how-to-run-tests-in-testinium.md)
+* [Testinium Cloud Navigation](testinium-cloud/testinium-cloud-navigation.md)
 
 ## LOGIN
 
