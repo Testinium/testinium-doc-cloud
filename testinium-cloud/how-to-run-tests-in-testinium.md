@@ -9,5 +9,5 @@
 5. **Run the Test:** All test plans in the plan are run in this step. [_Click here to learn how to **run test**._](../plans/all-plans/run-plan.md)
 6. **Quick Run Plan:** If not all test cases in the plan are to be run, the cases specified in this step are run. [_Click here to **run test quickly** again._](../plans/all-plans/quick-run-plan.md)
 7. **Analyzing Test Results:** Test results are analyzed in this step and details are accessed in this step. [_Click here to reach **test reports.**_](../plans/all-plans/report.md)
-8. **User Logout:** This is the step where the user logs out. [_Click here to learn how to **logout.**_](../login/logout.md)
+8. **User Logout:** This is the step where the user logs out.&#x20;
 
