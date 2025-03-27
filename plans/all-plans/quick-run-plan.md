@@ -34,3 +34,7 @@ _**'Environments'**_ lists the selected environments in the plan. The selected s
 
 &#x20;      b. Click _**Cancel**_ to cancel the plan change process.
 
+
+
+{% embed url="https://youtu.be/Qb0Oqrjc8pU" %}
+
