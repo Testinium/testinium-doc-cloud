@@ -197,3 +197,10 @@
 
 * [Release Notes](release-notes/release-notes/README.md)
   * [Testinium-Cloud 2.13.6 Release Notes](release-notes/release-notes/testinium-cloud-2.13.6-release-notes.md)
+  * [Testinium-Cloud 2.13.5 Release Notes](release-notes/release-notes/testinium-cloud-2.13.5-release-notes.md)
+  * [Testinium-Cloud 2.13.4 Release Notes](release-notes/release-notes/testinium-cloud-2.13.4-release-notes.md)
+  * [Testinium-Cloud 2.13.3 Release Notes](release-notes/release-notes/testinium-cloud-2.13.3-release-notes.md)
+  * [Testinium-Cloud 2.13.2 Release Notes](release-notes/release-notes/testinium-cloud-2.13.2-release-notes.md)
+  * [Testinium-Cloud 2.13.1 Release Notes](release-notes/release-notes/testinium-cloud-2.13.1-release-notes.md)
+  * [Testinium-Cloud 2.13.0 Release Notes](release-notes/release-notes/testinium-cloud-2.13.0-release-notes.md)
+  * [Testinium-Cloud 2.12.4 Release Notes](release-notes/release-notes/testinium-cloud-2.12.4-release-notes.md)
