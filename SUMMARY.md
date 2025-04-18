@@ -196,6 +196,7 @@
 ## RELEASE NOTES
 
 * [Release Notes](release-notes/release-notes/README.md)
+  * [Testinium-Cloud 2.13.8 Release Notes](release-notes/release-notes/testinium-cloud-2.13.8-release-notes.md)
   * [Testinium-Cloud 2.13.6 Release Notes](release-notes/release-notes/testinium-cloud-2.13.6-release-notes.md)
   * [Testinium-Cloud 2.13.5 Release Notes](release-notes/release-notes/testinium-cloud-2.13.5-release-notes.md)
   * [Testinium-Cloud 2.13.4 Release Notes](release-notes/release-notes/testinium-cloud-2.13.4-release-notes.md)
