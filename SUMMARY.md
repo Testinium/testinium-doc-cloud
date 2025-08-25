@@ -205,3 +205,17 @@
   * [Testinium-Cloud 2.13.1 Release Notes](release-notes/release-notes/testinium-cloud-2.13.1-release-notes.md)
   * [Testinium-Cloud 2.13.0 Release Notes](release-notes/release-notes/testinium-cloud-2.13.0-release-notes.md)
   * [Testinium-Cloud 2.12.4 Release Notes](release-notes/release-notes/testinium-cloud-2.12.4-release-notes.md)
+
+## Appium 2 Sample Projects
+
+* [Appium 2 Sample Projects](appium-2-sample-projects/appium2-sample-projects/README.md)
+  * [Appium 2 Java](appium-2-sample-projects/appium2-sample-projects/appium-2-java/README.md)
+    * [BaseTest](appium-2-sample-projects/appium2-sample-projects/appium-2-java/basetest.md)
+    * [IOSTest And AndroidTest](appium-2-sample-projects/appium2-sample-projects/appium-2-java/iostest-and-androidtest.md)
+    * [Hook](appium-2-sample-projects/appium2-sample-projects/appium-2-java/hook.md)
+  * [Appium 2 Gauge](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/README.md)
+    * [HookImp](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/hookimp.md)
+    * [pom.xml](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/pom.xml.md)
+    * [StepImp](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/stepimp.md)
+    * [Spec File](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/spec-file.md)
+    * [Concept File](appium-2-sample-projects/appium2-sample-projects/appium-2-gauge/concept-file.md)
