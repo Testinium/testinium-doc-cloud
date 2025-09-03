@@ -1,3 +1,9 @@
+---
+description: >-
+  🔴 Deprecated: ⚠️ This endpoint is deprecated and should not be used for new
+  integrations.
+---
+
 # Force Run Test Plan
 
 This endpoint triggers the execution of a specific test plan. The user must have the `PLAN_RUN` authority to access this endpoint. It allows the user to run a test plan either normally or with a forced run, depending on the value of the `forceRun` parameter.

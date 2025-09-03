@@ -6,57 +6,54 @@ The endpoint starts the execution of a specific test plan. The user must have th
 
 ### Endpoint Information
 
-* **URL**: `https://testinium.io/Testinium.RestApi/api/plans/{planId}/run`
-* **Method**: `GET`
+* **URL**: [https://gateway.testinium.io/queue](https://gateway.testinium.io/queue)
+* **Method**: `POST`
 * **Authentication**: Required (`Bearer Token`)
-* **Header**: Required (`current-company-id: <your_company_id>`)
-
-***
-
-### Path Parameters
-
-| Parameter | Type   | Required | Description                                |
-| --------- | ------ | -------- | ------------------------------------------ |
-| `planId`  | `Long` | Yes      | The unique ID of the test plan to execute. |
-
-***
-
-### Query Parameters
-
-| Parameter     | Type     | Required | Description                                                  |
-| ------------- | -------- | -------- | ------------------------------------------------------------ |
-| `callbackUrl` | `String` | No       | URL to be called upon test execution completion.             |
-| `isGroupRun`  | `String` | No       | Indicates if the test is part of a group run (`true/false`). |
 
 ***
 
 ### Request Body
 
-No request body is required for this endpoint. Parameters are passed via the URL path and query.
+```
+{
+  "planId": 12345,
+  "userId": 67890
+}
+```
+
+***
+
+### Request Body Parameters
+
+| Parameter | Type   | Required | Description                                |
+| --------- | ------ | -------- | ------------------------------------------ |
+| `planId`  | `Long` | Yes      | The unique ID of the test plan to execute. |
+| `userId`  | `Long` | Yes      | The unique ID of the user who runs plan.   |
 
 ***
 
 ### Response
 
-The response contains details about the started test plan execution.
+This response indicates that the operation was completed successfully, with no additional data returned.
 
 ```
 {
-    "execution_id": 268089,
-    "unavailable_env_list": [],
-    "test_plan_id": 3269,
-    "successful": true,
-    "already_running": false
+    "data": null,
+    "result": {
+        "code": 0,
+        "message": "success"
+    }
 }
 ```
 
 #### Response Fields
 
-| Field         | Type     | Description                                        |
-| ------------- | -------- | -------------------------------------------------- |
-| `status`      | `String` | Status of the API call (e.g., `SUCCESS`).          |
-| `executionId` | `Long`   | The ID of the test plan execution.                 |
-| `message`     | `String` | A message indicating the outcome of the operation. |
+| Field          | Type    | Description                                                                       |
+| -------------- | ------- | --------------------------------------------------------------------------------- |
+| data           | Object  | The payload of the response. In this case `null` since no extra data is returned. |
+| result         | Object  | Contains details about the outcome of the operation.                              |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                    |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                             |
 
 ***
 
@@ -65,16 +62,23 @@ The response contains details about the started test plan execution.
 | HTTP Code | Error Message           | Description                                      |
 | --------- | ----------------------- | ------------------------------------------------ |
 | `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.   |
-| `404`     | `PLAN_NOT_FOUND`        | No test plan was found for the specified ID.     |
-| `403`     | `ACCESS_DENIED`         | User lacks `PLAN_RUN` authority.                 |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
 
 ***
 
+### Application Error Codes
+
+<table><thead><tr><th>Code</th><th>Error Message</th></tr></thead><tbody><tr><td><pre><code><strong>10000
+</strong></code></pre></td><td><pre><code>"Plan not found!"
+</code></pre></td></tr><tr><td><pre><code>10002
+</code></pre></td><td><pre><code>User not found!
+</code></pre></td></tr></tbody></table>
+
 ### Example Request
 
-```bash
-curl --location --request GET "https://testinium.io/Testinium.RestApi/api/plans/{planId}/run" \
---header 'Authorization: Bearer <your_access_token>'
---header 'current-company-id: <your_company_id>'
-```
+<pre class="language-bash"><code class="lang-bash"><strong>curl 'https://gateway.testinium.io/queue' \
+</strong>  -H 'accept: application/json, text/plain, */*' \
+  -H 'authorization: Bearer &#x3C;your_access_token>' \
+  -H 'content-type: application/json' \
+  --data-raw '{"planId":&#x3C;plan_id>,"userId":&#x3C;user_id>}'
+</code></pre>

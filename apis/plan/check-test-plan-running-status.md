@@ -6,10 +6,9 @@ The endpoint checks whether a specific test plan is currently running. The user 
 
 ### Endpoint Information
 
-* **URL**: `https://testinium.io/Testinium.RestApi/api/plans/{planId}/checkIsRunning`
+* **URL**: [`https://gateway.testinium.io/plan/{id}/active`](https://gateway.testinium.io/plan/%7Bid%7D/active)
 * **Method**: `GET`
 * **Authentication**: Required (`Bearer Token`)
-* **Header**: Required (`current-company-id: <your_company_id>`)
 
 ***
 
@@ -17,33 +16,38 @@ The endpoint checks whether a specific test plan is currently running. The user 
 
 | Parameter | Type   | Required | Description                     |
 | --------- | ------ | -------- | ------------------------------- |
-| `planId`  | `Long` | Yes      | The unique ID of the test plan. |
+| i`d`      | `Long` | Yes      | The unique ID of the test plan. |
 
 ***
 
 ### Request Parameters
 
-No request body is required for this endpoint. The parameter `planId` is provided via the URL path.
+No request body is required for this endpoint. The parameter `id` is provided via the URL path.
 
 ***
 
 ### Response
 
-The response contains the status of the test plan, indicating whether it is currently running.
+The request was successful, and the `data` field indicates whether the test plan is currently running (`true`) or not (`false`).
 
 ```json
 {
-  "status": "SUCCESS",
-  "running": false
+    "data": false,
+    "result": {
+        "code": 0,
+        "message": "success"
+    }
 }
 ```
 
-#### Response Fields
+### Response Fields
 
-| Field     | Type      | Description                                      |
-| --------- | --------- | ------------------------------------------------ |
-| `status`  | `String`  | Status of the API call (e.g., `SUCCESS`).        |
-| `running` | `Boolean` | Indicates if the test plan is currently running. |
+| Field          | Type    | Description                                                                                 |
+| -------------- | ------- | ------------------------------------------------------------------------------------------- |
+| data           | Object  | `data` field indicates whether the test plan is currently running (`true`) or not (`false`) |
+| result         | Object  | Contains details about the outcome of the operation.                                        |
+| result.code    | Integer | The result code (e.g., `0` indicates success).                                              |
+| result.message | String  | A message describing the outcome (e.g., `"success"`).                                       |
 
 ***
 
@@ -52,16 +56,16 @@ The response contains the status of the test plan, indicating whether it is curr
 | HTTP Code | Error Message           | Description                                      |
 | --------- | ----------------------- | ------------------------------------------------ |
 | `400`     | `INVALID_REQUEST`       | The request was malformed or contained errors.   |
-| `404`     | `PLAN_NOT_FOUND`        | No test plan was found for the specified ID.     |
-| `403`     | `ACCESS_DENIED`         | User lacks `PLAN_RUN` authority.                 |
 | `500`     | `INTERNAL_SERVER_ERROR` | An unexpected error occurred on the server side. |
 
 ***
 
+
+
 ### Example Request
 
 ```bash
-curl --location 'https://testinium.io/Testinium.RestApi/api/plans/{planId}/checkIsRunning' \
---header 'Authorization: Bearer <your_access_token>'\
---header 'current-company-id: <your_company_id>'
+curl 'https://gateway.testinium.io/plan/<planId>/active' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'authorization: Bearer <token>'
 ```
