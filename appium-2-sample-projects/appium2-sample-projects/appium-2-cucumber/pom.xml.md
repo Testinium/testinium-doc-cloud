@@ -50,6 +50,6 @@ These sections ensure that both your project and its dependencies are fetched an
 <dependency>
     <groupId>com.testinium</groupId>
     <artifactId>testinium-appium2-driver</artifactId>
-    <version>0.0.17-SNAPSHOT</version>
+    <version>0.0.21-SNAPSHOT</version>
 </dependency>
 ```
