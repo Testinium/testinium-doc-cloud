@@ -230,3 +230,17 @@
     * [CucumberRunner](appium-2-sample-projects/appium2-sample-projects/appium-2-cucumber/cucumberrunner.md)
     * [Feature](appium-2-sample-projects/appium2-sample-projects/appium-2-cucumber/feature.md)
     * [pom.xml](appium-2-sample-projects/appium2-sample-projects/appium-2-cucumber/pom.xml.md)
+
+## Group 1
+
+* [Selenium4 Sample Projects](group-1/selenium4-sample-projects/README.md)
+  * [Selenium4 Java](group-1/selenium4-sample-projects/selenium4-java/README.md)
+    * [BaseTest](group-1/selenium4-sample-projects/selenium4-java/basetest.md)
+    * [Example Test Class](group-1/selenium4-sample-projects/selenium4-java/example-test-class.md)
+    * [Pom.xml](group-1/selenium4-sample-projects/selenium4-java/pom.xml.md)
+  * [Selenium4 Gauge](group-1/selenium4-sample-projects/selenium4-gauge/README.md)
+    * [BaseTest](group-1/selenium4-sample-projects/selenium4-gauge/basetest.md)
+    * [BaseSteps](group-1/selenium4-sample-projects/selenium4-gauge/basesteps.md)
+    * [Pom.xml](group-1/selenium4-sample-projects/selenium4-gauge/pom.xml.md)
+    * [Spec File](group-1/selenium4-sample-projects/selenium4-gauge/spec-file.md)
+    * [Concept File](group-1/selenium4-sample-projects/selenium4-gauge/concept-file.md)
