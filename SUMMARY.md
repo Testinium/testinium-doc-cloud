@@ -231,16 +231,16 @@
     * [Feature](appium-2-sample-projects/appium2-sample-projects/appium-2-cucumber/feature.md)
     * [pom.xml](appium-2-sample-projects/appium2-sample-projects/appium-2-cucumber/pom.xml.md)
 
-## Group 1
+## Selenium4 Sample Projects
 
-* [Selenium4 Sample Projects](group-1/selenium4-sample-projects/README.md)
-  * [Selenium4 Java](group-1/selenium4-sample-projects/selenium4-java/README.md)
-    * [BaseTest](group-1/selenium4-sample-projects/selenium4-java/basetest.md)
-    * [Example Test Class](group-1/selenium4-sample-projects/selenium4-java/example-test-class.md)
-    * [Pom.xml](group-1/selenium4-sample-projects/selenium4-java/pom.xml.md)
-  * [Selenium4 Gauge](group-1/selenium4-sample-projects/selenium4-gauge/README.md)
-    * [BaseTest](group-1/selenium4-sample-projects/selenium4-gauge/basetest.md)
-    * [BaseSteps](group-1/selenium4-sample-projects/selenium4-gauge/basesteps.md)
-    * [Pom.xml](group-1/selenium4-sample-projects/selenium4-gauge/pom.xml.md)
-    * [Spec File](group-1/selenium4-sample-projects/selenium4-gauge/spec-file.md)
-    * [Concept File](group-1/selenium4-sample-projects/selenium4-gauge/concept-file.md)
+* [Selenium4 Sample Projects](selenium4-sample-projects/selenium4-sample-projects/README.md)
+  * [Selenium4 Java](selenium4-sample-projects/selenium4-sample-projects/selenium4-java/README.md)
+    * [BaseTest](selenium4-sample-projects/selenium4-sample-projects/selenium4-java/basetest.md)
+    * [Example Test Class](selenium4-sample-projects/selenium4-sample-projects/selenium4-java/example-test-class.md)
+    * [Pom.xml](selenium4-sample-projects/selenium4-sample-projects/selenium4-java/pom.xml.md)
+  * [Selenium4 Gauge](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/README.md)
+    * [BaseTest](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/basetest.md)
+    * [BaseSteps](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/basesteps.md)
+    * [Pom.xml](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/pom.xml.md)
+    * [Spec File](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/spec-file.md)
+    * [Concept File](selenium4-sample-projects/selenium4-sample-projects/selenium4-gauge/concept-file.md)
