@@ -14,7 +14,7 @@ The pom.xml file defines all required dependencies for running Selenium 4 tests 
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.25.0</version>
+    <version>4.35.0</version>
     <scope>test</scope>
 </dependency>
 ```
