@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Get Package Price by Package, Period, and Currency
 
 This endpoint retrieves the price definition for a specific product package based on the package ID, period, and currency. The user must ensure that the package exists and provide the correct parameters.
