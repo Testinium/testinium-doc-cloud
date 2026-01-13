@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Delete Customer API
 
 This endpoint allows an authorized user to delete a specific customer. The user must have either the `ROLE_ADMIN` or `ROLE_COMPANY_ADMIN` authority to access this endpoint.
